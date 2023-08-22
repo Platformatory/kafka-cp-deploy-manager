@@ -1,0 +1,118 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@1326.ve643e00e9220">
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <hudson.model.ParametersDefinitionProperty>
+      <parameterDefinitions>
+        <hudson.model.StringParameterDefinition>
+          <name>IMAGE_TAG</name>
+          <description>Image tag of the new version of operator to be installed</description>
+          <trim>true</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>CHART_VERSION</name>
+          <description>Version of operator chart to be installed</description>
+          <trim>true</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>CHART_URL</name>
+          <description>URL from where to download the operator chart</description>
+          <trim>true</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>CHART_LOCATION</name>
+          <description>Absolute path in the Jenkins node where the chart will be downloaded. NOTE that this should be used as input while installing or upgrading the chart.</description>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+      </parameterDefinitions>
+    </hudson.model.ParametersDefinitionProperty>
+  </properties>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@3769.v8b_e595e4d40d">
+    <script>pipeline {
+    agent any
+
+    parameters {
+        string(name: &apos;IMAGE_TAG&apos;, description: &apos;Image tag of the new version of operator to be installed&apos;, trim: true, defaultValue: &apos;0.435.67&apos;)
+        string(name: &apos;CHART_VERSION&apos;, description: &apos;Version of operator chart to be installed&apos;, trim: true, defaultValue: &apos;2.3.4&apos;)
+        string(name: &apos;CHART_URL&apos;, description: &apos;URL to download the operator chart&apos;, trim: true, defaultValue: &apos;https://confluent-for-kubernetes.s3-us-west-1.amazonaws.com/confluent-for-kubernetes-2.3.4.tar.gz&apos;)
+        string(name: &apos;CHART_LOCATION&apos;, description: &apos;URL to download the operator chart&apos;, trim: true, defaultValue: &apos;/var/lib/jenkins/charts&apos;)
+    }
+
+    stages {
+        stage(&apos;Check Image&apos;) {
+            steps {
+                dir(&quot;${env.BUILD_NUMBER}&quot;) {
+                    sh &quot;&quot;&quot;
+                        curl --silent -f --head -lL https://hub.docker.com/v2/repositories/confluentinc/confluent-operator/tags/${params.IMAGE_TAG}/ &gt; /dev/null
+                        if [ \$? -eq 0 ]; then
+                            echo &quot;confluentinc/confluent-operator:${params.IMAGE_TAG} image exists.&quot;
+                        else
+                            echo &quot;Error: Image confluentinc/confluent-operator:${params.IMAGE_TAG} doesn&apos;t exist.&quot;
+                            exit 1
+                        fi
+                    &quot;&quot;&quot;
+                }
+            }
+        }
+        
+        stage(&apos;Download Chart&apos;) {
+            steps {
+                dir(&quot;${env.BUILD_NUMBER}&quot;) {
+                    sh &quot;&quot;&quot;
+                        wget ${params.CHART_URL} --output-document=confluent-for-kubernetes.tar.gz -q
+                        if [ \$? -eq 0 ]; then
+                            echo &quot;Chart downloaded successfully.&quot;
+                        else
+                            echo &quot;Error: Download failed. Given URL: ${params.CHART_URL}&quot;
+                            exit 1
+                        fi
+                        mkdir -p ${params.CHART_LOCATION}
+                        tar zxf confluent-for-kubernetes.tar.gz --strip-components=1 --directory ${params.CHART_LOCATION}
+                    &quot;&quot;&quot;
+                }
+            }
+        }
+
+        stage(&apos;Check Chart Version&apos;) {
+            steps {
+                dir(&quot;${params.CHART_LOCATION}&quot;) {
+                    sh &quot;&quot;&quot;
+                        chart_version=\$(helm show chart ./helm/confluent-for-kubernetes | yq &apos;.appVersion&apos;)
+                        if [[ &quot;\$chart_version&quot; == &quot;${params.CHART_VERSION}&quot; ]]; then
+                            echo &quot;${params.CHART_VERSION} check successful.&quot;
+                        else
+                            echo &quot;Chart versions are not equal.&quot;
+                            echo &quot;Chart version in downloaded chart: \$chart_version.&quot;
+                            echo &quot;Chart version in parameters: ${params.CHART_VERSION}.&quot;
+                            exit 1
+                        fi
+                    &quot;&quot;&quot;
+                }
+            }
+        }
+
+        stage(&apos;Check Operator Version&apos;) {
+            steps {
+                dir(&quot;${params.CHART_LOCATION}&quot;) {
+                    sh &quot;&quot;&quot;
+                        op_version=\$(helm show chart ./helm/confluent-for-kubernetes | yq &apos;.version&apos;)
+                        if [[ &quot;\$op_version&quot; == &quot;${params.IMAGE_TAG}&quot; ]]; then
+                            echo &quot;Operator version check successful. ${params.IMAGE_TAG}&quot;
+                        else
+                            echo &quot;Operator versions are not equal.&quot;
+                            echo &quot;Operator version in downloaded chart: \$op_version.&quot;
+                            echo &quot;Operator version in parameters: ${params.IMAGE_TAG}.&quot;
+                            exit 1
+                        fi
+                    &quot;&quot;&quot;
+                }
+            }
+        }
+    }
+}</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>
