@@ -1,0 +1,30 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@848.v5a_383b_d14921">
+  <node class="cps.n.StepAtomNode" plugin="workflow-cps@3769.v8b_e595e4d40d">
+    <parentIds>
+      <string>10</string>
+    </parentIds>
+    <id>11</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.durable_task.ShellStep</descriptorId>
+  </node>
+  <actions>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@3769.v8b_e595e4d40d">
+      <arguments>
+        <entry>
+          <string>script</string>
+          <string>
+                  git clone -c advice.detachedHead=false --depth 1 --branch 1.0.1 https://$TOKEN@github.com/Platformatory/kafka-artefacts.git 1
+                </string>
+        </entry>
+      </arguments>
+      <sensitiveVariables>
+        <string>TOKEN</string>
+      </sensitiveVariables>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@1259.vb_47f14fffc8a_">
+      <startTime>1692705758514</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogStorageAction/>
+  </actions>
+</Tag>

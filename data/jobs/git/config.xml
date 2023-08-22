@@ -1,0 +1,76 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@1326.ve643e00e9220">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@2.2144.v077a_d1928a_40"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@2.2144.v077a_d1928a_40">
+      <jobProperties/>
+      <triggers/>
+      <parameters>
+        <string>GIT_REPO</string>
+        <string>TOKEN</string>
+      </parameters>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <hudson.model.ParametersDefinitionProperty>
+      <parameterDefinitions>
+        <hudson.model.StringParameterDefinition>
+          <name>GIT_REPO</name>
+          <description>URL of the Git repository</description>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+        <com.cloudbees.plugins.credentials.CredentialsParameterDefinition plugin="credentials@1271.v54b_1c2c6388a_">
+          <name>TOKEN</name>
+          <description>Private access token for the Git repository</description>
+          <defaultValue></defaultValue>
+          <required>false</required>
+        </com.cloudbees.plugins.credentials.CredentialsParameterDefinition>
+      </parameterDefinitions>
+    </hudson.model.ParametersDefinitionProperty>
+  </properties>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@3769.v8b_e595e4d40d">
+    <script>pipeline {
+    agent any
+  parameters {
+    string(name: &apos;GIT_REPO&apos;, description: &apos;URL of the Git repository&apos;, defaultValue: &apos;&apos;)
+    credentials(name: &apos;TOKEN&apos;, description: &apos;Private access token for the Git repository&apos;, defaultValue: &apos;&apos;, required: false)
+  }
+
+    stages {
+        stage(&apos;Hello&apos;) {
+            steps {
+            script {
+            def token = params.TOKEN
+            def repoUrl = params.GIT_REPO
+            def repo = repoUrl.split(&apos;https://&apos;)
+            
+            if (token) {
+            withCredentials([string(credentialsId: params.TOKEN, variable: &apos;TOKEN&apos;)]) {
+                sh &quot;&quot;&quot;
+                echo &apos;Hello World&apos;
+                echo \$TOKEN
+                echo \$TOKEN &gt; /tmp/foo
+                cat /tmp/foo
+                git clone https://\$TOKEN@${repo[1]} test-${env.BUILD_NUMBER}
+                &quot;&quot;&quot;
+                }
+            } else {
+                sh &quot;&quot;&quot;
+                echo &apos;No token!&apos;
+                git clone ${params.GIT_REPO} test
+                &quot;&quot;&quot;
+            }
+            }
+            }
+        }
+    }
+}
+</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>
