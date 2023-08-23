@@ -1,0 +1,7 @@
+/data/plugins/*/
+/data/jobs/*/builds
+/data/logs
+/data/.*
+/data/war
+/data/workspace
+/data/fingerprints
