@@ -560,15 +560,23 @@
     <org.jenkinsci.plugins.workflow.cps.EnvActionImpl plugin="workflow-cps@3769.v8b_e595e4d40d">
       <env class="tree-map"/>
     </org.jenkinsci.plugins.workflow.cps.EnvActionImpl>
+    <jenkins.model.InterruptedBuildAction>
+      <causes>
+        <jenkins.model.CauseOfInterruption_-UserInterruption>
+          <user>admin</user>
+        </jenkins.model.CauseOfInterruption_-UserInterruption>
+      </causes>
+    </jenkins.model.InterruptedBuildAction>
   </actions>
   <queueId>60</queueId>
   <timestamp>1692782244706</timestamp>
   <startTime>1692782244797</startTime>
-  <duration>0</duration>
+  <result>ABORTED</result>
+  <duration>322788</duration>
   <charset>UTF-8</charset>
   <keepLog>false</keepLog>
   <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
-    <result>SUCCESS</result>
+    <result>ABORTED</result>
     <script>pipeline {
   agent any
  
@@ -652,7 +660,7 @@
     <timings class="map">
       <entry>
         <string>flowNode</string>
-        <long>1523279193</long>
+        <long>2120965331</long>
       </entry>
       <entry>
         <string>classLoad</string>
@@ -660,7 +668,7 @@
       </entry>
       <entry>
         <string>run</string>
-        <long>5130139968</long>
+        <long>21106884390</long>
       </entry>
       <entry>
         <string>parse</string>
@@ -668,13 +676,14 @@
       </entry>
       <entry>
         <string>saveProgram</string>
-        <long>1342813208</long>
+        <long>16314306612</long>
       </entry>
     </timings>
     <internalCalls class="sorted-set">
       <string>org.jenkinsci.plugins.pipeline.modeldefinition.CommonUtils.instantiateDescribable</string>
       <string>org.jenkinsci.plugins.pipeline.modeldefinition.Utils.createStepsBlock</string>
       <string>org.jenkinsci.plugins.pipeline.modeldefinition.Utils.getRestartedStage</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.Utils.markStageFailedAndContinued</string>
       <string>org.jenkinsci.plugins.pipeline.modeldefinition.Utils.updateJobProperties</string>
       <string>org.jenkinsci.plugins.pipeline.modeldefinition.Utils.updateRunAndJobActions</string>
       <string>org.jenkinsci.plugins.pipeline.modeldefinition.agent.impl.Any.getScript</string>
@@ -697,6 +706,7 @@
       <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Root.libraries</string>
       <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Root.options</string>
       <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Root.parameters</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Root.post</string>
       <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Root.stages</string>
       <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Root.tools</string>
       <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Root.triggers</string>
@@ -723,12 +733,11 @@
       <string>org.jenkinsci.plugins.workflow.support.steps.build.RunWrapper.result</string>
     </internalCalls>
     <sandbox>true</sandbox>
-    <iota>39</iota>
-    <head>1:39</head>
-    <start>2</start>
-    <done>false</done>
+    <iota>50</iota>
+    <head>1:50</head>
+    <done>true</done>
     <resumeBlocked>false</resumeBlocked>
   </execution>
-  <completed>false</completed>
+  <completed>true</completed>
   <checkouts class="hudson.util.PersistedList"/>
 </flow-build>

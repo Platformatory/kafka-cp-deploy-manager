@@ -222,9 +222,16 @@
         stage(&apos;Update CRDs&apos;) {
             steps {
                 withCredentials([file(credentialsId: params.KUBECONFIG, variable: &apos;KUBECONFIG&apos;)]) {
+                script {
+                  try {
                     sh &quot;&quot;&quot;
                         kubectl apply -f ${params.CHART_LOCATION}/helm/confluent-for-kubernetes/crds/
                     &quot;&quot;&quot;
+                  } catch (Exception e) {
+                    currentBuild.result = &apos;FAILURE&apos;
+                    echo &quot;Update CRDs step failed but continuing the pipeline.&quot;
+                  }
+                }
                 }
             }
         }
