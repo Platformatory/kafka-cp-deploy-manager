@@ -5,3 +5,8 @@
 /data/war
 /data/workspace
 /data/fingerprints
+data/copy_reference_file.log
+/data/org.jenkinsci.plugins.workflow.flow.FlowExecutionList.xml
+/data/queue.xml*
+data/secrets/com.cloudbees.plugins.credentials.SecretBytes.KEY
+/data/credentials.xml
