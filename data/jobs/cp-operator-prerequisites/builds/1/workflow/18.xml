@@ -1,0 +1,36 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@848.v5a_383b_d14921">
+  <node class="cps.n.StepAtomNode" plugin="workflow-cps@3769.v8b_e595e4d40d">
+    <parentIds>
+      <string>17</string>
+    </parentIds>
+    <id>18</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.durable_task.ShellStep</descriptorId>
+  </node>
+  <actions>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@3769.v8b_e595e4d40d">
+      <arguments>
+        <entry>
+          <string>script</string>
+          <string>
+                        wget https://confluent-for-kubernetes.s3-us-west-1.amazonaws.com/confluent-for-kubernetes-2.6.1.tar.gz --output-document=confluent-for-kubernetes.tar.gz -q
+                        if [ $? -eq 0 ]; then
+                            echo &quot;Chart downloaded successfully.&quot;
+                        else
+                            echo &quot;Error: Download failed. Given URL: https://confluent-for-kubernetes.s3-us-west-1.amazonaws.com/confluent-for-kubernetes-2.6.1.tar.gz&quot;
+                            exit 1
+                        fi
+                        mkdir -p /var/jenkins_home/helm-charts/2.6.1
+                        tar zxf confluent-for-kubernetes.tar.gz --strip-components=1 --directory /var/jenkins_home/helm-charts/2.6.1
+                    </string>
+        </entry>
+      </arguments>
+      <sensitiveVariables/>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@1259.vb_47f14fffc8a_">
+      <startTime>1692780527441</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogStorageAction/>
+  </actions>
+</Tag>

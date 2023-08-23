@@ -1,5 +1,19 @@
 <?xml version='1.1' encoding='UTF-8'?>
 <flow-definition plugin="workflow-job@1326.ve643e00e9220">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@2.2144.v077a_d1928a_40"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@2.2144.v077a_d1928a_40">
+      <jobProperties/>
+      <triggers/>
+      <parameters>
+        <string>IMAGE_TAG</string>
+        <string>CHART_URL</string>
+        <string>CHART_LOCATION</string>
+        <string>CHART_VERSION</string>
+      </parameters>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
   <description></description>
   <keepDependencies>false</keepDependencies>
   <properties>
@@ -8,22 +22,26 @@
         <hudson.model.StringParameterDefinition>
           <name>IMAGE_TAG</name>
           <description>Image tag of the new version of operator to be installed</description>
+          <defaultValue>0.435.67</defaultValue>
           <trim>true</trim>
         </hudson.model.StringParameterDefinition>
         <hudson.model.StringParameterDefinition>
           <name>CHART_VERSION</name>
           <description>Version of operator chart to be installed</description>
+          <defaultValue>2.3.4</defaultValue>
           <trim>true</trim>
         </hudson.model.StringParameterDefinition>
         <hudson.model.StringParameterDefinition>
           <name>CHART_URL</name>
-          <description>URL from where to download the operator chart</description>
+          <description>URL to download the operator chart</description>
+          <defaultValue>https://confluent-for-kubernetes.s3-us-west-1.amazonaws.com/confluent-for-kubernetes-2.3.4.tar.gz</defaultValue>
           <trim>true</trim>
         </hudson.model.StringParameterDefinition>
         <hudson.model.StringParameterDefinition>
           <name>CHART_LOCATION</name>
-          <description>Absolute path in the Jenkins node where the chart will be downloaded. NOTE that this should be used as input while installing or upgrading the chart.</description>
-          <trim>false</trim>
+          <description>URL to download the operator chart</description>
+          <defaultValue>/var/lib/jenkins/charts</defaultValue>
+          <trim>true</trim>
         </hudson.model.StringParameterDefinition>
       </parameterDefinitions>
     </hudson.model.ParametersDefinitionProperty>

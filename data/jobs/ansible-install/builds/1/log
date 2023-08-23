@@ -1,0 +1,1822 @@
+Started by user [8mha:////4O9VoAQaVdAUEa8kXkPou6Ov9bav+7kllK4FtuiCSz2KAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgZu/dLi1CL9xJTczDwA9svhPMAAAAA=[0mButler
+[8mha:////4O4KWzV2qmnveP45u/YzrruK7XQu0e/MdcnF7Jzkj3ZZAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4I6QLJrPo69pjysG8RtdOZEGRCv2LH6heqzSuIkuPvLgAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4E3pDrjrCL0I5DpianuNX86ZeDxkd+17fOWJ1lYemedbAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/jenkins_home/workspace/ansible-install
+[8mha:////4Ey7YCb8iMw29esvdelsPetbAqkAFbHF+oRMqED/N4/OAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4D46dLdju2kIkMdl61tv1pqeEuu+ICSnaoVWeY2ZbjruAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4IL83eGxO4MPOcP4WcODOhUWtvANi/JYE49y0gSrDyLQAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (git checkout)
+[8mha:////4L69B+HFjS8qVI5ZwGu2inTNOfaSCtco0UBW0dATR+j7AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] script
+[8mha:////4AaMIz3j/CTGHLYywpKkzpZ6dKdQb/5o06ITVGuZsBpiAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] {
+[8mha:////4Neimj+kHcTcWZn2gipEKPP6ycB9xbbuMQx7fAZgozUkAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BSEm1igLJwhJCGmj/9skpZ04EVfjDgQqMWHJkm3Jes8X1CnCkaLjrcXOY9Ke92F0JfGJYncNNPGWLlwTJgqWSztJMva0VEnZwiJWwUrA2qIOlDy6DBvRqrtqgkLXnHMs20FA5c0AD2CikLOK+VvmCNvbaBLhj/MXAHOfge2K959f/QbB16AVwAAAAA==[0m[Pipeline] withCredentials
+Masking supported pattern matches of $TOKEN
+[8mha:////4OpShIBCBgSIvylU1GNauuL3YHr2EwJICd6LT0IFjA+/AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDJUJUtJYbXmBiY5xYd8G+kFS8iK/xBwKRqNhqZ6XVPF9Q5gQHSl42DtuAuQ6yi72fmhwotZdIg2zoLGvCTNFJ7QZN1h1n1MQO5ogCFgqWDutIOaBnWKnG3E0VDfrqxGna9gqKYG/wAKEmM5vEXxgTrK+9zYQ/z18BjB2D2DEU283nWL4Bsam+msEAAAA=[0m[Pipeline] {
+[8mha:////4Dw3eifpyHXV0GHbuJFSDszI+7zt6DzvvD2zzE5RQtv5AAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCakRFa6XhBSYxxo5159gOTsWL+Bp/IBCJii1WO9vM8wXrGODIQaNV1BuKrUHvRj0vzBz6q+OMli/YMkV2ChuVG+7UacGGk4IlRQkrARtFreNoSCfYCivvsnKSdHVOYf4OAkrTDfCAQszmJEP6whRgdxu7yPTz/BXA5BOU9f5TtX8D0loxuL4AAAA=[0m[Pipeline] sh
++ git clone -c advice.detachedHead=false --depth 1 --branch 1.0.2 https://****@github.com/badri/cp-ansible.git 1
+Cloning into '1'...
+[8mha:////4PsW/QC4GikNCM0w2Ye1nKxN37TpGAsCaFKTACQJwyN/AAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICtIgqreWGF5jYGCfWnbEdkooX8TX+QCASFVusdraZ5wuWKcKRo8XWUOcoNQ6D7+20cODYXTwP2PIZG6bE3qA0g2Rt6hklZwNzihIWAlaGGs/Jkc2wFq26q8orstUpx+k7CCidvsEDCjGZs4r5C2OEzbXXienn+SuAMYQM5W7/qe0bsgYiW74AAAA=[0m[Pipeline] }
+[8mha:////4PX7ahDZiOonmTOtNGiUQnY/RClHlkBqs0ouXiu0WGj6AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRokKIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsTZPsP6C1U670AAAA=[0m[Pipeline] // withCredentials
+[8mha:////4O0z4hYpxQu66zyaEY7vwEb5QGTq0uWcytO15Qe8D+06AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREgUSoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/uBNn+A27Bcy69AAAA[0m[Pipeline] }
+[8mha:////4BLLzWKp9/1XC4nvdZO9ULoKS7RhDZZfe+0zyHMd8+mWAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRBaJAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5NudINt/AE/1rIO9AAAA[0m[Pipeline] // script
+[8mha:////4HT/5uoivpb0j6Xp53dTVuYdEM6dkwWUozIRzKpD+kM0AAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiKMDY1jZZuh8QQRYgxkdjFZhMoTeTXvICMzVv7qv9e81xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0g35eCrPwACb8Ls70AAAA=[0m[Pipeline] }
+[8mha:////4PBx3FQLu8eAv0yHkA4CjOafvGOB+vL5oeMZQvoOscKXAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRBaJAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Nu9INt9AAPHYhe9AAAA[0m[Pipeline] // stage
+[8mha:////4D+KnutVfqZv4XvnO88XXQgSU7tleSlVXeW1gI+6BiAjAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjJAokREVrueEFJjbGiXUX7AtJxYv4Gn8gEImKrXZWWs3zBWVOcKDkZeOwDZjrILvY+6nJgVJ7iTTIhs6yJswUndRu0GTdcUZN7GCOKGChYOmwjpQDeoaVaszdVNGgr06cpm2voAj2Bg8QajKzSfyFMcH62ttM+PP8FcDYMYgtQ7HZfY7lG9tmeb3BAAAA[0m[Pipeline] stage
+[8mha:////4MH5DAPDlrK4M8T2BH3K37mXSA6EkbvwJo5h33jOqrHKAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUbCDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASnCIIrCAAAA[0m[Pipeline] { (Download collection)
+[8mha:////4ONn2SaGP/KK75G5ilxFN95b5rTCPrl4uJH1CIxLblw8AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogU2BDqxBp14QShCSFp9H9JUtKJE3E17kCgEhMeLNuS9Z4vqIKHhrxmVmFvMHSGDW7UObFEvr84SszSmXWEgZxirUotSXWca0tRwayihAWHpcLOUTCoI6y4FXdRO4G6PkWftwOH0sgbPKDgmRyFj98yeVhfRxkIf5y/AJiGCOV2n223+TyrN7xWSV3CAAAA[0m[Pipeline] script
+[8mha:////4JhsNYO9Ph2kgYNpVIL+/neLt7tziE3PRqHZAqHWt3dXAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUWBFT1ygLJwhNCGmj/8tPSjtxIq7GHWipxIQHy7ZkvdcbishwInaisdh6jLUXXejdlMRA3F4DDaKhi6gJIwUrlB0UGVstVVGysCjLYSVhbbEOFD26BBvZ6Icug0ZXnhNP21FC7s0dnpDJiZw0p28ZGba33kTCH+cvAMYuQX7Yzbafn8UHbGnGmsIAAAA=[0m[Pipeline] {
+[8mha:////4NSmOUepNYJvIGUImLcOtYg1R3GheqIvtAkwa9XtATtHAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUdEVMrFEXThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbyhjgRMFwp7GzGFvLez+aOfFMobt5ytzRlbeEkbzmjc4NKX1ea0NJw6qCwUbAVmPrKVo0CXbCyYesvERTXVKYt6MAZtUATyjETE4ypG+ZAuzvo4qEP85fAEx9AlYfFquXZ/kBAsTc3cIAAAA=[0m[Pipeline] dir
+Running in /var/jenkins_home/workspace/ansible-install/1
+[8mha:////4BZBQl9mkqNrqqrPLT95gyVTqW171duQ8nniA5mKchZfAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUKiNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPpnFij8IAAAA=[0m[Pipeline] {
+[8mha:////4Dxd3GZ5TQ9E2dqWsPp6IySYqUGgypHLMKTbOWeDjGHbAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBrANZ3i+AAAA[0m[Pipeline] sh
++ cd .
++ ansible-galaxy collection install confluent.platform:7.4.1 -p collections
+Starting galaxy collection install process
+Process install dependency map
+Starting collection install process
+Downloading https://galaxy.ansible.com/download/confluent-platform-7.4.1.tar.gz to /var/jenkins_home/.ansible/tmp/ansible-local-2516ey48kiwc/tmpi5g5dwhz/confluent-platform-7.4.1-6y_6lv51
+Installing 'confluent.platform:7.4.1' to '/var/jenkins_home/workspace/ansible-install/1/collections/ansible_collections/confluent/platform'
+confluent.platform:7.4.1 was installed successfully
+[8mha:////4KeKZm1PNF3t9cQvwAMxibm24DGJ41jrV7sg7um6nH0EAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigagQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N+4u68W+AAAA[0m[Pipeline] }
+[8mha:////4Fd7EPDhI6nH9gnGhtMVjpwVpMVYJ4o36z4jzYg4Y1J7AAAApB+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyk8LGsbJlaDwBJogQ5n8CRFJ5Iq/mHUQzY+UWO/u2ec8XrGOAIwXNrMLBYOwM827SZbFMYbg6yszShXWEkZxiQmVBvTotKCgpWFLVsOKwUdg5igZ1gi238i4bJ1E35xTKd+BQm36EB1S8mJMM6QtzgN1t6iPhz/NXALP3Cep2/6n2DdZseDS+AAAA[0m[Pipeline] // dir
+[8mha:////4JW/VVcTSulX6khyeGyJhBaXAZwT7V4H/hNnffaR/i90AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiaCgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN8nuLWa+AAAA[0m[Pipeline] }
+[8mha:////4LQilpEw6E0mIihIAIV0Qb1WuW/cRr1JbUUImsEiQQvtAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCqJAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN4psfOC+AAAA[0m[Pipeline] // script
+[8mha:////4PDOIs1eQV9Vm9ezXImAKU0F0itXmVyD8yIuG7YExa5WAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi6CJEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOWhzrWvP0hU0Xm+AAAA[0m[Pipeline] }
+[8mha:////4MyXJFfguXB4bXUY9eikm6exV6iGln8Zw71++JWyxzMiAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICokFCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw+iPq6PvgAAAA==[0m[Pipeline] // stage
+[8mha:////4O1AV3ThLswgKfCbqEgBfy5R0z18FnRvFujFViIP6rhqAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjBB2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INOibpDcEAAAA=[0m[Pipeline] stage
+[8mha:////4KUJ7aYKoZ2stY1bQnud0n0sfnWJo6dRvcXFkM7mBP6XAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+2YMO4MIAAAA=[0m[Pipeline] { (Run playbook)
+[8mha:////4IfJJ3LzAFvXMUd+vi2iWYvbwnB/QdpGJUb0D3C6a2ZaAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUoiNiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsPfTawssIAAAA=[0m[Pipeline] script
+[8mha:////4NuPG40IU8DYm8QbpHlSYLD/EZuHLG8W6CpwZlgBW0zyAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KBtiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPBdk7bsIAAAA=[0m[Pipeline] {
+[8mha:////4K0RBjWghrg2rX0DbRD2Rb2JjBSs4TENIfUohpwXHeghAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ACbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASMfXIzCAAAA[0m[Pipeline] withCredentials
+Masking supported pattern matches of $PRIVATE_KEY
+[8mha:////4DNgxR/oFi4FaIrk5Dx1Lc1etucqWD1oQRhZB6T/65+uAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD02yRsvCAAAA[0m[Pipeline] {
+[8mha:////4ICSqFrHjaO1BtvxiO7z23XbECNrfd6Z3S4cvPdEZ0TgAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QIIBMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfADpB/iZwgAAAA==[0m[Pipeline] dir
+Running in /var/jenkins_home/workspace/ansible-install/1
+[8mha:////4GarhUp/zGakDDt1fxtJ9jDUoaVI1PXDisFNGQ7uvCIvAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0YAAJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAD8aiCpwgAAAA==[0m[Pipeline] {
+[8mha:////4DFsnsDXXRwpnIz431LqXlorlprjO6272UFhncih870/AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJS0IAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN65NpgK+AAAA[0m[Pipeline] sh
++ cd .
++ cat ****
++ chmod 400 private-key
++ ansible-playbook -i hosts.yml confluent.platform.all
+[WARNING]: running playbook inside collection confluent.platform
+[WARNING]: Could not match supplied host pattern, ignoring: kafka_controller
+[WARNING]: Could not match supplied host pattern, ignoring:
+kafka_connect_replicator
+
+PLAY [Host Prerequisites] ******************************************************
+
+TASK [Create Certificate Authority and Copy to Ansible Host] *******************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.common : Confirm Hash Merging Enabled] ****************
+ok: [139.59.24.164] => {
+    "changed": false,
+    "msg": "All assertions passed"
+}
+
+TASK [confluent.platform.common : Verify Ansible version] **********************
+ok: [139.59.24.164] => {
+    "changed": false,
+    "msg": "All assertions passed"
+}
+
+TASK [confluent.platform.common : Check the presence of Controller and Zookeeper] ***
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.common : Gather OS Facts] *****************************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Verify Python version] ***********************
+ok: [139.59.24.164] => {
+    "changed": false,
+    "msg": "All assertions passed"
+}
+
+TASK [confluent.platform.common : Red Hat Repo Setup and Java Installation] ****
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.common : Ubuntu Repo Setup and Java Installation] *****
+included: /var/jenkins_home/workspace/ansible-install/1/collections/ansible_collections/confluent/platform/roles/common/tasks/ubuntu.yml for 139.59.24.164
+
+TASK [confluent.platform.common : Install apt-transport-https] *****************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Install gnupg for gpg-keys] ******************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Add Confluent Apt Key] ***********************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Ensure Custom Apt Repo does not Exists when repository_configuration is Confluent] ***
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Add Confluent Apt Repo] **********************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Add Confluent Clients Apt Key] ***************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Add Confluent Clients Apt Repo] **************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Ensure Confluent Apt Repo does not Exists when repository_configuration is Custom] ***
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.common : Ensure Confluent Clients Apt Repo does not Exists when repository_configuration is Custom] ***
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.common : Add Custom Apt Repo] *************************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.common : meta] ****************************************
+
+TASK [confluent.platform.common : Make Sure man pages Directory Exists] ********
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Custom Java Install] *************************
+included: /var/jenkins_home/workspace/ansible-install/1/collections/ansible_collections/confluent/platform/roles/common/tasks/custom_java_install.yml for 139.59.24.164
+
+TASK [confluent.platform.common : Check custom_java_path in Centos7] ***********
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.common : Check custom_java_path in Debian] ************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.common : Java Update Alternatives] ********************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.common : Keytool Update Alternatives] *****************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.common : Add open JDK repo] ***************************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Install Java] ********************************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Install OpenSSL] *****************************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Get Java Version] ****************************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Print Java Version] **************************
+ok: [139.59.24.164] => {
+    "msg": "Current Java Version is: openjdk version \"17.0.8\" 2023-07-18"
+}
+
+TASK [confluent.platform.common : Install pip] *********************************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Upgrade pip] *********************************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Install pip packages] ************************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Debian Repo Setup and Java Installation] *****
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.common : Config Validations] **************************
+included: /var/jenkins_home/workspace/ansible-install/1/collections/ansible_collections/confluent/platform/roles/common/tasks/config_validations.yml for 139.59.24.164
+
+TASK [confluent.platform.common : Retrieve SSL public key hash from private key on Local Host] ***
+skipping: [139.59.24.164] => (item=control_center) 
+skipping: [139.59.24.164] => (item=kafka_broker) 
+skipping: [139.59.24.164] => (item=kafka_connect) 
+skipping: [139.59.24.164] => (item=kafka_rest) 
+skipping: [139.59.24.164] => (item=ksql) 
+skipping: [139.59.24.164] => (item=schema_registry) 
+skipping: [139.59.24.164] => (item=zookeeper) 
+
+TASK [confluent.platform.common : Register content of key file] ****************
+skipping: [139.59.24.164] => (item=control_center) 
+skipping: [139.59.24.164] => (item=kafka_broker) 
+skipping: [139.59.24.164] => (item=kafka_connect) 
+skipping: [139.59.24.164] => (item=kafka_rest) 
+skipping: [139.59.24.164] => (item=ksql) 
+skipping: [139.59.24.164] => (item=schema_registry) 
+skipping: [139.59.24.164] => (item=zookeeper) 
+
+TASK [confluent.platform.common : Retrieve SSL public key Hash from private key on Remote Host] ***
+skipping: [139.59.24.164] => (item=control_center) 
+skipping: [139.59.24.164] => (item=kafka_broker) 
+skipping: [139.59.24.164] => (item=kafka_connect) 
+skipping: [139.59.24.164] => (item=kafka_rest) 
+skipping: [139.59.24.164] => (item=ksql) 
+skipping: [139.59.24.164] => (item=schema_registry) 
+skipping: [139.59.24.164] => (item=zookeeper) 
+
+TASK [confluent.platform.common : Retrieve SSL public key hash from X509 certificate on Local Host] ***
+skipping: [139.59.24.164] => (item=control_center) 
+skipping: [139.59.24.164] => (item=kafka_broker) 
+skipping: [139.59.24.164] => (item=kafka_connect) 
+skipping: [139.59.24.164] => (item=kafka_rest) 
+skipping: [139.59.24.164] => (item=ksql) 
+skipping: [139.59.24.164] => (item=schema_registry) 
+skipping: [139.59.24.164] => (item=zookeeper) 
+
+TASK [confluent.platform.common : Register content of cert file] ***************
+skipping: [139.59.24.164] => (item=control_center) 
+skipping: [139.59.24.164] => (item=kafka_broker) 
+skipping: [139.59.24.164] => (item=kafka_connect) 
+skipping: [139.59.24.164] => (item=kafka_rest) 
+skipping: [139.59.24.164] => (item=ksql) 
+skipping: [139.59.24.164] => (item=schema_registry) 
+skipping: [139.59.24.164] => (item=zookeeper) 
+
+TASK [confluent.platform.common : Retrieve SSL public key hash from X509 certificate on Remote Host] ***
+skipping: [139.59.24.164] => (item=control_center) 
+skipping: [139.59.24.164] => (item=kafka_broker) 
+skipping: [139.59.24.164] => (item=kafka_connect) 
+skipping: [139.59.24.164] => (item=kafka_rest) 
+skipping: [139.59.24.164] => (item=ksql) 
+skipping: [139.59.24.164] => (item=schema_registry) 
+skipping: [139.59.24.164] => (item=zookeeper) 
+
+TASK [confluent.platform.common : get public key hash from private key] ********
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : get public key hash from X509 cert] **********
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Assert SSL public key hash from private key matches public key hash from Cert] ***
+skipping: [139.59.24.164] => (item=control_center) 
+skipping: [139.59.24.164] => (item=kafka_broker) 
+skipping: [139.59.24.164] => (item=kafka_connect) 
+skipping: [139.59.24.164] => (item=kafka_rest) 
+skipping: [139.59.24.164] => (item=ksql) 
+skipping: [139.59.24.164] => (item=schema_registry) 
+skipping: [139.59.24.164] => (item=zookeeper) 
+
+TASK [confluent.platform.common : Create Confluent Platform install directory] ***
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.common : Expand remote Confluent Platform archive] ****
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.common : Create Jolokia directory] ********************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.common : Copy Jolokia Jar] ****************************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.common : Download Jolokia Jar] ************************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.common : Create Prometheus install directory] *********
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.common : Copy Prometheus Jar] *************************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.common : Download Prometheus JMX Exporter Jar] ********
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.common : Install Confluent CLI] ***********************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.common : set_fact] ************************************
+ok: [139.59.24.164]
+
+PLAY [Zookeeper Status Finding] ************************************************
+
+TASK [Populate service facts] **************************************************
+ok: [139.59.24.164]
+
+TASK [Determine Installation Pattern - Parallel or Serial] *********************
+ok: [139.59.24.164]
+
+TASK [Group Hosts by Installation Pattern] *************************************
+ok: [139.59.24.164]
+
+PLAY [Zookeeper Parallel Provisioning] *****************************************
+
+TASK [include_role : common] ***************************************************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.zookeeper : Gather OS Facts] **************************
+ok: [139.59.24.164] => (item=ansible_os_family)
+ok: [139.59.24.164] => (item=ansible_fqdn)
+
+TASK [Stop Service and Remove Packages on Version Change] **********************
+
+TASK [confluent.platform.common : Get Package Facts] ***************************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Determine if Confluent Platform Package Version Will Change] ***
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Get installed Confluent Packages] ************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Determine Confluent Packages to Remove] ******
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Debug Confluent Packages to Remove] **********
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.common : Get Service Facts] ***************************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Stop Service before Removing Confluent Packages] ***
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.common : Remove Confluent Packages - Red Hat] *********
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.common : Remove Confluent Packages - Debian] **********
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.zookeeper : Install the Zookeeper Packages] ***********
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.zookeeper : Install the Zookeeper Packages] ***********
+ok: [139.59.24.164]
+
+TASK [confluent.platform.zookeeper : Create Zookeeper Group] *******************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.zookeeper : Check if Zookeeper User Exists] ***********
+ok: [139.59.24.164]
+
+TASK [confluent.platform.zookeeper : Create Zookeeper User] ********************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.zookeeper : Copy Zookeeper Service from archive file to system] ***
+skipping: [139.59.24.164]
+
+TASK [include_role : ssl] ******************************************************
+skipping: [139.59.24.164]
+
+TASK [Configure Kerberos] ******************************************************
+skipping: [139.59.24.164]
+
+TASK [Copy Custom Zookeeper Files] *********************************************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.zookeeper : Set Zookeeper Data Dir Ownership] *********
+ok: [139.59.24.164]
+
+TASK [confluent.platform.zookeeper : Set Ownership of Data Dir Files] **********
+ok: [139.59.24.164]
+
+TASK [confluent.platform.zookeeper : Set Zookeeper Transaction Log Data Dir Ownership] ***
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.zookeeper : Set Ownership of Transaction Log Data Dir Files] ***
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.zookeeper : Create Zookeeper myid File] ***************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.zookeeper : Create Zookeeper Config directory] ********
+changed: [139.59.24.164]
+
+TASK [confluent.platform.zookeeper : Create Zookeeper Config] ******************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.zookeeper : Create Log Directory] *********************
+changed: [139.59.24.164]
+
+TASK [confluent.platform.zookeeper : Create log4j Directory] *******************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.zookeeper : Create Zookeeper log4j config] ************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.zookeeper : Create logredactor rule file directory] ***
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.zookeeper : Copy logredactor rule file from control node to component node] ***
+skipping: [139.59.24.164]
+
+TASK [Configure logredactor] ***************************************************
+skipping: [139.59.24.164] => (item={'logger_name': 'log4j.rootLogger', 'appenderRefs': 'zkAppender'}) 
+
+TASK [confluent.platform.zookeeper : Restart zookeeper] ************************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.zookeeper : Create Zookeeper Jolokia Config] **********
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.zookeeper : Create Zookeeper Jaas config] *************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.zookeeper : Deploy JMX Exporter Config File] **********
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.zookeeper : Create Service Override Directory] ********
+ok: [139.59.24.164]
+
+TASK [confluent.platform.zookeeper : Write Service Overrides] ******************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.zookeeper : Certs were Updated - Trigger Restart] *****
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.zookeeper : meta] *************************************
+
+TASK [confluent.platform.zookeeper : Zookeeper Service Started] ****************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.zookeeper : Zookeeper Health Check] *******************
+included: /var/jenkins_home/workspace/ansible-install/1/collections/ansible_collections/confluent/platform/roles/zookeeper/tasks/health_check.yml for 139.59.24.164
+
+TASK [confluent.platform.zookeeper : Wait for Zookeeper Status] ****************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.zookeeper : Wait for Zookeeper Quorum] ****************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.zookeeper : Fetch Files for Debugging Failure] ********
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.zookeeper : Fail Provisioning] ************************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.zookeeper : Delete temporary keys/certs when keystore and trustore is provided] ***
+skipping: [139.59.24.164] => (item=/var/ssl/private/ca.crt) 
+skipping: [139.59.24.164] => (item=/var/ssl/private/zookeeper.crt) 
+skipping: [139.59.24.164] => (item=/var/ssl/private/zookeeper.key) 
+[WARNING]: Could not match supplied host pattern, ignoring: zookeeper_serial
+
+PLAY [Zookeeper Serial Ordering] ***********************************************
+skipping: no hosts matched
+[WARNING]: Could not match supplied host pattern, ignoring: zookeeper_follower
+
+PLAY [Zookeeper Followers Provisioning] ****************************************
+skipping: no hosts matched
+[WARNING]: Could not match supplied host pattern, ignoring: zookeeper_leader
+
+PLAY [Zookeeper Leader Provisioning] *******************************************
+skipping: no hosts matched
+
+PLAY [Kafka Controller Status Finding] *****************************************
+skipping: no hosts matched
+[WARNING]: Could not match supplied host pattern, ignoring:
+kafka_controller_parallel
+
+PLAY [Kafka Controller Parallel Provisioning] **********************************
+skipping: no hosts matched
+[WARNING]: Could not match supplied host pattern, ignoring:
+kafka_controller_serial
+
+PLAY [Kafka Controller Serial Provisioning] ************************************
+skipping: no hosts matched
+
+PLAY [Kafka Broker Status Finding] *********************************************
+
+TASK [Populate service facts] **************************************************
+ok: [139.59.24.164]
+
+TASK [Determine Installation Pattern - Parallel or Serial] *********************
+ok: [139.59.24.164]
+
+TASK [Group Hosts by Installation Pattern] *************************************
+ok: [139.59.24.164]
+
+PLAY [Kafka Broker Parallel Provisioning] **************************************
+
+TASK [include_role : common] ***************************************************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.kafka_broker : Gather OS Facts] ***********************
+ok: [139.59.24.164] => (item=ansible_os_family)
+ok: [139.59.24.164] => (item=ansible_fqdn)
+ok: [139.59.24.164] => (item=ansible_distribution)
+
+TASK [confluent.platform.kafka_broker : Assert that datadir is not present in the inventory] ***
+ok: [139.59.24.164] => (item=139.59.24.164) => {
+    "ansible_loop_var": "item",
+    "changed": false,
+    "item": "139.59.24.164",
+    "msg": "All assertions passed"
+}
+
+TASK [confluent.platform.kafka_broker : Assert log.dirs Property not Misconfigured] ***
+ok: [139.59.24.164] => {
+    "changed": false,
+    "msg": "All assertions passed"
+}
+
+TASK [Stop Service and Remove Packages on Version Change] **********************
+
+TASK [confluent.platform.common : Get Package Facts] ***************************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Determine if Confluent Platform Package Version Will Change] ***
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Get installed Confluent Packages] ************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Determine Confluent Packages to Remove] ******
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Debug Confluent Packages to Remove] **********
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.common : Get Service Facts] ***************************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Stop Service before Removing Confluent Packages] ***
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.common : Remove Confluent Packages - Red Hat] *********
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.common : Remove Confluent Packages - Debian] **********
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.kafka_broker : Install the Kafka Broker Packages] *****
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.kafka_broker : Install the Kafka Broker Packages] *****
+ok: [139.59.24.164]
+
+TASK [confluent.platform.kafka_broker : Kafka Broker group] ********************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.kafka_broker : Check if Kafka Broker User Exists] *****
+ok: [139.59.24.164]
+
+TASK [confluent.platform.kafka_broker : Create Kafka Broker user] **************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.kafka_broker : Copy Kafka Broker Service from archive file to system] ***
+skipping: [139.59.24.164]
+
+TASK [include_role : ssl] ******************************************************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.kafka_broker : include_tasks] *************************
+skipping: [139.59.24.164]
+
+TASK [Configure Kerberos] ******************************************************
+skipping: [139.59.24.164]
+
+TASK [Copy Custom Kafka Files] *************************************************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.kafka_broker : Set Permissions on /var/lib/kafka] *****
+ok: [139.59.24.164]
+
+TASK [confluent.platform.kafka_broker : Set Permissions on Data Dirs] **********
+ok: [139.59.24.164] => (item=/var/lib/kafka/data)
+
+TASK [confluent.platform.kafka_broker : Set Permissions on Data Dir files] *****
+ok: [139.59.24.164] => (item=/var/lib/kafka/data)
+
+TASK [confluent.platform.kafka_broker : Create Kafka Broker Config directory] ***
+ok: [139.59.24.164]
+
+TASK [confluent.platform.kafka_broker : Create Kafka Broker Config] ************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.kafka_broker : Create Kafka Broker Client Config] *****
+ok: [139.59.24.164]
+
+TASK [confluent.platform.kafka_broker : Include Kraft Cluster Data] ************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.kafka_broker : Create Zookeeper TLS Client Config] ****
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.kafka_broker : Create Logs Directory] *****************
+ok: [139.59.24.164]
+
+TASK [Update Kafka log4j Config for Log Cleanup] *******************************
+
+TASK [confluent.platform.common : Replace rootLogger] **************************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Replace DailyRollingFileAppender with RollingFileAppender] ***
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Remove Key log4j.appender.X.DatePattern] *****
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Register Appenders] **************************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Add Max Size Properties] *********************
+ok: [139.59.24.164] => (item=['kafkaAppender', 'Append=true'])
+ok: [139.59.24.164] => (item=['kafkaAppender', 'MaxBackupIndex=10'])
+ok: [139.59.24.164] => (item=['kafkaAppender', 'MaxFileSize=100MB'])
+ok: [139.59.24.164] => (item=['stateChangeAppender', 'Append=true'])
+ok: [139.59.24.164] => (item=['stateChangeAppender', 'MaxBackupIndex=10'])
+ok: [139.59.24.164] => (item=['stateChangeAppender', 'MaxFileSize=100MB'])
+ok: [139.59.24.164] => (item=['requestAppender', 'Append=true'])
+ok: [139.59.24.164] => (item=['requestAppender', 'MaxBackupIndex=10'])
+ok: [139.59.24.164] => (item=['requestAppender', 'MaxFileSize=100MB'])
+ok: [139.59.24.164] => (item=['cleanerAppender', 'Append=true'])
+ok: [139.59.24.164] => (item=['cleanerAppender', 'MaxBackupIndex=10'])
+ok: [139.59.24.164] => (item=['cleanerAppender', 'MaxFileSize=100MB'])
+ok: [139.59.24.164] => (item=['controllerAppender', 'Append=true'])
+ok: [139.59.24.164] => (item=['controllerAppender', 'MaxBackupIndex=10'])
+ok: [139.59.24.164] => (item=['controllerAppender', 'MaxFileSize=100MB'])
+ok: [139.59.24.164] => (item=['authorizerAppender', 'Append=true'])
+ok: [139.59.24.164] => (item=['authorizerAppender', 'MaxBackupIndex=10'])
+ok: [139.59.24.164] => (item=['authorizerAppender', 'MaxFileSize=100MB'])
+ok: [139.59.24.164] => (item=['metadataServiceAppender', 'Append=true'])
+ok: [139.59.24.164] => (item=['metadataServiceAppender', 'MaxBackupIndex=10'])
+ok: [139.59.24.164] => (item=['metadataServiceAppender', 'MaxFileSize=100MB'])
+ok: [139.59.24.164] => (item=['auditLogAppender', 'Append=true'])
+ok: [139.59.24.164] => (item=['auditLogAppender', 'MaxBackupIndex=10'])
+ok: [139.59.24.164] => (item=['auditLogAppender', 'MaxFileSize=100MB'])
+ok: [139.59.24.164] => (item=['dataBalancerAppender', 'Append=true'])
+ok: [139.59.24.164] => (item=['dataBalancerAppender', 'MaxBackupIndex=10'])
+ok: [139.59.24.164] => (item=['dataBalancerAppender', 'MaxFileSize=100MB'])
+ok: [139.59.24.164] => (item=['zkAuditAppender', 'Append=true'])
+ok: [139.59.24.164] => (item=['zkAuditAppender', 'MaxBackupIndex=10'])
+ok: [139.59.24.164] => (item=['zkAuditAppender', 'MaxFileSize=100MB'])
+
+TASK [confluent.platform.kafka_broker : Set Permissions on Log4j Conf] *********
+ok: [139.59.24.164]
+
+TASK [confluent.platform.kafka_broker : Create logredactor rule file directory] ***
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.kafka_broker : Copy logredactor rule file from control node to component node] ***
+skipping: [139.59.24.164]
+
+TASK [Configure logredactor] ***************************************************
+skipping: [139.59.24.164] => (item={'logger_name': 'log4j.rootLogger', 'appenderRefs': 'kafkaAppender'}) 
+
+TASK [confluent.platform.kafka_broker : Restart kafka broker] ******************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.kafka_broker : Create Kafka Broker Jolokia Config] ****
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.kafka_broker : Create Kafka Broker Jaas Config] *******
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.kafka_broker : Create Kafka Broker Password File] *****
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.kafka_broker : Create Zookeeper chroot] ***************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.kafka_broker : Create SCRAM Users] ********************
+skipping: [139.59.24.164] => (item=None) 
+skipping: [139.59.24.164] => (item=None) 
+skipping: [139.59.24.164] => (item=None) 
+skipping: [139.59.24.164] => (item=None) 
+skipping: [139.59.24.164] => (item=None) 
+skipping: [139.59.24.164] => (item=None) 
+skipping: [139.59.24.164] => (item=None) 
+
+TASK [confluent.platform.kafka_broker : Create SCRAM 256 Users] ****************
+skipping: [139.59.24.164] => (item=None) 
+skipping: [139.59.24.164] => (item=None) 
+skipping: [139.59.24.164] => (item=None) 
+skipping: [139.59.24.164] => (item=None) 
+skipping: [139.59.24.164] => (item=None) 
+skipping: [139.59.24.164] => (item=None) 
+skipping: [139.59.24.164] => (item=None) 
+
+TASK [confluent.platform.kafka_broker : Deploy JMX Exporter Config File] *******
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.kafka_broker : Create Service Override Directory] *****
+ok: [139.59.24.164]
+
+TASK [confluent.platform.kafka_broker : Write Service Overrides] ***************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.kafka_broker : Create sysctl directory on Debian distributions] ***
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.kafka_broker : Tune virtual memory settings] **********
+ok: [139.59.24.164] => (item={'key': 'vm.swappiness', 'value': 1})
+ok: [139.59.24.164] => (item={'key': 'vm.dirty_background_ratio', 'value': 5})
+ok: [139.59.24.164] => (item={'key': 'vm.dirty_ratio', 'value': 80})
+ok: [139.59.24.164] => (item={'key': 'vm.max_map_count', 'value': 262144})
+
+TASK [confluent.platform.kafka_broker : Certs were Updated - Trigger Restart] ***
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.kafka_broker : meta] **********************************
+
+TASK [confluent.platform.kafka_broker : Encrypt secrets] ***********************
+skipping: [139.59.24.164]
+
+TASK [Encrypt Controller secrets] **********************************************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.kafka_broker : meta] **********************************
+
+TASK [confluent.platform.kafka_broker : Kafka Started] *************************
+changed: [139.59.24.164]
+
+TASK [confluent.platform.kafka_broker : Wait for Broker health checks to complete] ***
+included: /var/jenkins_home/workspace/ansible-install/1/collections/ansible_collections/confluent/platform/roles/kafka_broker/tasks/health_check.yml for 139.59.24.164
+
+TASK [confluent.platform.kafka_broker : Get Topics with UnderReplicatedPartitions] ***
+ok: [139.59.24.164]
+
+TASK [confluent.platform.kafka_broker : Get Topics with UnderReplicatedPartitions with Secrets Protection enabled] ***
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.kafka_broker : Wait for Metadata Service to start] ****
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.kafka_broker : Wait for Embedded Rest Proxy to start] ***
+FAILED - RETRYING: [139.59.24.164]: Wait for Embedded Rest Proxy to start (30 retries left).
+ok: [139.59.24.164]
+
+TASK [confluent.platform.kafka_broker : Fetch Files for Debugging Failure] *****
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.kafka_broker : Fail Provisioning] *********************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.kafka_broker : Register Cluster] **********************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.kafka_broker : Create RBAC Rolebindings] **************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.kafka_broker : Delete temporary keys/certs when keystore and trustore is provided] ***
+skipping: [139.59.24.164] => (item=/var/ssl/private/ca.crt) 
+skipping: [139.59.24.164] => (item=/var/ssl/private/kafka_broker.crt) 
+skipping: [139.59.24.164] => (item=/var/ssl/private/kafka_broker.key) 
+[WARNING]: Could not match supplied host pattern, ignoring: kafka_broker_serial
+
+PLAY [Kafka Broker Serial Provisioning] ****************************************
+skipping: no hosts matched
+
+PLAY [Kafka Broker Serial Ordering] ********************************************
+skipping: no hosts matched
+[WARNING]: Could not match supplied host pattern, ignoring:
+kafka_broker_non_controller
+
+PLAY [Kafka Broker Non Controllers Provisioning] *******************************
+skipping: no hosts matched
+[WARNING]: Could not match supplied host pattern, ignoring:
+kafka_broker_controller
+
+PLAY [Kafka Broker Controller Provisioning] ************************************
+skipping: no hosts matched
+
+PLAY [Schema Registry Provisioning] ********************************************
+
+TASK [include_role : common] ***************************************************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.schema_registry : Gather OS Facts] ********************
+ok: [139.59.24.164] => (item=ansible_os_family)
+ok: [139.59.24.164] => (item=ansible_fqdn)
+
+TASK [Stop Service and Remove Packages on Version Change] **********************
+
+TASK [confluent.platform.common : Get Package Facts] ***************************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Determine if Confluent Platform Package Version Will Change] ***
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Get installed Confluent Packages] ************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Determine Confluent Packages to Remove] ******
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Debug Confluent Packages to Remove] **********
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.common : Get Service Facts] ***************************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Stop Service before Removing Confluent Packages] ***
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.common : Remove Confluent Packages - Red Hat] *********
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.common : Remove Confluent Packages - Debian] **********
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.schema_registry : Install the Schema Registry Packages] ***
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.schema_registry : Install the Schema Registry Packages] ***
+ok: [139.59.24.164]
+
+TASK [confluent.platform.schema_registry : Schema Registry Group] **************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.schema_registry : Check if Schema Registry User Exists] ***
+ok: [139.59.24.164]
+
+TASK [confluent.platform.schema_registry : Create Schema Registry User] ********
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.schema_registry : Copy Schema Registry Service from archive file to system] ***
+skipping: [139.59.24.164]
+
+TASK [include_role : ssl] ******************************************************
+skipping: [139.59.24.164]
+
+TASK [Configure Kerberos] ******************************************************
+skipping: [139.59.24.164]
+
+TASK [Copy Custom Schema Registry Files] ***************************************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.schema_registry : Configure RBAC] *********************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.schema_registry : Create Schema Registry Config directory] ***
+ok: [139.59.24.164]
+
+TASK [confluent.platform.schema_registry : Create Schema Registry Config] ******
+ok: [139.59.24.164]
+
+TASK [Create Schema Registry Config with Secrets Protection] *******************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.schema_registry : Create Logs Directory] **************
+ok: [139.59.24.164]
+
+TASK [Update log4j Config for Log Cleanup] *************************************
+
+TASK [confluent.platform.common : Replace rootLogger] **************************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Replace DailyRollingFileAppender with RollingFileAppender] ***
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Remove Key log4j.appender.X.DatePattern] *****
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Register Appenders] **************************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Add Max Size Properties] *********************
+ok: [139.59.24.164] => (item=['file', 'Append=true'])
+ok: [139.59.24.164] => (item=['file', 'MaxBackupIndex=10'])
+ok: [139.59.24.164] => (item=['file', 'MaxFileSize=100MB'])
+
+TASK [confluent.platform.schema_registry : Set Permissions on Log4j Conf] ******
+ok: [139.59.24.164]
+
+TASK [confluent.platform.schema_registry : Create logredactor rule file directory] ***
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.schema_registry : Copy logredactor rule file from control node to component node] ***
+skipping: [139.59.24.164]
+
+TASK [Configure logredactor] ***************************************************
+skipping: [139.59.24.164] => (item={'logger_name': 'log4j.rootLogger', 'appenderRefs': 'file'}) 
+
+TASK [confluent.platform.schema_registry : Restart schema registry] ************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.schema_registry : Create Schema Registry Jolokia Config] ***
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.schema_registry : Deploy JMX Exporter Config File] ****
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.schema_registry : Create Basic Auth Jaas File] ********
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.schema_registry : Create Basic Auth Password File] ****
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.schema_registry : Create Service Override Directory] ***
+ok: [139.59.24.164]
+
+TASK [confluent.platform.schema_registry : Write Service Overrides] ************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.schema_registry : Certs were Updated - Trigger Restart] ***
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.schema_registry : meta] *******************************
+
+TASK [confluent.platform.schema_registry : Start Schema Registry Service] ******
+ok: [139.59.24.164]
+
+TASK [confluent.platform.schema_registry : Health Check] ***********************
+included: /var/jenkins_home/workspace/ansible-install/1/collections/ansible_collections/confluent/platform/roles/schema_registry/tasks/health_check.yml for 139.59.24.164
+
+TASK [confluent.platform.schema_registry : Wait for API to return 200] *********
+ok: [139.59.24.164]
+
+TASK [confluent.platform.schema_registry : set_fact] ***************************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.schema_registry : Wait for API to return 200 - mTLS] ***
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.schema_registry : Fetch Files for Debugging Failure] ***
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.schema_registry : Fail Provisioning] ******************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.schema_registry : Register Cluster] *******************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.schema_registry : Delete temporary keys/certs when keystore and trustore is provided] ***
+skipping: [139.59.24.164] => (item=/var/ssl/private/ca.crt) 
+skipping: [139.59.24.164] => (item=/var/ssl/private/schema_registry.crt) 
+skipping: [139.59.24.164] => (item=/var/ssl/private/schema_registry.key) 
+
+TASK [Proceed Prompt] **********************************************************
+skipping: [139.59.24.164]
+
+PLAY [Kafka Connect Status Finding] ********************************************
+
+TASK [Populate service facts] **************************************************
+ok: [139.59.24.164]
+
+TASK [Determine Installation Pattern - Parallel or Serial] *********************
+ok: [139.59.24.164]
+
+TASK [Group Hosts by Installation Pattern] *************************************
+ok: [139.59.24.164]
+
+PLAY [Kafka Connect Parallel Provisioning] *************************************
+
+TASK [include_role : common] ***************************************************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.kafka_connect : Gather OS Facts] **********************
+ok: [139.59.24.164] => (item=ansible_os_family)
+ok: [139.59.24.164] => (item=ansible_fqdn)
+
+TASK [Stop Service and Remove Packages on Version Change] **********************
+
+TASK [confluent.platform.common : Get Package Facts] ***************************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Determine if Confluent Platform Package Version Will Change] ***
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Get installed Confluent Packages] ************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Determine Confluent Packages to Remove] ******
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Debug Confluent Packages to Remove] **********
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.common : Get Service Facts] ***************************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Stop Service before Removing Confluent Packages] ***
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.common : Remove Confluent Packages - Red Hat] *********
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.common : Remove Confluent Packages - Debian] **********
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.kafka_connect : Install the Kafka Connect Packages] ***
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.kafka_connect : Install the Kafka Connect Packages] ***
+ok: [139.59.24.164]
+
+TASK [confluent.platform.kafka_connect : Create Kafka Connect Group] ***********
+ok: [139.59.24.164]
+
+TASK [confluent.platform.kafka_connect : Check if Kafka Connect User Exists] ***
+ok: [139.59.24.164]
+
+TASK [confluent.platform.kafka_connect : Create Kafka Connect User] ************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.kafka_connect : Copy Kafka Connect Service from archive file to system] ***
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.kafka_connect : Copy Kafka Connect Service from default install to system] ***
+skipping: [139.59.24.164]
+
+TASK [include_role : ssl] ******************************************************
+skipping: [139.59.24.164]
+
+TASK [Configure Kerberos] ******************************************************
+skipping: [139.59.24.164]
+
+TASK [Copy Kafka Connect Files] ************************************************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.kafka_connect : Configure RBAC] ***********************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.kafka_connect : Create Kafka Connect Config directory] ***
+changed: [139.59.24.164]
+
+TASK [confluent.platform.kafka_connect : Create Kafka Connect Config] **********
+ok: [139.59.24.164]
+
+TASK [Create Kafka Connect Config with Secrets Protection] *********************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.kafka_connect : Install Connect Plugins] **************
+included: /var/jenkins_home/workspace/ansible-install/1/collections/ansible_collections/confluent/platform/roles/kafka_connect/tasks/connect_plugins.yml for 139.59.24.164
+
+TASK [confluent.platform.kafka_connect : Ensure Plugin Dirs] *******************
+ok: [139.59.24.164] => (item=/usr/share/java/connect_plugins)
+
+TASK [confluent.platform.kafka_connect : set_fact] *****************************
+
+TASK [Copy Kafka Connect Local Plugins from Controller to Host] ****************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.kafka_connect : Installing Local Plugins] *************
+
+TASK [confluent.platform.kafka_connect : Create tmp directory for downloading remote plugins] ***
+ok: [139.59.24.164]
+
+TASK [confluent.platform.kafka_connect : Download Remote Plugins] **************
+
+TASK [confluent.platform.kafka_connect : Installing Remote Plugins] ************
+
+TASK [confluent.platform.kafka_connect : Set Permissions on all Plugin Files] ***
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.kafka_connect : Confluent Hub] ************************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.kafka_connect : Create Logs Directory] ****************
+changed: [139.59.24.164]
+
+TASK [Update Connect log4j Config for Log Cleanup] *****************************
+
+TASK [confluent.platform.common : Replace rootLogger] **************************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Replace DailyRollingFileAppender with RollingFileAppender] ***
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Remove Key log4j.appender.X.DatePattern] *****
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Register Appenders] **************************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Add Max Size Properties] *********************
+ok: [139.59.24.164] => (item=['connectAppender', 'Append=true'])
+ok: [139.59.24.164] => (item=['connectAppender', 'MaxBackupIndex=10'])
+ok: [139.59.24.164] => (item=['connectAppender', 'MaxFileSize=100MB'])
+
+TASK [confluent.platform.kafka_connect : Set Permissions on Log4j Conf] ********
+ok: [139.59.24.164]
+
+TASK [confluent.platform.kafka_connect : Create logredactor rule file directory] ***
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.kafka_connect : Copy logredactor rule file from control node to component node] ***
+skipping: [139.59.24.164]
+
+TASK [Configure logredactor] ***************************************************
+skipping: [139.59.24.164] => (item={'logger_name': 'log4j.rootLogger', 'appenderRefs': 'connectAppender'}) 
+
+TASK [confluent.platform.kafka_connect : Restart kafka connect] ****************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.kafka_connect : Create Kafka Connect Jolokia Config] ***
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.kafka_connect : Deploy JMX Exporter Config File] ******
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.kafka_connect : Create Basic Auth Jaas File] **********
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.kafka_connect : Create Basic Auth Password File] ******
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.kafka_connect : Create Service Override Directory] ****
+ok: [139.59.24.164]
+
+TASK [confluent.platform.kafka_connect : Write Service Overrides] **************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.kafka_connect : Certs were Updated - Trigger Restart] ***
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.kafka_connect : meta] *********************************
+
+TASK [confluent.platform.kafka_connect : Start Connect Service] ****************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.kafka_connect : Health Check] *************************
+included: /var/jenkins_home/workspace/ansible-install/1/collections/ansible_collections/confluent/platform/roles/kafka_connect/tasks/health_check.yml for 139.59.24.164
+
+TASK [confluent.platform.kafka_connect : Wait for API to return 200] ***********
+ok: [139.59.24.164]
+
+TASK [confluent.platform.kafka_connect : set_fact] *****************************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.kafka_connect : Wait for API to return 200 - mTLS] ****
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.kafka_connect : Fetch Files for Debugging Failure] ****
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.kafka_connect : Fail Provisioning] ********************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.kafka_connect : Set parent Cluster] *******************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.kafka_connect : Register Cluster] *********************
+included: /var/jenkins_home/workspace/ansible-install/1/collections/ansible_collections/confluent/platform/roles/kafka_connect/tasks/register_cluster.yml for 139.59.24.164
+
+TASK [confluent.platform.common : Get Kafka Cluster ID from Embedded Rest Proxy] ***
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.common : Parse Kafka Cluster ID from json query] ******
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.common : Get Kafka Cluster ID from Zookeeper] *********
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.common : set_fact] ************************************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.common : Set kafka_cluster_id Variable] ***************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.common : Create SSL Certificate Directory] ************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.common : Check if MDS public pem file exists on Ansible Controller] ***
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.common : Debug] ***************************************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.common : Copy in MDS Public Pem File] *****************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.kafka_connect : Fetch Kafka Connect Cluster Groups] ***
+ok: [139.59.24.164] => (item=139.59.24.164)
+
+TASK [confluent.platform.kafka_connect : Register Kafka Connect Cluster] *******
+skipping: [139.59.24.164] => (item=139.59.24.164) 
+skipping: [139.59.24.164] => (item=139.59.24.164) 
+skipping: [139.59.24.164] => (item=139.59.24.164) 
+skipping: [139.59.24.164] => (item=139.59.24.164) 
+skipping: [139.59.24.164] => (item=139.59.24.164) 
+skipping: [139.59.24.164] => (item=139.59.24.164) 
+skipping: [139.59.24.164] => (item=139.59.24.164) 
+skipping: [139.59.24.164] => (item=139.59.24.164) 
+
+TASK [confluent.platform.kafka_connect : Deploy Connectors] ********************
+included: /var/jenkins_home/workspace/ansible-install/1/collections/ansible_collections/confluent/platform/roles/kafka_connect/tasks/deploy_connectors.yml for 139.59.24.164
+
+TASK [confluent.platform.kafka_connect : Register Kafka Connect Subgroups] *****
+ok: [139.59.24.164] => (item=139.59.24.164)
+
+TASK [confluent.platform.kafka_connect : Register connector configs and remove deleted connectors for single cluster] ***
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.kafka_connect : Register connector configs and remove deleted connectors for Multiple Clusters] ***
+skipping: [139.59.24.164] => (item=control_center) 
+
+TASK [confluent.platform.kafka_connect : Delete temporary keys/certs when keystore and trustore is provided] ***
+skipping: [139.59.24.164] => (item=/var/ssl/private/ca.crt) 
+skipping: [139.59.24.164] => (item=/var/ssl/private/kafka_connect.crt) 
+skipping: [139.59.24.164] => (item=/var/ssl/private/kafka_connect.key) 
+[WARNING]: Could not match supplied host pattern, ignoring:
+kafka_connect_serial
+
+PLAY [Kafka Connect Serial Provisioning] ***************************************
+skipping: no hosts matched
+
+PLAY [KSQL Status Finding] *****************************************************
+
+TASK [Populate service facts] **************************************************
+ok: [139.59.24.164]
+
+TASK [Determine Installation Pattern - Parallel or Serial] *********************
+ok: [139.59.24.164]
+
+TASK [Group Hosts by Installation Pattern] *************************************
+ok: [139.59.24.164]
+
+PLAY [KSQL Parallel Provisioning] **********************************************
+
+TASK [include_role : common] ***************************************************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.ksql : Gather OS Facts] *******************************
+ok: [139.59.24.164] => (item=ansible_os_family)
+ok: [139.59.24.164] => (item=ansible_fqdn)
+
+TASK [Stop Service and Remove Packages on Version Change] **********************
+
+TASK [confluent.platform.common : Get Package Facts] ***************************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Determine if Confluent Platform Package Version Will Change] ***
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Get installed Confluent Packages] ************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Determine Confluent Packages to Remove] ******
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Debug Confluent Packages to Remove] **********
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.common : Get Service Facts] ***************************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Stop Service before Removing Confluent Packages] ***
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.common : Remove Confluent Packages - Red Hat] *********
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.common : Remove Confluent Packages - Debian] **********
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.ksql : Install the Ksql Packages] *********************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.ksql : Install the Ksql Packages] *********************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.ksql : Create Ksql Group] *****************************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.ksql : Check if Ksql User Exists] *********************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.ksql : Create Ksql User] ******************************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.ksql : Set Ksql streams dir permissions] **************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.ksql : Copy Ksql Service from archive file to system] ***
+skipping: [139.59.24.164]
+
+TASK [include_role : ssl] ******************************************************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.ksql : Import Public Confluent Cloud Certificates Authority Certs into Truststore] ***
+skipping: [139.59.24.164]
+
+TASK [Configure Kerberos] ******************************************************
+skipping: [139.59.24.164]
+
+TASK [Copy Custom KSQL Files] **************************************************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.ksql : Configure RBAC] ********************************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.ksql : Create Ksql Config directory] ******************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.ksql : Create Ksql Config] ****************************
+ok: [139.59.24.164]
+
+TASK [Create Ksql Config with Secrets Protection] ******************************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.ksql : Create Logs Directory] *************************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.ksql : Create log4j Directory] ************************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.ksql : Create Ksql log4j Config] **********************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.ksql : Create logredactor rule file directory] ********
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.ksql : Copy logredactor rule file from control node to component node] ***
+skipping: [139.59.24.164]
+
+TASK [Configure logredactor] ***************************************************
+skipping: [139.59.24.164] => (item={'logger_name': 'log4j.rootLogger', 'appenderRefs': 'main'}) 
+
+TASK [confluent.platform.ksql : Restart ksql] **********************************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.ksql : Create Ksql Jolokia Config] ********************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.ksql : Create RocksDB Directory] **********************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.ksql : Set Permission to RocksDB Files] ***************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.ksql : Deploy JMX Exporter Config File] ***************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.ksql : Create Basic Auth Jaas File] *******************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.ksql : Create Basic Auth Password File] ***************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.ksql : Create Service Override Directory] *************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.ksql : Write Service Overrides] ***********************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.ksql : Certs were Updated - Trigger Restart] **********
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.ksql : meta] ******************************************
+
+TASK [confluent.platform.ksql : Start Ksql Service] ****************************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.ksql : Health Check] **********************************
+included: /var/jenkins_home/workspace/ansible-install/1/collections/ansible_collections/confluent/platform/roles/ksql/tasks/health_check.yml for 139.59.24.164
+
+TASK [confluent.platform.ksql : Wait for API to return 200] ********************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.ksql : set_fact] **************************************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.ksql : Wait for API to return 200 - mTLS] *************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.ksql : Fetch Files for Debugging Failure] *************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.ksql : Fail Provisioning] *****************************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.ksql : Set parent Cluster] ****************************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.ksql : Register Cluster] ******************************
+included: /var/jenkins_home/workspace/ansible-install/1/collections/ansible_collections/confluent/platform/roles/ksql/tasks/register_cluster.yml for 139.59.24.164
+
+TASK [confluent.platform.common : Get Kafka Cluster ID from Embedded Rest Proxy] ***
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.common : Parse Kafka Cluster ID from json query] ******
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.common : Get Kafka Cluster ID from Zookeeper] *********
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.common : set_fact] ************************************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.common : Set kafka_cluster_id Variable] ***************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.common : Create SSL Certificate Directory] ************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.common : Check if MDS public pem file exists on Ansible Controller] ***
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.common : Debug] ***************************************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.common : Copy in MDS Public Pem File] *****************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.ksql : Fetch KSQL Cluster Groups] *********************
+ok: [139.59.24.164] => (item=139.59.24.164)
+
+TASK [confluent.platform.ksql : Register KSQL Cluster] *************************
+skipping: [139.59.24.164] => (item=139.59.24.164) 
+skipping: [139.59.24.164] => (item=139.59.24.164) 
+skipping: [139.59.24.164] => (item=139.59.24.164) 
+skipping: [139.59.24.164] => (item=139.59.24.164) 
+skipping: [139.59.24.164] => (item=139.59.24.164) 
+skipping: [139.59.24.164] => (item=139.59.24.164) 
+skipping: [139.59.24.164] => (item=139.59.24.164) 
+skipping: [139.59.24.164] => (item=139.59.24.164) 
+skipping: [139.59.24.164] => (item=139.59.24.164) 
+
+TASK [confluent.platform.ksql : Delete temporary keys/certs when keystore and trustore is provided] ***
+skipping: [139.59.24.164] => (item=/var/ssl/private/ca.crt) 
+skipping: [139.59.24.164] => (item=/var/ssl/private/ksql.crt) 
+skipping: [139.59.24.164] => (item=/var/ssl/private/ksql.key) 
+[WARNING]: Could not match supplied host pattern, ignoring: ksql_serial
+
+PLAY [KSQL Serial Provisioning] ************************************************
+skipping: no hosts matched
+
+PLAY [Kafka Rest Status Finding] ***********************************************
+
+TASK [Populate service facts] **************************************************
+ok: [139.59.24.164]
+
+TASK [Determine Installation Pattern - Parallel or Serial] *********************
+ok: [139.59.24.164]
+
+TASK [Group Hosts by Installation Pattern] *************************************
+ok: [139.59.24.164]
+
+PLAY [Kafka Rest Parallel Provisioning] ****************************************
+
+TASK [include_role : common] ***************************************************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.kafka_rest : Gather OS Facts] *************************
+ok: [139.59.24.164] => (item=ansible_os_family)
+ok: [139.59.24.164] => (item=ansible_fqdn)
+
+TASK [Stop Service and Remove Packages on Version Change] **********************
+
+TASK [confluent.platform.common : Get Package Facts] ***************************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Determine if Confluent Platform Package Version Will Change] ***
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Get installed Confluent Packages] ************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Determine Confluent Packages to Remove] ******
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Debug Confluent Packages to Remove] **********
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.common : Get Service Facts] ***************************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Stop Service before Removing Confluent Packages] ***
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.common : Remove Confluent Packages - Red Hat] *********
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.common : Remove Confluent Packages - Debian] **********
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.kafka_rest : Install the Kafka Rest Packages] *********
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.kafka_rest : Install the Kafka Rest Packages] *********
+ok: [139.59.24.164]
+
+TASK [confluent.platform.kafka_rest : Create Kafka Rest Group] *****************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.kafka_rest : Check if Kafka Rest User Exists] *********
+ok: [139.59.24.164]
+
+TASK [confluent.platform.kafka_rest : Create Kafka Rest User] ******************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.kafka_rest : Copy Kafka Rest Service from archive file to system] ***
+skipping: [139.59.24.164]
+
+TASK [include_role : ssl] ******************************************************
+skipping: [139.59.24.164]
+
+TASK [Configure Kerberos] ******************************************************
+skipping: [139.59.24.164]
+
+TASK [Copy Custom Kafka Rest Files] ********************************************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.kafka_rest : Configure RBAC] **************************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.kafka_rest : Create SSL Certificate Directory] ********
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.kafka_rest : Check if MDS public pem file exists on Ansible Controller] ***
+ok: [139.59.24.164 -> localhost]
+
+TASK [confluent.platform.kafka_rest : Debug] ***********************************
+ok: [139.59.24.164] => {
+    "msg": "WARNING - The file generated_ssl_files/public.pem doesn't exist on the control node"
+}
+
+TASK [confluent.platform.kafka_rest : Copy in MDS Public Pem File] *************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.kafka_rest : Create Kafka Rest Config directory] ******
+ok: [139.59.24.164]
+
+TASK [confluent.platform.kafka_rest : Create Kafka Rest Config] ****************
+ok: [139.59.24.164]
+
+TASK [Create Kafka Rest Config with Secrets Protection] ************************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.kafka_rest : Create Logs Directory] *******************
+ok: [139.59.24.164]
+
+TASK [Update log4j Config for Log Cleanup] *************************************
+
+TASK [confluent.platform.common : Replace rootLogger] **************************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Replace DailyRollingFileAppender with RollingFileAppender] ***
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Remove Key log4j.appender.X.DatePattern] *****
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Register Appenders] **************************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Add Max Size Properties] *********************
+ok: [139.59.24.164] => (item=['file', 'Append=true'])
+ok: [139.59.24.164] => (item=['file', 'MaxBackupIndex=10'])
+ok: [139.59.24.164] => (item=['file', 'MaxFileSize=100MB'])
+
+TASK [confluent.platform.kafka_rest : Set Permissions on Log4j Conf] ***********
+ok: [139.59.24.164]
+
+TASK [confluent.platform.kafka_rest : Create logredactor rule file directory] ***
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.kafka_rest : Copy logredactor rule file from control node to component node] ***
+skipping: [139.59.24.164]
+
+TASK [Configure logredactor] ***************************************************
+skipping: [139.59.24.164] => (item={'logger_name': 'log4j.rootLogger', 'appenderRefs': 'file'}) 
+
+TASK [confluent.platform.kafka_rest : Restart kafka rest] **********************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.kafka_rest : Create Kafka Rest Jolokia Config] ********
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.kafka_rest : Deploy JMX Exporter Config File] *********
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.kafka_rest : Create Basic Auth Jaas File] *************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.kafka_rest : Create Basic Auth Password File] *********
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.kafka_rest : Create Service Override Directory] *******
+ok: [139.59.24.164]
+
+TASK [confluent.platform.kafka_rest : Write Service Overrides] *****************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.kafka_rest : Certs were Updated - Trigger Restart] ****
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.kafka_rest : meta] ************************************
+
+TASK [confluent.platform.kafka_rest : Start Kafka Rest Service] ****************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.kafka_rest : Health Check] ****************************
+included: /var/jenkins_home/workspace/ansible-install/1/collections/ansible_collections/confluent/platform/roles/kafka_rest/tasks/health_check.yml for 139.59.24.164
+
+TASK [confluent.platform.kafka_rest : Wait for API to return 200] **************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.kafka_rest : set_fact] ********************************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.kafka_rest : Wait for API to return 200 - mTLS] *******
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.kafka_rest : Fetch Files for Debugging Failure] *******
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.kafka_rest : Fail Provisioning] ***********************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.kafka_rest : Delete temporary keys/certs when keystore and trustore is provided] ***
+skipping: [139.59.24.164] => (item=/var/ssl/private/ca.crt) 
+skipping: [139.59.24.164] => (item=/var/ssl/private/kafka_rest.crt) 
+skipping: [139.59.24.164] => (item=/var/ssl/private/kafka_rest.key) 
+[WARNING]: Could not match supplied host pattern, ignoring: kafka_rest_serial
+
+PLAY [Kafka Rest Serial Provisioning] ******************************************
+skipping: no hosts matched
+
+PLAY [Control Center Status Finding] *******************************************
+
+TASK [Populate service facts] **************************************************
+ok: [139.59.24.164]
+
+TASK [Determine Installation Pattern - Parallel or Serial] *********************
+ok: [139.59.24.164]
+
+TASK [Group Hosts by Installation Pattern] *************************************
+ok: [139.59.24.164]
+
+PLAY [Control Center Parallel Provisioning] ************************************
+
+TASK [include_role : common] ***************************************************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.control_center : Gather OS Facts] *********************
+ok: [139.59.24.164] => (item=ansible_os_family)
+ok: [139.59.24.164] => (item=ansible_fqdn)
+
+TASK [Stop Service and Remove Packages on Version Change] **********************
+
+TASK [confluent.platform.common : Get Package Facts] ***************************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Determine if Confluent Platform Package Version Will Change] ***
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Get installed Confluent Packages] ************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Determine Confluent Packages to Remove] ******
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Debug Confluent Packages to Remove] **********
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.common : Get Service Facts] ***************************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Stop Service before Removing Confluent Packages] ***
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.common : Remove Confluent Packages - Red Hat] *********
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.common : Remove Confluent Packages - Debian] **********
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.control_center : Install the Control Center Packages] ***
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.control_center : Install the Control Center Packages] ***
+ok: [139.59.24.164]
+
+TASK [confluent.platform.control_center : Create Control Center Group] *********
+ok: [139.59.24.164]
+
+TASK [confluent.platform.control_center : Check if Control Center User Exists] ***
+ok: [139.59.24.164]
+
+TASK [confluent.platform.control_center : Create Control Center User] **********
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.control_center : Set Control Center Data Dir permissions] ***
+ok: [139.59.24.164]
+
+TASK [confluent.platform.control_center : Set Control Center Data Dir file permissions] ***
+ok: [139.59.24.164]
+
+TASK [confluent.platform.control_center : Copy Control Center Service from archive file to system] ***
+skipping: [139.59.24.164]
+
+TASK [include_role : ssl] ******************************************************
+skipping: [139.59.24.164]
+
+TASK [Configure Kerberos] ******************************************************
+skipping: [139.59.24.164]
+
+TASK [Copy Custom Control Center Files] ****************************************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.control_center : Configure RBAC] **********************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.control_center : Create Control Center Config directory] ***
+ok: [139.59.24.164]
+
+TASK [confluent.platform.control_center : Create Control Center Config] ********
+ok: [139.59.24.164]
+
+TASK [Create Control Center Config with Secrets Protection] ********************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.control_center : Create Logs Directory] ***************
+ok: [139.59.24.164]
+
+TASK [Update log4j Config for Log Cleanup] *************************************
+
+TASK [confluent.platform.common : Replace rootLogger] **************************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Replace DailyRollingFileAppender with RollingFileAppender] ***
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Remove Key log4j.appender.X.DatePattern] *****
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Register Appenders] **************************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.common : Add Max Size Properties] *********************
+ok: [139.59.24.164] => (item=['main', 'Append=true'])
+ok: [139.59.24.164] => (item=['main', 'MaxBackupIndex=10'])
+ok: [139.59.24.164] => (item=['main', 'MaxFileSize=100MB'])
+ok: [139.59.24.164] => (item=['streams', 'Append=true'])
+ok: [139.59.24.164] => (item=['streams', 'MaxBackupIndex=10'])
+ok: [139.59.24.164] => (item=['streams', 'MaxFileSize=100MB'])
+ok: [139.59.24.164] => (item=['kafka', 'Append=true'])
+ok: [139.59.24.164] => (item=['kafka', 'MaxBackupIndex=10'])
+ok: [139.59.24.164] => (item=['kafka', 'MaxFileSize=100MB'])
+
+TASK [confluent.platform.control_center : Set Permissions on Log4j Conf] *******
+ok: [139.59.24.164]
+
+TASK [confluent.platform.control_center : Create logredactor rule file directory] ***
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.control_center : Copy logredactor rule file from control node to component node] ***
+skipping: [139.59.24.164]
+
+TASK [Configure logredactor] ***************************************************
+skipping: [139.59.24.164] => (item={'logger_name': 'log4j.rootLogger', 'appenderRefs': 'main'}) 
+
+TASK [confluent.platform.control_center : Restart control center] **************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.control_center : Create RocksDB Directory] ************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.control_center : Set Permission to RocksDB Files] *****
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.control_center : Create Basic Auth Jaas File] *********
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.control_center : Create Basic Auth Password File] *****
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.control_center : Create Service Override Directory] ***
+ok: [139.59.24.164]
+
+TASK [confluent.platform.control_center : Write Service Overrides] *************
+ok: [139.59.24.164]
+
+TASK [confluent.platform.control_center : Certs were Updated - Trigger Restart] ***
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.control_center : meta] ********************************
+
+TASK [confluent.platform.control_center : Start Control Center Service] ********
+ok: [139.59.24.164]
+
+TASK [confluent.platform.control_center : Health Check] ************************
+included: /var/jenkins_home/workspace/ansible-install/1/collections/ansible_collections/confluent/platform/roles/control_center/tasks/health_check.yml for 139.59.24.164
+
+TASK [confluent.platform.control_center : Wait for webpage to serve content] ***
+ok: [139.59.24.164]
+
+TASK [confluent.platform.control_center : Fetch Files for Debugging Failure] ***
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.control_center : Fail Provisioning] *******************
+skipping: [139.59.24.164]
+
+TASK [confluent.platform.control_center : Delete temporary keys/certs when keystore and trustore is provided] ***
+skipping: [139.59.24.164] => (item=/var/ssl/private/ca.crt) 
+skipping: [139.59.24.164] => (item=/var/ssl/private/control_center.crt) 
+skipping: [139.59.24.164] => (item=/var/ssl/private/control_center.key) 
+[WARNING]: Could not match supplied host pattern, ignoring:
+control_center_serial
+
+PLAY [Control Center Serial Provisioning] **************************************
+skipping: no hosts matched
+
+PLAY [Kafka Connect Replicator Status Finding] *********************************
+skipping: no hosts matched
+[WARNING]: Could not match supplied host pattern, ignoring:
+kafka_connect_replicator_parallel
+
+PLAY [Kafka Connect Replicator Parallel Provisioning] **************************
+skipping: no hosts matched
+[WARNING]: Could not match supplied host pattern, ignoring:
+kafka_connect_replicator_serial
+
+PLAY [Kafka Connect Replicator Serial Provisioning] ****************************
+skipping: no hosts matched
+
+PLAY RECAP *********************************************************************
+139.59.24.164              : ok=231  changed=5    unreachable=0    failed=0    skipped=251  rescued=0    ignored=0   
+
+[8mha:////4Lim7RWQPV9erZMOh44AK+gE3f31vqZycUHsczJhQASSAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBAUSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wArmI/eL4AAAA=[0m[Pipeline] }
+[8mha:////4MgIyU7di0gFAqNTUTHDDZxOOiC27KEdAlweMOvO3zR7AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBBIFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wAmqzcI74AAAA=[0m[Pipeline] // dir
+[8mha:////4NNq2LdY1TUTL35H5VxE/oGgZG5VcsfPvzrLUcH9ywf9AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAaJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw+i7k/SvgAAAA==[0m[Pipeline] }
+[8mha:////4C4wR7EnvKxXYwL1MAAjcsjyudUXxc1RUrthP9gK49d9AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSBCpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOW+zlUfPr1sGoC+AAAA[0m[Pipeline] // withCredentials
+[8mha:////4JbX/2D3odRHWM/0dIeKqNBw5Gm/xTEK+6HauC309NntAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIpSIeoaC03vMAkh3Fi3Rnbwal4EV/jD1hEomKL1c4283rDOgY4cjBiQBotxc4K7yZTlsgcxqvjLAa+iI4pskOhMCvu8bSg4oSwpKphJWGD1DmOlkyCrRz0QzdOk2nOKZTvIKG2/R2eUMliTjqkL8wBdrepj0w/z18BzN4nqNu21L79AJNsGOq+AAAA[0m[Pipeline] }
+[8mha:////4LZC2OUiJLKgOJE6qarRF5khQC/l9VTOweeeJ62U7Vz2AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSBCpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOX+kKuuP5UqIL++AAAA[0m[Pipeline] // script
+[8mha:////4I6mspHclTGwrV9H0ZRhMV2Pia8z2GQT8fn3LKFb6X+oAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAaJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuD7l22w+taLNOvgAAAA==[0m[Pipeline] }
+[8mha:////4GSdnp5asGkNUk04ioGB59m+rYf3fc8Yfxqy0T9fEDY0AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBBIFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryf8i1234AsurmHL4AAAA=[0m[Pipeline] // stage
+[8mha:////4Aua7X7hFxHUv1UTGS/glNVWd3tui+OEZgwSbyhs6zldAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IsDCbGybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqe8FebkXZOUH9/H4sr0AAAA=[0m[Pipeline] }
+[8mha:////4GUURgFLYhXVHlzV30QOmT+OND0b43Vums/9mi4Ek591AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpoEGIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLcXZNsP5E38Eb0AAAA=[0m[Pipeline] // node
+[8mha:////4FlpPmb9c9Inx9/+3OdoaKXCrIvJwNPPw/yJCdj7N3nQAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJBSFSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfL8VZLsPpsy3oL0AAAA=[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

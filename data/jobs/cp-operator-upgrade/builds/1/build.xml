@@ -1,0 +1,96 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@1326.ve643e00e9220">
+  <actions>
+    <hudson.model.ParametersAction>
+      <safeParameters class="sorted-set"/>
+      <parameters>
+        <hudson.model.StringParameterValue>
+          <name>GIT_REPO</name>
+          <description>URL of the Git repository</description>
+          <value>https://github.com/Platformatory/cp-operator.git</value>
+        </hudson.model.StringParameterValue>
+        <com.cloudbees.plugins.credentials.CredentialsParameterValue plugin="credentials@1271.v54b_1c2c6388a_">
+          <name>TOKEN</name>
+          <description>Private access token for the Git repository</description>
+          <value></value>
+          <isDefaultValue>true</isDefaultValue>
+        </com.cloudbees.plugins.credentials.CredentialsParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>REF</name>
+          <description>Branch or tag</description>
+          <value>2.6.1</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>IMAGE_TAG</name>
+          <description>Image tag of the new version of operator to be installed</description>
+          <value>0.771.29</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>CHART_VERSION</name>
+          <description>Version of operator chart to be installed</description>
+          <value>2.6.1</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>OLD_CHART_VERSION</name>
+          <description>Current version of the operator</description>
+          <value>2.3.4</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>RELEASE_NAME</name>
+          <description>Name of the Helm release. NOTE that this should be the same as the current installed version&apos;s name.</description>
+          <value>confluent-demo</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>CHART_LOCATION</name>
+          <description>Absolute system path where the helm chart is located</description>
+          <value>/var/jenkins_home/helm-charts/2.6.1</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>NAMESPACE</name>
+          <description>Namespace to install the operator chart</description>
+          <value>cf</value>
+        </hudson.model.StringParameterValue>
+        <com.cloudbees.plugins.credentials.CredentialsParameterValue plugin="credentials@1271.v54b_1c2c6388a_">
+          <name>KUBECONFIG</name>
+          <description>Kubeconfig secret</description>
+          <value>ams-kubeconfig</value>
+          <isDefaultValue>false</isDefaultValue>
+        </com.cloudbees.plugins.credentials.CredentialsParameterValue>
+      </parameters>
+      <parameterDefinitionNames>
+        <string>GIT_REPO</string>
+        <string>TOKEN</string>
+        <string>REF</string>
+        <string>IMAGE_TAG</string>
+        <string>CHART_VERSION</string>
+        <string>OLD_CHART_VERSION</string>
+        <string>RELEASE_NAME</string>
+        <string>CHART_LOCATION</string>
+        <string>NAMESPACE</string>
+        <string>KUBECONFIG</string>
+      </parameterDefinitionNames>
+    </hudson.model.ParametersAction>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>admin</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="pipeline-groovy-lib@671.v07c339c842e8">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+  </actions>
+  <queueId>53</queueId>
+  <timestamp>1692781120604</timestamp>
+  <startTime>1692781120646</startTime>
+  <result>FAILURE</result>
+  <duration>332</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>

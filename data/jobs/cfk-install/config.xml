@@ -113,7 +113,7 @@
     stage(&apos;check status&apos;) {
       steps {
         script {
-          withCredentials([file(credentialsId: &apos;kubeconfig&apos;, variable: &apos;KUBECONFIG&apos;)]) {
+          withCredentials([file(credentialsId: params.KUBECONFIG, variable: &apos;KUBECONFIG&apos;)]) {
             dir(&quot;${env.BUILD_NUMBER}&quot;) {
               sh &quot;&quot;&quot;
               kubectl rollout status --watch --timeout=600s statefulset/zookeeper --namespace ${params.NAMESPACE}
