@@ -1,5 +1,7 @@
 /data/plugins/*/
 /data/jobs/*/builds
+/data/jobs/*/nextBuildNumber
+/data/secrets/hudson.*
 /data/logs
 /data/.*
 /data/war
