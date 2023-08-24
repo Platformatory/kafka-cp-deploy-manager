@@ -79,7 +79,9 @@
   </properties>
   <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@3769.v8b_e595e4d40d">
     <script>pipeline {
-  agent any
+    agent {
+        label &apos;ansible-runner&apos;
+    }
  
   parameters {
         string(name: &apos;GIT_REPO&apos;, description: &apos;URL of the Git repository&apos;, defaultValue: &apos;&apos;)

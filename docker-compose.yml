@@ -14,7 +14,9 @@ services:
     user: root
 
   agent:
-    image: jenkins/ssh-agent:jdk11
+    build:
+      context: .
+      dockerfile: Dockerfile.agent
     privileged: true
     user: root
     container_name: agent
