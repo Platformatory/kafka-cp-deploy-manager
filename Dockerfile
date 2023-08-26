@@ -17,4 +17,10 @@ COPY --from=kubectl /opt/bitnami/kubectl/bin/kubectl /usr/local/bin/
 RUN echo "deb http://ppa.launchpad.net/ansible/ansible/ubuntu focal main" >> /etc/apt/sources.list
 RUN apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 93C4A3FD7BB9C367 && apt update && apt install ansible -y -qq
 
+RUN jenkins-plugin-cli -p workflow-job
+
+COPY --chown=jenkins:jenkins jenkins-config/jobs /usr/share/jenkins/ref/jobs
+
+COPY --chown=jenkins:jenkins jenkins-config/hudson.tasks.Shell.xml /usr/share/jenkins/ref
+
 USER jenkins
