@@ -11,6 +11,7 @@ services:
       - ./data:/var/jenkins_home
     networks:
       - kind
+      - pf
 
   # agent:
   #   build:
@@ -27,3 +28,5 @@ services:
 networks:
   kind: # define the kind network
     external: true #
+  pf:
+    external: true
