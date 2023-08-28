@@ -1,0 +1,5 @@
+pipeline-stage-view:latest
+workflow-job:latest
+workflow-aggregator:latest
+workflow-basic-steps:latest
+workflow-durable-task-step:latest
