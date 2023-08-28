@@ -5,6 +5,8 @@ FROM jenkins/jenkins:lts-jdk11
 USER root
 # Utils
 RUN apt-get update && apt-get install wget curl git vim rsync -y -qq
+
+ENV USE_SUDO=false
 # Helm
 RUN curl https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | bash
 # Yq
