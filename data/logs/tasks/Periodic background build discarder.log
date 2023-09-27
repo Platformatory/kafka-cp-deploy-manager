@@ -1,0 +1,12 @@
+Started at Wed Sep 27 12:24:26 UTC 2023
+Processing cfk-deploy
+Offering cfk-deploy to Project Build Discarder
+Processing cp-ansible-deploy
+Offering cp-ansible-deploy to Project Build Discarder
+Processing cp-operator-deploy
+Offering cp-operator-deploy to Project Build Discarder
+Processing cp-operator-prerequisites
+Offering cp-operator-prerequisites to Project Build Discarder
+Processing cp-operator-upgrade
+Offering cp-operator-upgrade to Project Build Discarder
+Finished at Wed Sep 27 12:24:26 UTC 2023. 14ms
