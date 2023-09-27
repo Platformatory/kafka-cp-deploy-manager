@@ -1,0 +1,57 @@
+--- Copying files at Wed Sep 27 11:44:26 UTC 2023
+INSTALLED hudson.tasks.Shell.xml
+INSTALLED jobs/cp-operator-upgrade/config.xml
+INSTALLED jobs/cfk-deploy/config.xml
+INSTALLED jobs/cp-operator-prerequisites/config.xml
+INSTALLED jobs/cp-ansible-deploy/config.xml
+INSTALLED jobs/cp-operator-deploy/config.xml
+INSTALLED plugins/workflow-basic-steps.jpi : 1042.ve7b_140c4a_e0c
+INSTALLED plugins/pipeline-graph-analysis.jpi : 202.va_d268e64deb_3
+INSTALLED plugins/durable-task.jpi : 523.va_a_22cf15d5e0
+INSTALLED plugins/javax-activation-api.jpi : 1.2.0-6
+INSTALLED plugins/scm-api.jpi : 676.v886669a_199a_a_
+INSTALLED plugins/plain-credentials.jpi : 143.v1b_df8b_d3b_e48
+INSTALLED plugins/credentials-binding.jpi : 636.v55f1275c7b_27
+INSTALLED plugins/workflow-scm-step.jpi : 415.v434365564324
+INSTALLED plugins/pipeline-stage-tags-metadata.jpi : 2.2144.v077a_d1928a_40
+INSTALLED plugins/pipeline-build-step.jpi : 505.v5f0844d8d126
+INSTALLED plugins/pipeline-rest-api.jpi : 2.33
+INSTALLED plugins/pipeline-model-definition.jpi : 2.2144.v077a_d1928a_40
+INSTALLED plugins/variant.jpi : 60.v7290fc0eb_b_cd
+INSTALLED plugins/instance-identity.jpi : 173.va_37c494ec4e5
+INSTALLED plugins/snakeyaml-api.jpi : 2.2-111.vc6598e30cc65
+INSTALLED plugins/workflow-multibranch.jpi : 756.v891d88f2cd46
+INSTALLED plugins/workflow-aggregator.jpi : 596.v8c21c963d92d
+INSTALLED plugins/pipeline-input-step.jpi : 477.v339683a_8d55e
+INSTALLED plugins/pipeline-groovy-lib.jpi : 689.veec561a_dee13
+INSTALLED plugins/ionicons-api.jpi : 56.v1b_1c8c49374e
+INSTALLED plugins/jakarta-mail-api.jpi : 2.0.1-3
+INSTALLED plugins/caffeine-api.jpi : 3.1.8-133.v17b_1ff2e0599
+INSTALLED plugins/structs.jpi : 325.vcb_307d2a_2782
+INSTALLED plugins/jakarta-activation-api.jpi : 2.0.1-3
+INSTALLED plugins/branch-api.jpi : 2.1128.v717130d4f816
+INSTALLED plugins/ssh-credentials.jpi : 308.ve4497b_ccd8f4
+INSTALLED plugins/mina-sshd-api-common.jpi : 2.10.0-69.v28e3e36d18eb_
+INSTALLED plugins/workflow-durable-task-step.jpi : 1289.v4d3e7b_01546b_
+INSTALLED plugins/mailer.jpi : 463.vedf8358e006b_
+INSTALLED plugins/workflow-job.jpi : 1346.v180a_63f40267
+INSTALLED plugins/credentials.jpi : 1271.v54b_1c2c6388a_
+INSTALLED plugins/pipeline-model-api.jpi : 2.2144.v077a_d1928a_40
+INSTALLED plugins/workflow-cps.jpi : 3793.v65dec41c3a_c3
+INSTALLED plugins/pipeline-milestone-step.jpi : 111.v449306f708b_7
+INSTALLED plugins/cloudbees-folder.jpi : 6.848.ve3b_fd7839a_81
+INSTALLED plugins/jackson2-api.jpi : 2.15.2-350.v0c2f3f8fc595
+INSTALLED plugins/display-url-api.jpi : 2.3.9
+INSTALLED plugins/jaxb.jpi : 2.3.8-1
+INSTALLED plugins/pipeline-model-extensions.jpi : 2.2144.v077a_d1928a_40
+INSTALLED plugins/trilead-api.jpi : 2.84.v72119de229b_7
+INSTALLED plugins/git-client.jpi : 4.5.0
+INSTALLED plugins/workflow-support.jpi : 865.v43e78cc44e0d
+INSTALLED plugins/mina-sshd-api-core.jpi : 2.10.0-69.v28e3e36d18eb_
+INSTALLED plugins/workflow-api.jpi : 1281.vca_5fddb_3fceb_
+INSTALLED plugins/bouncycastle-api.jpi : 2.29
+INSTALLED plugins/apache-httpcomponents-client-4-api.jpi : 4.5.14-208.v438351942757
+INSTALLED plugins/pipeline-stage-step.jpi : 305.ve96d0205c1c6
+INSTALLED plugins/pipeline-stage-view.jpi : 2.33
+INSTALLED plugins/workflow-step-api.jpi : 639.v6eca_cd8c04a_a_
+INSTALLED plugins/script-security.jpi : 1275.v23895f409fb_d
