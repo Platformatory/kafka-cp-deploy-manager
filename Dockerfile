@@ -22,8 +22,8 @@ RUN apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 93C4A3FD7BB9C367 &&
 COPY plugins.txt /tmp/plugins.txt
 RUN jenkins-plugin-cli -f /tmp/plugins.txt
 
-COPY --chown=jenkins:jenkins jenkins-config/jobs /usr/share/jenkins/ref/jobs
+COPY --chown=root:root jenkins-config/jobs /usr/share/jenkins/ref/jobs
 
-COPY --chown=jenkins:jenkins jenkins-config/hudson.tasks.Shell.xml /usr/share/jenkins/ref
+COPY --chown=root:root jenkins-config/hudson.tasks.Shell.xml /usr/share/jenkins/ref
 
-USER jenkins
+USER root
