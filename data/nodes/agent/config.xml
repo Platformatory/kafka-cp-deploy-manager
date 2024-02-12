@@ -2,14 +2,14 @@
 <slave>
   <name>agent</name>
   <description></description>
-  <remoteFS>/home/jenkins</remoteFS>
+  <remoteFS>/home/ec2-user</remoteFS>
   <numExecutors>1</numExecutors>
   <mode>NORMAL</mode>
   <retentionStrategy class="hudson.slaves.RetentionStrategy$Always"/>
   <launcher class="hudson.plugins.sshslaves.SSHLauncher" plugin="ssh-slaves@2.916.vd17b_43357ce4">
-    <host>139.59.37.21</host>
+    <host>3.80.225.53</host>
     <port>22</port>
-    <credentialsId>jenkins_agent</credentialsId>
+    <credentialsId>root</credentialsId>
     <launchTimeoutSeconds>60</launchTimeoutSeconds>
     <maxNumRetries>10</maxNumRetries>
     <retryWaitTime>15</retryWaitTime>
