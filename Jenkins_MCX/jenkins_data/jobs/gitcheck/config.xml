@@ -1,0 +1,76 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@1326.ve643e00e9220">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@2.2144.v077a_d1928a_40"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@2.2144.v077a_d1928a_40">
+      <jobProperties/>
+      <triggers/>
+      <parameters>
+        <string>REF</string>
+        <string>GIT_REPO</string>
+      </parameters>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <hudson.model.ParametersDefinitionProperty>
+      <parameterDefinitions>
+        <hudson.model.StringParameterDefinition>
+          <name>GIT_REPO</name>
+          <description>URL of the Git repository</description>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>REF</name>
+          <description>Branch or tag.</description>
+          <defaultValue>1.0.2</defaultValue>
+          <trim>true</trim>
+        </hudson.model.StringParameterDefinition>
+      </parameterDefinitions>
+    </hudson.model.ParametersDefinitionProperty>
+  </properties>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@3769.v8b_e595e4d40d">
+    <script>pipeline {
+    agent any
+
+    parameters {
+        string(name: &apos;GIT_REPO&apos;, description: &apos;URL of the Git repository&apos;, defaultValue: &apos;&apos;)
+        string(name: &apos;REF&apos;, description: &apos;Branch or tag.&apos;, trim: true, defaultValue: &apos;1.0.2&apos;)
+    }
+
+    stages {
+        stage(&apos;Git Checkout&apos;) {
+            steps {
+                script {
+                    def token = params.TOKEN
+                    def repoUrl = params.GIT_REPO
+                    def repo = repoUrl.split(&apos;https://&apos;)
+
+                    if (token) {
+                        withCredentials([string(credentialsId: params.TOKEN, variable: &apos;TOKEN&apos;)]) {
+                            sh &quot;&quot;&quot;
+                                git clone -c advice.detachedHead=false --depth 1 --branch ${params.REF} https://\$TOKEN@${repo[1]} ${env.BUILD_NUMBER}
+                            &quot;&quot;&quot;
+                        }
+                    } else {
+                        sh &quot;&quot;&quot;
+                            git clone -c advice.detachedHead=false --depth 1 --branch ${params.REF} ${params.GIT_REPO} ${env.BUILD_NUMBER}
+                        &quot;&quot;&quot;
+                    }
+                }
+            }
+        }
+
+        // Add more stages for additional steps in your pipeline
+    }
+
+    // Post-build actions or other configurations can go here
+}
+</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2024-02-12 07:05:00.650 UTC</timestamp>
+  <md5sum>ba45050478f916695416b18c9d36bd13</md5sum>
+  <fileName>Credential id=new_key name=shiva-keypair.pem</fileName>
+  <usages>
+    <entry>
+      <string>cp-ansible-deploy</string>
+      <ranges>43,45-47,49,51,55</ranges>
+    </entry>
+    <entry>
+      <string>ansible-install</string>
+      <ranges>1-8</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

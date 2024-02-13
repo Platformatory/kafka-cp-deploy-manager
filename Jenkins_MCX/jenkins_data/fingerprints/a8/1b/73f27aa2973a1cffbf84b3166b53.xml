@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2024-02-08 07:24:19.198 UTC</timestamp>
+  <md5sum>a81b73f27aa2973a1cffbf84b3166b53</md5sum>
+  <fileName>Credential id=TOKEN name=TOKEN</fileName>
+  <usages>
+    <entry>
+      <string>cp-ansible-deploy</string>
+      <ranges>21-52,55</ranges>
+    </entry>
+    <entry>
+      <string>ansible-install</string>
+      <ranges>1-7</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

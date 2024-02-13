@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2024-02-08 06:29:06.327 UTC</timestamp>
+  <md5sum>08dfc7e38615900dd8033da95c9bf710</md5sum>
+  <fileName>Credential id=jenkins_key_agent name=secret.key</fileName>
+  <usages>
+    <entry>
+      <string>cp-ansible-deploy</string>
+      <ranges>14-15,20,22,30-36</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

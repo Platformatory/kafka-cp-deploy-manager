@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2024-02-12 07:01:54.536 UTC</timestamp>
+  <md5sum>c31e27acdcea36589910f0f799b8c927</md5sum>
+  <fileName>Credential id=new name=ec2-user</fileName>
+  <usages>
+    <entry>
+      <string>cp-ansible-deploy</string>
+      <ranges>42</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

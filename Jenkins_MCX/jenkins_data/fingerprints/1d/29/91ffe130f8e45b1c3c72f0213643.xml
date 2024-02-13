@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2024-02-08 06:36:35.451 UTC</timestamp>
+  <md5sum>1d2991ffe130f8e45b1c3c72f0213643</md5sum>
+  <fileName>Credential id=key1 name=secret.key</fileName>
+  <usages>
+    <entry>
+      <string>cp-ansible-deploy</string>
+      <ranges>17-18</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>
