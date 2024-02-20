@@ -17,6 +17,8 @@ $ docker-compose up --build
 ## Step 3: Access the UI
 
 Open [http://localhost:8080](http://localhost:8080) and use `admin` as the username and `admin123` as password to login to the Jenkins UI.
+
+
 open (http://localhost:3000) and use 'akkishiva@platformatory.com' as username and 'Shiva@1234' as password to login to the gitea server. 
 
 # Prerequistes
