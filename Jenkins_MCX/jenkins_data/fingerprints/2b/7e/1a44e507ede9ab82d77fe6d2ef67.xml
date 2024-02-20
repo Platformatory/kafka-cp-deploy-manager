@@ -8,6 +8,10 @@
       <string>cp-ansible-deploy</string>
       <ranges>44,48,50,52</ranges>
     </entry>
+    <entry>
+      <string>ansible-install</string>
+      <ranges>28,89</ranges>
+    </entry>
   </usages>
   <facets/>
 </fingerprint>

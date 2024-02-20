@@ -5,8 +5,8 @@
   <fileName>Credential id=key1 name=secret.key</fileName>
   <usages>
     <entry>
-      <string>cp-ansible-deploy</string>
-      <ranges>17-18</ranges>
+      <string>ansible-install</string>
+      <ranges>16</ranges>
     </entry>
   </usages>
   <facets/>

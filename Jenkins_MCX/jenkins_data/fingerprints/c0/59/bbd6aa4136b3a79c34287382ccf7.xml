@@ -1,0 +1,14 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2024-02-19 07:08:29.797 UTC</timestamp>
+  <md5sum>c059bbd6aa4136b3a79c34287382ccf7</md5sum>
+  <fileName>Credential id=centos name=centos</fileName>
+  <usages/>
+  <facets>
+    <com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet plugin="credentials@1271.v54b_1c2c6388a_">
+      <timestamp>1708413797068</timestamp>
+      <nodeName>agent</nodeName>
+      <timestamp0>1708412357047</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet>
+  </facets>
+</fingerprint>

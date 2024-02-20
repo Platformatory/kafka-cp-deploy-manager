@@ -1,0 +1,19 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@848.v5a_383b_d14921">
+  <node class="cps.n.StepStartNode" plugin="workflow-cps@3769.v8b_e595e4d40d">
+    <parentIds>
+      <string>35</string>
+    </parentIds>
+    <id>36</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.support.steps.StageStep</descriptorId>
+  </node>
+  <actions>
+    <wf.a.BodyInvocationAction plugin="workflow-api@1259.vb_47f14fffc8a_"/>
+    <wf.a.LabelAction plugin="workflow-api@1259.vb_47f14fffc8a_">
+      <displayName>Check Collections Folder</displayName>
+    </wf.a.LabelAction>
+    <wf.a.TimingAction plugin="workflow-api@1259.vb_47f14fffc8a_">
+      <startTime>1707826005602</startTime>
+    </wf.a.TimingAction>
+  </actions>
+</Tag>

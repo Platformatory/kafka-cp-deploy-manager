@@ -1,4 +1,4 @@
-Started at Mon Feb 12 09:09:29 UTC 2024
+Started at Mon Feb 19 16:56:11 UTC 2024
 Checking agentcheck
 Checking ansible-install
 Checking cfk-deploy
@@ -8,4 +8,6 @@ Checking cp-operator-deploy
 Checking cp-operator-install
 Checking cp-operator-prerequisites
 Checking cp-operator-upgrade
-Finished at Mon Feb 12 09:09:32 UTC 2024. 3156ms
+Checking gitcheck
+Checking servicescheck
+Finished at Mon Feb 19 16:56:11 UTC 2024. 14ms

@@ -8,14 +8,17 @@
       <parameters>
         <string>ANSIBLE_SKIP_TAGS</string>
         <string>ANSIBLE_LIMIT</string>
-        <string>REF</string>
+        <string>UP_GRADE_DOWN_GRADE</string>
         <string>ANSIBLE_TAGS</string>
         <string>PRIVATE_KEY</string>
         <string>ARTEFACTS_DIR</string>
         <string>GIT_REPO</string>
-        <string>TOKEN</string>
         <string>CP_VERSION</string>
         <string>COLLECTIONS_DIR</string>
+        <string>REF</string>
+        <string>PRE_CHECK</string>
+        <string>AIR_GAPPED</string>
+        <string>TOKEN</string>
       </parameters>
       <options/>
     </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
@@ -25,6 +28,12 @@
   <properties>
     <hudson.model.ParametersDefinitionProperty>
       <parameterDefinitions>
+        <hudson.model.StringParameterDefinition>
+          <name>PRE_CHECK</name>
+          <description>Python_artifact</description>
+          <defaultValue>precheck.py</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
         <hudson.model.StringParameterDefinition>
           <name>GIT_REPO</name>
           <description>URL of the Git repository</description>
@@ -51,7 +60,7 @@
         <hudson.model.StringParameterDefinition>
           <name>COLLECTIONS_DIR</name>
           <description>Relative path where the tar files are present</description>
-          <defaultValue>/root/.ansible/collections/ansible_collections</defaultValue>
+          <defaultValue>/home/centos/.ansible/collections/ansible_collections</defaultValue>
           <trim>true</trim>
         </hudson.model.StringParameterDefinition>
         <hudson.model.StringParameterDefinition>
@@ -81,26 +90,37 @@
           <description>Values to pass to the --limit parameter</description>
           <trim>true</trim>
         </hudson.model.StringParameterDefinition>
+        <hudson.model.BooleanParameterDefinition>
+          <name>UP_GRADE_DOWN_GRADE</name>
+          <description>Upgrade and downgrade</description>
+          <defaultValue>false</defaultValue>
+        </hudson.model.BooleanParameterDefinition>
+        <hudson.model.BooleanParameterDefinition>
+          <name>AIR_GAPPED</name>
+          <description>Specify if the environment is air-gapped</description>
+          <defaultValue>false</defaultValue>
+        </hudson.model.BooleanParameterDefinition>
       </parameterDefinitions>
     </hudson.model.ParametersDefinitionProperty>
   </properties>
   <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@3769.v8b_e595e4d40d">
     <script>pipeline {
-    agent {
-        label &apos;ansible-runner&apos;
-    }
+    agent any
 
     parameters {
+        string(name: &apos;PRE_CHECK&apos;, description: &apos;Python_artifact&apos;, defaultValue: &apos;precheck.py&apos;)
         string(name: &apos;GIT_REPO&apos;, description: &apos;URL of the Git repository&apos;, defaultValue: &apos;&apos;)
         credentials(name: &apos;TOKEN&apos;, description: &apos;Private access token for the Git repository&apos;, defaultValue: &apos;&apos;, required: false)
         string(name: &apos;REF&apos;, description: &apos;Branch or tag.&apos;, trim: true, defaultValue: &apos;1.0.2&apos;)
         string(name: &apos;ARTEFACTS_DIR&apos;, description: &apos;Relative path where the playbook hosts and config are present.&apos;, trim: true, defaultValue: &apos;.&apos;)
-        string(name: &apos;COLLECTIONS_DIR&apos;, description: &apos;Relative path where the tar files are present&apos;, trim: true, defaultValue: &apos;/root/.ansible/collections/ansible_collections&apos;)
+        string(name: &apos;COLLECTIONS_DIR&apos;, description: &apos;Relative path where the tar files are present&apos;, trim: true, defaultValue: &apos;/home/centos/.ansible/collections/ansible_collections&apos;)
         string(name: &apos;CP_VERSION&apos;, description: &apos;CP version to install.&apos;, trim: true, defaultValue: &apos;7.4.1&apos;)
         credentials(name: &apos;PRIVATE_KEY&apos;, description: &apos;SSH private key for accessing the remote machines.&apos;, defaultValue: &apos;&apos;, required: true)
         string(name: &apos;ANSIBLE_TAGS&apos;, description: &apos;Values to pass to the --tags parameter&apos;, trim: true, defaultValue: &apos;&apos;)
         string(name: &apos;ANSIBLE_SKIP_TAGS&apos;, description: &apos;Values to pass to the --skip-tags parameter&apos;, trim: true, defaultValue: &apos;&apos;)
         string(name: &apos;ANSIBLE_LIMIT&apos;, description: &apos;Values to pass to the --limit parameter&apos;, trim: true, defaultValue: &apos;&apos;)
+        booleanParam(name: &apos;UP_GRADE_DOWN_GRADE&apos;, description: &apos;Upgrade and downgrade&apos;, defaultValue: false)
+        booleanParam(name: &apos;AIR_GAPPED&apos;, description: &apos;Specify if the environment is air-gapped&apos;, defaultValue: false)
     }
 
     stages {
@@ -116,7 +136,7 @@
         stage(&apos;Check Python&apos;) {
             steps {
                 script {
-                    def pythonVersion = sh(script: &apos;python --version 2&gt;&amp;1&apos;, returnStdout: true).trim()
+                    def pythonVersion = sh(script: &apos;python3 --version 2&gt;&amp;1&apos;, returnStdout: true).trim()
                     echo &quot;Python Version: ${pythonVersion}&quot;
                 }
             }
@@ -134,7 +154,7 @@
         stage(&apos;Check Collections Folder&apos;) {
             steps {
                 script {
-                    def collectionsFolder = sh(script: &apos;sudo ls /root/.ansible/collections/ansible_collections&apos;, returnStatus: true)
+                    def collectionsFolder = sh(script: &quot;ls ${params.COLLECTIONS_DIR}&quot;, returnStatus: true)
                     if (collectionsFolder == 0) {
                         echo &quot;Collections Folder is present.&quot;
                     } else {
@@ -167,13 +187,34 @@
 
         stage(&apos;Download collection&apos;) {
             steps {
-                script {
-                    dir(&quot;${env.BUILD_NUMBER}&quot;) {
-                        sh &quot;&quot;&quot;
-                            sudo cd ${params.COLLECTIONS_DIR}
-                            ansible-galaxy collection install confluent-platform-${params.CP_VERSION}.tar.gz
-                        &quot;&quot;&quot;
+                dir(&quot;${env.BUILD_NUMBER}&quot;) {
+                    script {
+                        if (params.AIR_GAPPED) {
+                            echo &quot;location of collections in air-gapped mode&quot;
+                            sh &quot;&quot;&quot;
+                                echo ${params.COLLECTIONS_DIR}
+                            &quot;&quot;&quot;
+                        } else {
+                            echo &quot;Downloading collection with internet&quot;
+                            sh &quot;&quot;&quot;
+                                ansible-galaxy collection install confluent.platform
+                            &quot;&quot;&quot;
+                        }
                     }
+                }
+            }
+        }
+
+        stage(&apos;Precheck&apos;) {
+            when {
+                expression { params.UP_GRADE_DOWN_GRADE == true }
+            }
+            steps {
+                dir(&quot;${env.BUILD_NUMBER}&quot;) {
+                    sh &quot;&quot;&quot;
+                        cd ${params.ARTEFACTS_DIR}
+                        python3 ${params.PRE_CHECK}
+                    &quot;&quot;&quot;
                 }
             }
         }
@@ -201,6 +242,17 @@
                             &quot;&quot;&quot;
                         }
                     }
+                }
+            }
+        }
+
+        stage(&apos;Postcheck&apos;) {
+            steps {
+                dir(&quot;${env.BUILD_NUMBER}&quot;) {
+                    sh &quot;&quot;&quot;
+                        cd ${params.ARTEFACTS_DIR}
+                        python3 ${params.PRE_CHECK}
+                    &quot;&quot;&quot;
                 }
             }
         }

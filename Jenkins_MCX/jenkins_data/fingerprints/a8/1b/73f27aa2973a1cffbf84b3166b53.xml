@@ -6,7 +6,7 @@
   <usages>
     <entry>
       <string>cp-ansible-deploy</string>
-      <ranges>21-52,55</ranges>
+      <ranges>26-52,55</ranges>
     </entry>
     <entry>
       <string>ansible-install</string>
