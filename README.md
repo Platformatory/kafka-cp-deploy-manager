@@ -25,5 +25,29 @@ open (http://localhost:3000) and use 'akkishiva@platformatory.com' as username a
 
 ## Github private token
 
+## Ansible
+
+## ssh key
+
+## Kubernetes
+
+## kubeconfig
+
+## Running pipelines
+
+## Ansible collection download
+
+## Parameters
+
+## Ansible install
+
+## CP operator prerequisite
+
+## CP operator install
+
+## CP operator upgrade
+
+## CFK install
+
 
 
