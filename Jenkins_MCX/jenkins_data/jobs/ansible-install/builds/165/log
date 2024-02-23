@@ -1,0 +1,1312 @@
+Started by user [8mha:////4N1/qo4ZI1y2ZBkDTgFjONYwh8jChZqixWJJmW2Y5LXvAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgZu/dLi1CL9xJTczDwA9svhPMAAAAA=[0mButler
+Restarted from build #164, stage Check Java
+[8mha:////4DvOiTZV83YzZKne3xwmrh3Wwcca2wPG89jj+YkyAFifAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4Fqg6UAMZd8Tu5QA82q4C1+b2B3JdiIqzts+bjP13w/mAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4H7xZOfhsAwt6Fxqg3TubJ+MO4UVF8X2lKqdp59EuO6CAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/jenkins_home/workspace/ansible-install
+[8mha:////4Ix6aqUIkIoIaX6yq9AKOIQx5Xh1aXtOjNddXh3nM/jAAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4HC7dHuMIGHbjoyNIAMx3s8FBNuAXPZHwn8LOzVaVh4RAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4K3E8LB2RN2AjtOzDNp6PlpviOsGOBo2HglWL+cQWC89AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Check Java)
+[8mha:////4Ols2hQKleVIFSRqaQwlP2gyaSRfDSiNwpgsHChQVxR8AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] script
+[8mha:////4LCytmUaueYuwhK/VH8sK7ltp1ML96iQ3fgQq+I0enV9AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] {
+[8mha:////4FMcWYtKMZ18xzdD09phcbt7wCex47FBNuTN/N02E3vXAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaoyVLaHxBMgiwpL/WWDdrTyRV/MOEjexcpJJ5k3zXm9Y5wQnSpZ7g73DrB2PYbR18YlSfws0cU9XrgkzBcOlmSR15rygpGJgCWtgJWBjUAfKDm2BrfDqodqg0LaXkup3FNC4boAnMFHNRaXyhTnB7j52mfDn+SuAORZg+9pD/AAeoCAqvAAAAA==[0m[Pipeline] sh
++ java -version
++ grep version
+[8mha:////4GGXNYx7pNIp3k00Hn5iNo2z9VjrsiDt3OvfY6/AAS5lAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKBDglR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYO0G2F+S7bfcBITL9lL0AAAA=[0m[Pipeline] echo
+Java Version: openjdk version "11.0.21" 2023-10-17
+[8mha:////4B3Ba5jo61h2Y4sLIZLXEkBu+qTy3nxEDIn7kCiPE//MAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6KEzcQ4uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL0tBtv8AHk6T5r0AAAA=[0m[Pipeline] }
+[8mha:////4PAQ+E/usypWcKXJrdAlmzAMU/ooAxNCB1Hkl4YnbJQaAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRNBSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsTZPsPXymMMb0AAAA=[0m[Pipeline] // script
+[8mha:////4D4vpxhu5u8ONHDtDMYfxZ7pufrN+srw5KmSkf/HGdelAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRQqJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5NudINt/AHkw63u9AAAA[0m[Pipeline] }
+[8mha:////4LzjyZ+tSsEVA0GJd9nr30UzOAvX4r3/Cm5AzgLo+RalAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRElSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsTZPsP073CUL0AAAA=[0m[Pipeline] // stage
+[8mha:////4Lg94SqbklvKE5UmasmTrkOFs/cCrWa9UFJ0FAimdHnZAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjJKgQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHILYMxWb3OZZvBXXnAcEAAAA=[0m[Pipeline] stage
+[8mha:////4MQf37HbYLLWNoC9P2dWCkmMpF/ZdO1m/uP8uu6i5WMlAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/s94rDCAAAA[0m[Pipeline] { (Check Python)
+[8mha:////4OmBB2hy6MpYMFnPaCsjwbc/O6ILA5z5TnEBE18QC0foAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] script
+[8mha:////4DP5zpvYxlHmsEjGqPmu8KF3fIqFg2DNG3qR3KgihLq3AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] {
+[8mha:////4P9tI9RGIbUFrxzEY+9N0FBDTFk3IGdaJOFBfCh+/IiHAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiOhCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBr2eB0O+AAAA[0m[Pipeline] sh
++ python3 --version
+[8mha:////4BYP0vodEMwaZir3/0BMLKpO/dJ1LzjesZz2qg+AKXcYAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICVEgoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKHeHXPvt8AGtm4OQvgAAAA==[0m[Pipeline] echo
+Python Version: Python 3.11.2
+[8mha:////4E0H0hlZnXgaULYfakLiJ0IEr3VakK7DeUvzPGGAH+WLAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiUCEhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3da768AGz5oXivgAAAA==[0m[Pipeline] }
+[8mha:////4JRN4YlJuDCsxlKk8QzNqLIOT4zYbxoObHB7mxAp2L7VAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRaSgQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJyjrOtf+8AGMia70vgAAAA==[0m[Pipeline] // script
+[8mha:////4FpDQbFa7m5Oyh757APrZIqnGnH5CzbCo0jkGKPvKnSQAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQKJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw+/avVIvgAAAA==[0m[Pipeline] }
+[8mha:////4FJagaImtIet5ermcoJXtzabMhlYQILVKrjPc29p2kO+AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEFQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrdPtf28AG9C/nMvgAAAA==[0m[Pipeline] // stage
+[8mha:////4O7UofLW982zbJ7fMI56T900NEHNxzuBY4ws5CYQoaeFAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjIagQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHILYMxWb3OZZvmG8PMMEAAAA=[0m[Pipeline] stage
+[8mha:////4PLkdkW1N/BzBDxgIL1B2d7UBTb9bWGo0ek1DHSu/lZiAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQoIFMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfACW9ZT2wgAAAA==[0m[Pipeline] { (Check Ansible)
+[8mha:////4Kx/ExnQlI9EHduQAdCC7qZHTcaPey8c8K5iGn50VCXDAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYoABMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAyQCqkwgAAAA==[0m[Pipeline] script
+[8mha:////4FEHXRdYceWc9boKm+2JDaKpROref5dfcUU2oQ8u9kkSAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgEJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAnLfKUwgAAAA==[0m[Pipeline] {
+[8mha:////4Cb6Z+ysmgyIFEgiF9QVrzqbTXE9ZK/Shu7Bc42S6Qu8AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUYEQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNwcnzs++AAAA[0m[Pipeline] sh
++ ansible --version
++ grep ansible
+[8mha:////4OYkNgnxNJ5cFp18dIoH4kWGacX3Ic7PKrsZcCpkkJ1pAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoEFCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw959s4fvgAAAA==[0m[Pipeline] echo
+Ansible Version: ansible [core 2.14.3]
+  configured module search path = ['/root/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
+  ansible python module location = /usr/lib/python3/dist-packages/ansible
+  ansible collection location = /root/.ansible/collections:/usr/share/ansible/collections
+  executable location = /usr/bin/ansible
+[8mha:////4JbeSPn+TMEnrcOO+4kTvNihCu4yh4VgEDH3L/Umj4SgAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEFCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw/Evt9vvgAAAA==[0m[Pipeline] }
+[8mha:////4FEj6xTk5KouWUx59WyFt+4Qy3RvMZDbEwX77t5Kve30AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihYICUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkG5r3PVhw/70fR5vgAAAA==[0m[Pipeline] // script
+[8mha:////4LBn/QAAtuqevs0QbP78u/I7S6990uGVX0MKdERe4e4QAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRiESDqNJaaXiBiQ/jxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgRI80WIqdFd6NJi8xcRiujifR80V0TJEdihanljU2C7acEJYUJawkbJA6x9GSSbCVvXqoyiky1TmF/B0llFbf4QmFzOakQvrCHGB3G3Vk+nn+CmD2PkFZ17n2hw/IMq/FvgAAAA==[0m[Pipeline] }
+[8mha:////4PEPCycfNww8B+sC9+WcM08QgUW5qOiPv7tu18JOBvnJAAAApR+LCAAAAAAAAP9tjTsOwjAQRDdBFLSUHGIj8alQKlrLDScwiTFOrN1gOzgVJ+Jq3AGLSFRMMZo3zXu9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw/KU6NBvgAAAA==[0m[Pipeline] // stage
+[8mha:////4DETpUfXKwaTVvIWqQX8qZNCVKPFvHPN/7c2vAxB+0f0AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYRTABWiorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxJah2Ow+x/INLGR4lsEAAAA=[0m[Pipeline] stage
+[8mha:////4Nki9xyu01fjx4CK3qPtcTqay+rd8plct8gVVWBv4UFWAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD02yRsvCAAAA[0m[Pipeline] { (Check Collections Folder)
+[8mha:////4IYaaV/MVFuCy6YkKmVbdiXT2CyDWJqlcMuqaaomAnjUAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QIIBMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfADpB/iZwgAAAA==[0m[Pipeline] script
+[8mha:////4F6WvmNB7fuB+vpj48ZrGQpyiosMlOHB32st5OepIn7fAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0YAAJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAD8aiCpwgAAAA==[0m[Pipeline] {
+[8mha:////4GQmh70cezvVGMA4uL5HnWuRCFrs7u/L95/UlfwOgh2qAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJS0IAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN65NpgK+AAAA[0m[Pipeline] sh
++ ls /root/.ansible/collections/ansible_collections
+confluent
+confluent-7.6.0
+confluent-community-7.6.0.tar.gz
+confluent-platform-7.5.3.tar.gz
+confluent.platform-7.4.1.info
+confluent.platform-7.4.3.info
+confluent.platform-7.5.3.info
+[8mha:////4JHjP97QxliMGI5eLYqVbh8qZo0hPwn4GVj7IZC3UrvbAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBAUSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANEcrdIdd+O3wAYuAr1r4AAAA=[0m[Pipeline] echo
+Collections Folder is present.
+[8mha:////4Cx9+OKtuqwFiEl4kXnUQShA/6arcaaDghjOW+bCX2mEAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBAUSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wAC7Fjs74AAAA=[0m[Pipeline] }
+[8mha:////4KqvP1P4ckDDmZg9GxZm8+m0V9m8a8iIllAGSb60hWNeAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiARIFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wANN5Ipb4AAAA=[0m[Pipeline] // script
+[8mha:////4EHxlM8z6/Lt6uPw3R0fRqP3RFF1DQGHuzOqjkEEAAWCAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSBNEgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3da768AEHPRMZvgAAAA==[0m[Pipeline] }
+[8mha:////4DNRx5LvYUccIrsRo/d17RIPZiOePInuuTXPaJSjzMnTAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIpCBWiSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BGVd59ofPgVcH52+AAAA[0m[Pipeline] // stage
+[8mha:////4CYTmN74xX1DykIOeP1yTNciZj+eLEq0Mod6ne/T5FkxAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BKWgpeYTThApR0VpueIGJjXFi3QX7QlLxIr7GHzBEomKrnZVW83xBlSIcKDrRWew9ptaLIYwuNzFR7C+BJtHRWbSEiYIVyk6KjD0uqIgtLClKWElYW2wDJY+OYSM7fdd10OjqE8e87SWU3tzgAYXMZtaRvzBH2F5Hkwh/nr8CmAeGomEom93nWL0BolrfU8EAAAA=[0m[Pipeline] stage
+[8mha:////4JU9icrTM18/5pN7YXhuPTxZPRtMvYVSc1WwG5SPMUFjAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ARbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAUxleXrCAAAA[0m[Pipeline] { (Git Checkout)
+[8mha:////4GUNdEB/62vIp0i8G3GmoOoc9KYSCs3HiOfraueNgN2cAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QTAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD+jQxyjCAAAA[0m[Pipeline] script
+[8mha:////4P1Hvz+SvEVzv2qM6fsxNRpT/wquBuJILHO+6YTWTcZQAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QQIJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAD9vR8YwgAAAA==[0m[Pipeline] {
+[8mha:////4OJ5Y+Z6kYPYQoI1Dt3SVh8Q6DagA2zq9ziAxXFsS0q8AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSUIAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNzJSLA2+AAAA[0m[Pipeline] sh
++ git clone -c advice.detachedHead=false --depth 1 --branch master https://9da9-2406-7400-81-a9e1-10bf-56c4-6e5b-9e17.ngrok-free.app/shiva/New 165
+Cloning into '165'...
+[8mha:////4H8EBc2kWzXxPsoDkPw4RT2U2JE58V0MO+8rbnIN66m9AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCARISSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wA3f8Jkb4AAAA=[0m[Pipeline] }
+[8mha:////4Bqr8tW2EsOyKjTgS4iPfC1IskpSWfLmw4NMQbGGc+LTAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJBAFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wA6THqyr4AAAA=[0m[Pipeline] // script
+[8mha:////4PDVAiFi/8euYIVzYnNtObBqHQX7KcxrDflsEVuo1YnGAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIaBBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw/Rc3k7vgAAAA==[0m[Pipeline] }
+[8mha:////4IfBMyXIyGwAyQvWJcN9+Kbgs4PFtB20fpHLCnuTAvFtAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSQCpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BGW9z3WoP87xLGm+AAAA[0m[Pipeline] // stage
+[8mha:////4OARKP1sScdgGgZEwdcJh4+KNayyhYyy1GyntezmdngIAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BKWgpeYTThApR0VpueIGJjXFi3QX7QlLxIr7GHzBEomKrnZVW83xBlSIcKDrRWew9ptaLIYwuNzFR7C+BJtHRWbSEiYIVyk6KjD0uqIgtLClKWElYW2wDJY+OYSM7fdd10OjqE8e87SWU3tzgAYXMZtaRvzBH2F5Hkwh/nr8CmAeGomEod83nWL0Bs4L0PsEAAAA=[0m[Pipeline] stage
+[8mha:////4MnyABtjXgvzzBc7BdYQ/JdzneNogwYIQX1//SVUPrBwAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0oRNiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsP+Y+xAMIAAAA=[0m[Pipeline] { (Download collection)
+[8mha:////4J3iuR/GuNjaIQLMmz5lpI/jxQB8IRvm03NWvVNoJdB9AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KgtiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPlyKrR8IAAAA=[0m[Pipeline] dir
+Running in /var/jenkins_home/workspace/ansible-install/165
+[8mha:////4N+Gnq0QA9+3d3vpWvEp+ckW/zar2Rabaua2xjKr7iNVAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AgbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxATOXFRXCAAAA[0m[Pipeline] {
+[8mha:////4JoE1ekxdK9uNZZp2DXN4K6lCQ+0emCjWSiq+omrj8tiAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QiAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LDyb6zSXCAAAA[0m[Pipeline] script
+[8mha:////4CEa1x0f+NPGWb0LGEB9tUaCyAOkIhk84LRqQlAd5bZBAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QgIhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0XdaX3CAAAA[0m[Pipeline] {
+[8mha:////4A5XF0yCQR5WXJoZ2WG+rwtXF7wpopnZk+QU8J97QW3uAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCAxJCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw8/Nre1vgAAAA==[0m[Pipeline] echo
+location of collections in air-gapped mode
+[8mha:////4DtI+PQ40yVKsHLlxOI//67Lz2PA8Hp5qoHSqorRCinoAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCpAQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANEcrdIdd+O3wAfgesrL4AAAA=[0m[Pipeline] sh
++ echo /root/.ansible/collections/ansible_collections
+/root/.ansible/collections/ansible_collections
+[8mha:////4B48BvthV2zcqrY4ceWnywbOls0h+rcdOfULnz1G/xy3AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIYGEUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpGCKU+22u3eEDnEU1g74AAAA=[0m[Pipeline] }
+[8mha:////4MGTay2HH3flP7Y2NxwMgm7wR9QXUf4siNGR9N9l0IAjAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIBASSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wAr6ZuP74AAAA=[0m[Pipeline] // script
+[8mha:////4PV0j1y0O06KySbowj4fd5lXRGu2MRfmbGZAuQTbRqCxAAAApR+LCAAAAAAAAP9tjTsOwjAQRDdBFLSUHGLT8ClQKlrLDScwiTFOrN1gOzgVJ+Jq3AGLSFRMMZo3zXu9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw+Gi9SyvgAAAA==[0m[Pipeline] }
+[8mha:////4IT3DiGbs51QKsB4UFzQQ61cm89LtDzA+YzjAJoss6fuAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKpkgZR0VppeIGJjXFi3Tn2haTiRXyNP2ARiYotVjvbzOsN2xThRNGK3uDgMHVOBD/ZvMRMcbh5mkVPV9ERJvJGtGZuSZvzii2xgTVFCRsJO4Odp+TQMuxlrx6q8gptdeGYv6OE0ukRnlDIbGYV+QtLhMN90onw5/krgCUEhrKpc9XNB7Vojw6+AAAA[0m[Pipeline] // dir
+[8mha:////4BF+M61LyffpuilGI2pZNbhVP4blpphG4bGzTO4ojcTdAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKpkgZR0VppeIGJjXFi3Tn2haTiRXyNP2ARiYotVjvbzOsN2xThRNGK3uDgMHVOBD/ZvMRMcbh5mkVPV9ERJvJGtGZuSZvzii2xgTVFCRsJO4Odp+TQMuxlrx6q8gptdeGYv6OE0ukRnlDIbGYV+QtLhMN90onw5/krgCUEhrJpctX1B6FLEhG+AAAA[0m[Pipeline] }
+[8mha:////4MLx00k/UD49LeGAPkToZk9t6XtCqdImMf5rmx0e54RwAAAApR+LCAAAAAAAAP9tjTsOwjAQRDdBFLSUHGLT8ClQKlrLDScwiTFOrN1gOzgVJ+Jq3AGLSFRMMZo3zXu9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuD7l22w+SqEmtvgAAAA==[0m[Pipeline] // stage
+[8mha:////4JS93rn8KRvRqt6X0FvKKTJ/ZGfiL/Zyb//5solMyCtXAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYTTIISEqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFhKLa7z7F8A1VY3njBAAAA[0m[Pipeline] stage
+[8mha:////4J3EoupzLf/DmZrY196zz0qRUWPlBEVhNKyY6iLRO/B9AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QyDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASgVHzvCAAAA[0m[Pipeline] { (Download Packages)
+[8mha:////4BuivThLIkAiC3oUhjXBmStvGkWnoPvzIq72VUKzA2PMAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUCYRQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3+2y7zedZvQGUkOl7wgAAAA==[0m[Pipeline] script
+[8mha:////4N5RIqkNQ2PyDKjJXj/b4UMzjySOHY9HVdhh/tIJ4Q9fAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUJgbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAdsxXVDCAAAA[0m[Pipeline] {
+[8mha:////4NH0bmtymoZz/lyr4KyCSrCJ9OhpmIeZ4Lxug4vTsUO8AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUsDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD7WcRxfCAAAA[0m[Pipeline] dir
+Running in /var/jenkins_home/workspace/ansible-install
+[8mha:////4H0Q1M0tYTyH2mIjxjbicHN1ywZdVcpq2gXXKZ+fiZfZAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUgoEBMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfAARKflFwgAAAA==[0m[Pipeline] {
+[8mha:////4EYgis60CrvHxTGdRHgq1mQ7yJ3RyFzVSGh8YcG7Mh3+AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgESBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK//dQuvAE/wUw2vgAAAA==[0m[Pipeline] sh
++ pip install kafka-python-2.0.2.tar.gz --break-system-packages
+Processing ./kafka-python-2.0.2.tar.gz
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Building wheels for collected packages: kafka-python
+  Building wheel for kafka-python (setup.py): started
+  Building wheel for kafka-python (setup.py): finished with status 'done'
+  Created wheel for kafka-python: filename=kafka_python-2.0.2-py2.py3-none-any.whl size=246500 sha256=5d6328a96e1e07c908ec623385ef38656a4373d5950e2b100c4d8faed61da789
+  Stored in directory: /root/.cache/pip/wheels/45/16/c7/b34765d57a7599ac74b4316b7c90af2dc841f4499d5a4a0023
+Successfully built kafka-python
+Installing collected packages: kafka-python
+  Attempting uninstall: kafka-python
+    Found existing installation: kafka-python 2.0.2
+    Uninstalling kafka-python-2.0.2:
+      Successfully uninstalled kafka-python-2.0.2
+Successfully installed kafka-python-2.0.2
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+[8mha:////4DeVbnL730ngepuZG8h4rWMkXazGLNzUguJ7hlQe/JEsAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIESBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK//dQuvAF+8FcvvgAAAA==[0m[Pipeline] sh
++ pip install confluent-kafka-2.3.0.tar.gz --break-system-packages
+Processing ./confluent-kafka-2.3.0.tar.gz
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Building wheels for collected packages: confluent-kafka
+  Building wheel for confluent-kafka (setup.py): started
+  Building wheel for confluent-kafka (setup.py): finished with status 'error'
+  error: subprocess-exited-with-error
+  
+  × python setup.py bdist_wheel did not run successfully.
+  │ exit code: 1
+  ╰─> [554 lines of output]
+      running bdist_wheel
+      running build
+      running build_py
+      creating build
+      creating build/lib.linux-x86_64-cpython-311
+      creating build/lib.linux-x86_64-cpython-311/confluent_kafka
+      copying src/confluent_kafka/deserializing_consumer.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka
+      copying src/confluent_kafka/serializing_producer.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka
+      copying src/confluent_kafka/__init__.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka
+      copying src/confluent_kafka/error.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka
+      creating build/lib.linux-x86_64-cpython-311/confluent_kafka/avro
+      copying src/confluent_kafka/avro/cached_schema_registry_client.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka/avro
+      copying src/confluent_kafka/avro/load.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka/avro
+      copying src/confluent_kafka/avro/__init__.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka/avro
+      copying src/confluent_kafka/avro/error.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka/avro
+      creating build/lib.linux-x86_64-cpython-311/confluent_kafka/_model
+      copying src/confluent_kafka/_model/__init__.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka/_model
+      creating build/lib.linux-x86_64-cpython-311/confluent_kafka/serialization
+      copying src/confluent_kafka/serialization/__init__.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka/serialization
+      creating build/lib.linux-x86_64-cpython-311/confluent_kafka/admin
+      copying src/confluent_kafka/admin/_resource.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka/admin
+      copying src/confluent_kafka/admin/_scram.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka/admin
+      copying src/confluent_kafka/admin/_metadata.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka/admin
+      copying src/confluent_kafka/admin/_topic.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka/admin
+      copying src/confluent_kafka/admin/_group.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka/admin
+      copying src/confluent_kafka/admin/_config.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka/admin
+      copying src/confluent_kafka/admin/_cluster.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka/admin
+      copying src/confluent_kafka/admin/_listoffsets.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka/admin
+      copying src/confluent_kafka/admin/_acl.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka/admin
+      copying src/confluent_kafka/admin/__init__.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka/admin
+      creating build/lib.linux-x86_64-cpython-311/confluent_kafka/kafkatest
+      copying src/confluent_kafka/kafkatest/verifiable_producer.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka/kafkatest
+      copying src/confluent_kafka/kafkatest/verifiable_consumer.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka/kafkatest
+      copying src/confluent_kafka/kafkatest/verifiable_client.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka/kafkatest
+      copying src/confluent_kafka/kafkatest/__init__.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka/kafkatest
+      creating build/lib.linux-x86_64-cpython-311/confluent_kafka/schema_registry
+      copying src/confluent_kafka/schema_registry/avro.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka/schema_registry
+      copying src/confluent_kafka/schema_registry/json_schema.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka/schema_registry
+      copying src/confluent_kafka/schema_registry/schema_registry_client.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka/schema_registry
+      copying src/confluent_kafka/schema_registry/protobuf.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka/schema_registry
+      copying src/confluent_kafka/schema_registry/__init__.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka/schema_registry
+      copying src/confluent_kafka/schema_registry/error.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka/schema_registry
+      creating build/lib.linux-x86_64-cpython-311/confluent_kafka/_util
+      copying src/confluent_kafka/_util/validation_util.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka/_util
+      copying src/confluent_kafka/_util/__init__.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka/_util
+      copying src/confluent_kafka/_util/conversion_util.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka/_util
+      creating build/lib.linux-x86_64-cpython-311/confluent_kafka/avro/serializer
+      copying src/confluent_kafka/avro/serializer/message_serializer.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka/avro/serializer
+      copying src/confluent_kafka/avro/serializer/__init__.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka/avro/serializer
+      running build_ext
+      building 'confluent_kafka.cimpl' extension
+      creating build/temp.linux-x86_64-cpython-311
+      creating build/temp.linux-x86_64-cpython-311/tmp
+      creating build/temp.linux-x86_64-cpython-311/tmp/pip-req-build-3xr0vdb2
+      creating build/temp.linux-x86_64-cpython-311/tmp/pip-req-build-3xr0vdb2/src
+      creating build/temp.linux-x86_64-cpython-311/tmp/pip-req-build-3xr0vdb2/src/confluent_kafka
+      creating build/temp.linux-x86_64-cpython-311/tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src
+      x86_64-linux-gnu-gcc -Wsign-compare -DNDEBUG -g -fwrapv -O2 -Wall -g -fstack-protector-strong -Wformat -Werror=format-security -g -fwrapv -O2 -fPIC -I/usr/include/python3.11 -c /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c -o build/temp.linux-x86_64-cpython-311/tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.o
+      In file included from /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:17:
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/confluent_kafka.h:66:2: error: #error "confluent-kafka-python requires librdkafka v2.3.0 or later. Install the latest version of librdkafka from the Confluent repositories, see http://docs.confluent.io/current/installation.html"
+         66 | #error "confluent-kafka-python requires librdkafka v2.3.0 or later. Install the latest version of librdkafka from the Confluent repositories, see http://docs.confluent.io/current/installation.html"
+            |  ^~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/confluent_kafka.h:388:30: error: unknown type name ‘rd_kafka_Uuid_t’
+        388 | PyObject *c_Uuid_to_py(const rd_kafka_Uuid_t *c_uuid);
+            |                              ^~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/confluent_kafka.h:500:17: error: unknown type name ‘rd_kafka_Uuid_t’
+        500 |                 rd_kafka_Uuid_t *cUuid;
+            |                 ^~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:82:9: error: unknown type name ‘rd_kafka_IsolationLevel_t’
+         82 |         rd_kafka_IsolationLevel_t isolation_level;
+            |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c: In function ‘Admin_options_to_c’:
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:168:24: warning: implicit declaration of function ‘rd_kafka_AdminOptions_set_include_authorized_operations’ [-Wimplicit-function-declaration]
+        168 |             (err_obj = rd_kafka_AdminOptions_set_include_authorized_operations(
+            |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:168:22: warning: assignment to ‘rd_kafka_error_t *’ {aka ‘struct rd_kafka_error_s *’} from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+        168 |             (err_obj = rd_kafka_AdminOptions_set_include_authorized_operations(
+            |                      ^
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:175:25: warning: implicit declaration of function ‘rd_kafka_AdminOptions_set_isolation_level’; did you mean ‘rd_kafka_AdminOptions_set_operation_timeout’? [-Wimplicit-function-declaration]
+        175 |              (err_obj = rd_kafka_AdminOptions_set_isolation_level(
+            |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                         rd_kafka_AdminOptions_set_operation_timeout
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:175:23: warning: assignment to ‘rd_kafka_error_t *’ {aka ‘struct rd_kafka_error_s *’} from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+        175 |              (err_obj = rd_kafka_AdminOptions_set_isolation_level(
+            |                       ^
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c: In function ‘Admin_incremental_config_to_c’:
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:405:52: error: ‘RD_KAFKA_ALTER_CONFIG_OP_TYPE_DELETE’ undeclared (first use in this function)
+        405 |                 if (incremental_operation_value != RD_KAFKA_ALTER_CONFIG_OP_TYPE_DELETE &&
+            |                                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:405:52: note: each undeclared identifier is reported only once for each function it appears in
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:409:25: warning: implicit declaration of function ‘rd_kafka_ConfigResource_add_incremental_config’; did you mean ‘rd_kafka_ConfigResource_set_config’? [-Wimplicit-function-declaration]
+        409 |                 error = rd_kafka_ConfigResource_add_incremental_config(
+            |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                         rd_kafka_ConfigResource_set_config
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:412:26: error: ‘rd_kafka_AlterConfigOpType_t’ undeclared (first use in this function); did you mean ‘rd_kafka_AlterConfigs’?
+        412 |                         (rd_kafka_AlterConfigOpType_t) incremental_operation_value,
+            |                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                          rd_kafka_AlterConfigs
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:412:55: error: expected ‘)’ before ‘incremental_operation_value’
+        412 |                         (rd_kafka_AlterConfigOpType_t) incremental_operation_value,
+            |                                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                                                       )
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:409:71: note: to match this ‘(’
+        409 |                 error = rd_kafka_ConfigResource_add_incremental_config(
+            |                                                                       ^
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c: In function ‘Admin_incremental_alter_configs’:
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:1061:46: error: ‘RD_KAFKA_ADMIN_OP_INCREMENTALALTERCONFIGS’ undeclared (first use in this function); did you mean ‘RD_KAFKA_ADMIN_OP_ALTERCONFIGS’?
+       1061 |         c_options = Admin_options_to_c(self, RD_KAFKA_ADMIN_OP_INCREMENTALALTERCONFIGS,
+            |                                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                                              RD_KAFKA_ADMIN_OP_ALTERCONFIGS
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:1160:9: warning: implicit declaration of function ‘rd_kafka_IncrementalAlterConfigs’ [-Wimplicit-function-declaration]
+       1160 |         rd_kafka_IncrementalAlterConfigs(self->rk, c_objs, cnt, c_options, rkqu);
+            |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c: In function ‘Admin_describe_user_scram_credentials’:
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:1830:46: error: ‘RD_KAFKA_ADMIN_OP_DESCRIBEUSERSCRAMCREDENTIALS’ undeclared (first use in this function); did you mean ‘RD_KAFKA_ADMIN_OP_DESCRIBECONSUMERGROUPS’?
+       1830 |         c_options = Admin_options_to_c(self, RD_KAFKA_ADMIN_OP_DESCRIBEUSERSCRAMCREDENTIALS,
+            |                                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                                              RD_KAFKA_ADMIN_OP_DESCRIBECONSUMERGROUPS
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:1879:9: warning: implicit declaration of function ‘rd_kafka_DescribeUserScramCredentials’; did you mean ‘Admin_describe_user_scram_credentials’? [-Wimplicit-function-declaration]
+       1879 |         rd_kafka_DescribeUserScramCredentials(self->rk, c_users, user_cnt, c_options, rkqu);
+            |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |         Admin_describe_user_scram_credentials
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c: In function ‘Admin_alter_user_scram_credentials’:
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:1915:9: error: unknown type name ‘rd_kafka_UserScramCredentialAlteration_t’
+       1915 |         rd_kafka_UserScramCredentialAlteration_t **c_alterations = NULL;
+            |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:1994:46: error: ‘RD_KAFKA_ADMIN_OP_ALTERUSERSCRAMCREDENTIALS’ undeclared (first use in this function)
+       1994 |         c_options = Admin_options_to_c(self, RD_KAFKA_ADMIN_OP_ALTERUSERSCRAMCREDENTIALS,
+            |                                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:2005:39: error: ‘rd_kafka_UserScramCredentialAlteration_t’ undeclared (first use in this function); did you mean ‘UserScramCredentialAlteration_type’?
+       2005 |         c_alterations = malloc(sizeof(rd_kafka_UserScramCredentialAlteration_t *) * c_alteration_cnt);
+            |                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                                       UserScramCredentialAlteration_type
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:2005:81: error: expected expression before ‘)’ token
+       2005 |         c_alterations = malloc(sizeof(rd_kafka_UserScramCredentialAlteration_t *) * c_alteration_cnt);
+            |                                                                                 ^
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:2082:44: warning: implicit declaration of function ‘rd_kafka_UserScramCredentialUpsertion_new’ [-Wimplicit-function-declaration]
+       2082 |                         c_alterations[i] = rd_kafka_UserScramCredentialUpsertion_new(c_user,
+            |                                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:2083:34: error: ‘rd_kafka_ScramMechanism_t’ undeclared (first use in this function)
+       2083 |                                 (rd_kafka_ScramMechanism_t) c_mechanism, iterations,
+            |                                  ^~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:2083:60: error: expected ‘)’ before ‘c_mechanism’
+       2083 |                                 (rd_kafka_ScramMechanism_t) c_mechanism, iterations,
+            |                                                            ^~~~~~~~~~~~
+            |                                                            )
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:2082:85: note: to match this ‘(’
+       2082 |                         c_alterations[i] = rd_kafka_UserScramCredentialUpsertion_new(c_user,
+            |                                                                                     ^
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:2110:44: warning: implicit declaration of function ‘rd_kafka_UserScramCredentialDeletion_new’ [-Wimplicit-function-declaration]
+       2110 |                         c_alterations[i] = rd_kafka_UserScramCredentialDeletion_new(c_user,(rd_kafka_ScramMechanism_t)c_mechanism);
+            |                                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:2110:119: error: expected ‘)’ before ‘c_mechanism’
+       2110 |                         c_alterations[i] = rd_kafka_UserScramCredentialDeletion_new(c_user,(rd_kafka_ScramMechanism_t)c_mechanism);
+            |                                                                                    ~                                  ^~~~~~~~~~~
+            |                                                                                                                       )
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:2129:9: warning: implicit declaration of function ‘rd_kafka_AlterUserScramCredentials’ [-Wimplicit-function-declaration]
+       2129 |         rd_kafka_AlterUserScramCredentials(self->rk, c_alterations, c_alteration_cnt, c_options, rkqu);
+            |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:2133:17: warning: implicit declaration of function ‘rd_kafka_UserScramCredentialAlteration_destroy_array’ [-Wimplicit-function-declaration]
+       2133 |                 rd_kafka_UserScramCredentialAlteration_destroy_array(c_alterations, c_alteration_cnt);
+            |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c: In function ‘Admin_describe_topics’:
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:2304:9: error: unknown type name ‘rd_kafka_TopicCollection_t’; did you mean ‘rd_kafka_topic_partition_t’?
+       2304 |         rd_kafka_TopicCollection_t *c_topic_collection = NULL;
+            |         ^~~~~~~~~~~~~~~~~~~~~~~~~~
+            |         rd_kafka_topic_partition_t
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:2366:30: warning: implicit declaration of function ‘rd_kafka_TopicCollection_of_topic_names’ [-Wimplicit-function-declaration]
+       2366 |         c_topic_collection = rd_kafka_TopicCollection_of_topic_names(c_topics, topics_cnt);
+            |                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:2366:28: warning: assignment to ‘int *’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+       2366 |         c_topic_collection = rd_kafka_TopicCollection_of_topic_names(c_topics, topics_cnt);
+            |                            ^
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:2367:46: error: ‘RD_KAFKA_ADMIN_OP_DESCRIBETOPICS’ undeclared (first use in this function); did you mean ‘RD_KAFKA_ADMIN_OP_DESCRIBECONFIGS’?
+       2367 |         c_options = Admin_options_to_c(self, RD_KAFKA_ADMIN_OP_DESCRIBETOPICS,
+            |                                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                                              RD_KAFKA_ADMIN_OP_DESCRIBECONFIGS
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:2389:9: warning: implicit declaration of function ‘rd_kafka_DescribeTopics’; did you mean ‘rd_kafka_DescribeConfigs’? [-Wimplicit-function-declaration]
+       2389 |         rd_kafka_DescribeTopics(self->rk, c_topic_collection, c_options, rkqu);
+            |         ^~~~~~~~~~~~~~~~~~~~~~~
+            |         rd_kafka_DescribeConfigs
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:2396:17: warning: implicit declaration of function ‘rd_kafka_TopicCollection_destroy’; did you mean ‘rd_kafka_topic_partition_destroy’? [-Wimplicit-function-declaration]
+       2396 |                 rd_kafka_TopicCollection_destroy(c_topic_collection);
+            |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                 rd_kafka_topic_partition_destroy
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c: In function ‘Admin_describe_cluster’:
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:2454:46: error: ‘RD_KAFKA_ADMIN_OP_DESCRIBECLUSTER’ undeclared (first use in this function); did you mean ‘RD_KAFKA_ADMIN_OP_DESCRIBEACLS’?
+       2454 |         c_options = Admin_options_to_c(self, RD_KAFKA_ADMIN_OP_DESCRIBECLUSTER,
+            |                                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                                              RD_KAFKA_ADMIN_OP_DESCRIBEACLS
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:2476:9: warning: implicit declaration of function ‘rd_kafka_DescribeCluster’; did you mean ‘rd_kafka_DescribeAcls’? [-Wimplicit-function-declaration]
+       2476 |         rd_kafka_DescribeCluster(self->rk, c_options, rkqu);
+            |         ^~~~~~~~~~~~~~~~~~~~~~~~
+            |         rd_kafka_DescribeAcls
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c: In function ‘Admin_list_offsets’:
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:2912:46: error: ‘RD_KAFKA_ADMIN_OP_LISTOFFSETS’ undeclared (first use in this function); did you mean ‘RD_KAFKA_ADMIN_OP_ALTERCONFIGS’?
+       2912 |         c_options = Admin_options_to_c(self, RD_KAFKA_ADMIN_OP_LISTOFFSETS,
+            |                                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                                              RD_KAFKA_ADMIN_OP_ALTERCONFIGS
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:2941:9: warning: implicit declaration of function ‘rd_kafka_ListOffsets’ [-Wimplicit-function-declaration]
+       2941 |         rd_kafka_ListOffsets(self->rk, c_topic_partitions, c_options, rkqu);
+            |         ^~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c: In function ‘Admin_c_ConsumerGroupDescription_to_py’:
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:3729:35: warning: implicit declaration of function ‘rd_kafka_ConsumerGroupDescription_authorized_operations’; did you mean ‘rd_kafka_ConsumerGroupDescription_coordinator’? [-Wimplicit-function-declaration]
+       3729 |         c_authorized_operations = rd_kafka_ConsumerGroupDescription_authorized_operations(c_consumer_group_description, &c_authorized_operations_cnt);
+            |                                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                                   rd_kafka_ConsumerGroupDescription_coordinator
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:3729:33: warning: assignment to ‘const rd_kafka_AclOperation_t *’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+       3729 |         c_authorized_operations = rd_kafka_ConsumerGroupDescription_authorized_operations(c_consumer_group_description, &c_authorized_operations_cnt);
+            |                                 ^
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c: At top level:
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:3815:17: error: unknown type name ‘rd_kafka_TopicPartitionInfo_t’
+       3815 |           const rd_kafka_TopicPartitionInfo_t *c_topic_partition_info){
+            |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c: In function ‘Admin_c_TopicPartitionInfo_to_py’:
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:3838:17: warning: implicit declaration of function ‘rd_kafka_TopicPartitionInfo_partition’; did you mean ‘rd_kafka_topic_partition_list_find’? [-Wimplicit-function-declaration]
+       3838 |                 rd_kafka_TopicPartitionInfo_partition(c_topic_partition_info));
+            |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                 rd_kafka_topic_partition_list_find
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:3840:20: warning: implicit declaration of function ‘rd_kafka_TopicPartitionInfo_leader’; did you mean ‘rd_kafka_topic_partition_available’? [-Wimplicit-function-declaration]
+       3840 |         c_leader = rd_kafka_TopicPartitionInfo_leader(c_topic_partition_info);
+            |                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                    rd_kafka_topic_partition_available
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:3840:18: warning: assignment to ‘const rd_kafka_Node_t *’ {aka ‘const struct rd_kafka_Node_s *’} from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+       3840 |         c_leader = rd_kafka_TopicPartitionInfo_leader(c_topic_partition_info);
+            |                  ^
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:3847:22: warning: implicit declaration of function ‘rd_kafka_TopicPartitionInfo_replicas’ [-Wimplicit-function-declaration]
+       3847 |         c_replicas = rd_kafka_TopicPartitionInfo_replicas(c_topic_partition_info, &c_replicas_cnt);
+            |                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:3847:20: warning: assignment to ‘const rd_kafka_Node_t **’ {aka ‘const struct rd_kafka_Node_s **’} from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+       3847 |         c_replicas = rd_kafka_TopicPartitionInfo_replicas(c_topic_partition_info, &c_replicas_cnt);
+            |                    ^
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:3855:18: warning: implicit declaration of function ‘rd_kafka_TopicPartitionInfo_isr’; did you mean ‘rd_kafka_topic_partition_list_sort’? [-Wimplicit-function-declaration]
+       3855 |         c_isrs = rd_kafka_TopicPartitionInfo_isr(c_topic_partition_info, &c_isrs_cnt);
+            |                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                  rd_kafka_topic_partition_list_sort
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:3855:16: warning: assignment to ‘const rd_kafka_Node_t **’ {aka ‘const struct rd_kafka_Node_s **’} from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+       3855 |         c_isrs = rd_kafka_TopicPartitionInfo_isr(c_topic_partition_info, &c_isrs_cnt);
+            |                ^
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c: At top level:
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:3886:11: error: unknown type name ‘rd_kafka_TopicDescription_t’
+       3886 |     const rd_kafka_TopicDescription_t *c_topic_description) {
+            |           ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c: In function ‘Admin_c_TopicPartitionInfos_to_py_from_TopicDescription’:
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:3890:15: error: unknown type name ‘rd_kafka_TopicPartitionInfo_t’
+       3890 |         const rd_kafka_TopicPartitionInfo_t **c_partitions = NULL;
+            |               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:3892:24: warning: implicit declaration of function ‘rd_kafka_TopicDescription_partitions’ [-Wimplicit-function-declaration]
+       3892 |         c_partitions = rd_kafka_TopicDescription_partitions(c_topic_description, &c_partitions_cnt);
+            |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:3892:22: warning: assignment to ‘const int **’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+       3892 |         c_partitions = rd_kafka_TopicDescription_partitions(c_topic_description, &c_partitions_cnt);
+            |                      ^
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c: At top level:
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:3910:15: error: unknown type name ‘rd_kafka_TopicDescription_t’
+       3910 |         const rd_kafka_TopicDescription_t *c_topic_description){
+            |               ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c: In function ‘Admin_c_TopicDescription_to_py’:
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:3920:15: error: unknown type name ‘rd_kafka_Uuid_t’
+       3920 |         const rd_kafka_Uuid_t *c_topic_id = NULL;
+            |               ^~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:3933:30: warning: implicit declaration of function ‘rd_kafka_TopicDescription_name’; did you mean ‘rd_kafka_topic_result_name’? [-Wimplicit-function-declaration]
+       3933 |                              rd_kafka_TopicDescription_name(c_topic_description));
+            |                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                              rd_kafka_topic_result_name
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:3933:30: warning: passing argument 3 of ‘cfl_PyDict_SetString’ makes pointer from integer without a cast [-Wint-conversion]
+       3933 |                              rd_kafka_TopicDescription_name(c_topic_description));
+            |                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                              |
+            |                              int
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/confluent_kafka.h:328:74: note: expected ‘const char *’ but argument is of type ‘int’
+        328 | void cfl_PyDict_SetString (PyObject *dict, const char *name, const char *val);
+            |                                                              ~~~~~~~~~~~~^~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:3935:22: warning: implicit declaration of function ‘rd_kafka_TopicDescription_topic_id’; did you mean ‘Admin_c_TopicDescription_to_py’? [-Wimplicit-function-declaration]
+       3935 |         c_topic_id = rd_kafka_TopicDescription_topic_id(c_topic_description);
+            |                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                      Admin_c_TopicDescription_to_py
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:3935:20: warning: assignment to ‘const int *’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+       3935 |         c_topic_id = rd_kafka_TopicDescription_topic_id(c_topic_description);
+            |                    ^
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:3940:39: warning: implicit declaration of function ‘rd_kafka_TopicDescription_is_internal’ [-Wimplicit-function-declaration]
+       3940 |         is_internal = PyBool_FromLong(rd_kafka_TopicDescription_is_internal(c_topic_description));
+            |                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:3950:35: warning: implicit declaration of function ‘rd_kafka_TopicDescription_authorized_operations’ [-Wimplicit-function-declaration]
+       3950 |         c_authorized_operations = rd_kafka_TopicDescription_authorized_operations(c_topic_description, &c_authorized_operations_cnt);
+            |                                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:3950:33: warning: assignment to ‘const rd_kafka_AclOperation_t *’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+       3950 |         c_authorized_operations = rd_kafka_TopicDescription_authorized_operations(c_topic_description, &c_authorized_operations_cnt);
+            |                                 ^
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c: At top level:
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:3981:11: error: unknown type name ‘rd_kafka_TopicDescription_t’
+       3981 |     const rd_kafka_TopicDescription_t **c_result_responses,
+            |           ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c: In function ‘Admin_c_DescribeTopicsResults_to_py’:
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:3989:29: warning: implicit declaration of function ‘rd_kafka_TopicDescription_error’; did you mean ‘rd_kafka_topic_result_error’? [-Wimplicit-function-declaration]
+       3989 |                             rd_kafka_TopicDescription_error(c_result_responses[i]);
+            |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                             rd_kafka_topic_result_error
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:3989:29: warning: initialization of ‘const rd_kafka_error_t *’ {aka ‘const struct rd_kafka_error_s *’} from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c: At top level:
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4013:47: error: unknown type name ‘rd_kafka_ScramMechanism_t’
+       4013 | static PyObject *Admin_c_ScramMechanism_to_py(rd_kafka_ScramMechanism_t mechanism){
+            |                                               ^~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4029:58: error: unknown type name ‘rd_kafka_ScramCredentialInfo_t’
+       4029 | static PyObject *Admin_c_ScramCredentialInfo_to_py(const rd_kafka_ScramCredentialInfo_t *scram_credential_info){
+            |                                                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c: In function ‘Admin_c_ScramCredentialInfo_to_py’:
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4035:9: error: unknown type name ‘rd_kafka_ScramMechanism_t’
+       4035 |         rd_kafka_ScramMechanism_t c_mechanism;
+            |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4039:23: warning: implicit declaration of function ‘rd_kafka_ScramCredentialInfo_mechanism’ [-Wimplicit-function-declaration]
+       4039 |         c_mechanism = rd_kafka_ScramCredentialInfo_mechanism(scram_credential_info);
+            |                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4040:27: warning: implicit declaration of function ‘Admin_c_ScramMechanism_to_py’ [-Wimplicit-function-declaration]
+       4040 |         scram_mechanism = Admin_c_ScramMechanism_to_py(c_mechanism);
+            |                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4040:25: warning: assignment to ‘PyObject *’ {aka ‘struct _object *’} from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+       4040 |         scram_mechanism = Admin_c_ScramMechanism_to_py(c_mechanism);
+            |                         ^
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4044:22: warning: implicit declaration of function ‘rd_kafka_ScramCredentialInfo_iterations’ [-Wimplicit-function-declaration]
+       4044 |         iterations = rd_kafka_ScramCredentialInfo_iterations(scram_credential_info);
+            |                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c: At top level:
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4056:70: error: unknown type name ‘rd_kafka_UserScramCredentialsDescription_t’
+       4056 | static PyObject *Admin_c_UserScramCredentialsDescription_to_py(const rd_kafka_UserScramCredentialsDescription_t *description){
+            |                                                                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c: In function ‘Admin_c_UserScramCredentialsDescription_to_py’:
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4065:46: warning: implicit declaration of function ‘rd_kafka_UserScramCredentialsDescription_user’; did you mean ‘Admin_c_UserScramCredentialsDescription_to_py’? [-Wimplicit-function-declaration]
+       4065 |         cfl_PyDict_SetString(kwargs, "user", rd_kafka_UserScramCredentialsDescription_user(description));
+            |                                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                                              Admin_c_UserScramCredentialsDescription_to_py
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4065:46: warning: passing argument 3 of ‘cfl_PyDict_SetString’ makes pointer from integer without a cast [-Wint-conversion]
+       4065 |         cfl_PyDict_SetString(kwargs, "user", rd_kafka_UserScramCredentialsDescription_user(description));
+            |                                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                                              |
+            |                                              int
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/confluent_kafka.h:328:74: note: expected ‘const char *’ but argument is of type ‘int’
+        328 | void cfl_PyDict_SetString (PyObject *dict, const char *name, const char *val);
+            |                                                              ~~~~~~~~~~~~^~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4067:37: warning: implicit declaration of function ‘rd_kafka_UserScramCredentialsDescription_scramcredentialinfo_count’ [-Wimplicit-function-declaration]
+       4067 |         scram_credential_info_cnt = rd_kafka_UserScramCredentialsDescription_scramcredentialinfo_count(description);
+            |                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4070:23: error: unknown type name ‘rd_kafka_ScramCredentialInfo_t’
+       4070 |                 const rd_kafka_ScramCredentialInfo_t *c_scram_credential_info =
+            |                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4071:25: warning: implicit declaration of function ‘rd_kafka_UserScramCredentialsDescription_scramcredentialinfo’ [-Wimplicit-function-declaration]
+       4071 |                         rd_kafka_UserScramCredentialsDescription_scramcredentialinfo(description,i);
+            |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4071:25: warning: initialization of ‘const int *’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c: At top level:
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4089:15: error: unknown type name ‘rd_kafka_UserScramCredentialsDescription_t’
+       4089 |         const rd_kafka_UserScramCredentialsDescription_t **c_descriptions,
+            |               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c: In function ‘Admin_c_UserScramCredentialsDescriptions_to_py’:
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4100:23: error: unknown type name ‘rd_kafka_UserScramCredentialsDescription_t’
+       4100 |                 const rd_kafka_UserScramCredentialsDescription_t *c_description = c_descriptions[i];
+            |                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4101:28: warning: assignment to ‘const char *’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+       4101 |                 c_username = rd_kafka_UserScramCredentialsDescription_user(c_description);
+            |                            ^
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4102:27: warning: implicit declaration of function ‘rd_kafka_UserScramCredentialsDescription_error’; did you mean ‘Admin_c_UserScramCredentialsDescription_to_py’? [-Wimplicit-function-declaration]
+       4102 |                 c_error = rd_kafka_UserScramCredentialsDescription_error(c_description);
+            |                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                           Admin_c_UserScramCredentialsDescription_to_py
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4102:25: warning: assignment to ‘const rd_kafka_error_t *’ {aka ‘const struct rd_kafka_error_s *’} from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+       4102 |                 c_error = rd_kafka_UserScramCredentialsDescription_error(c_description);
+            |                         ^
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c: At top level:
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4120:15: error: unknown type name ‘rd_kafka_AlterUserScramCredentials_result_response_t’
+       4120 |         const rd_kafka_AlterUserScramCredentials_result_response_t **c_responses,
+            |               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c: In function ‘Admin_c_AlterUserScramCredentialsResultResponses_to_py’:
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4127:23: error: unknown type name ‘rd_kafka_AlterUserScramCredentials_result_response_t’
+       4127 |                 const rd_kafka_AlterUserScramCredentials_result_response_t *c_response = c_responses[i];
+            |                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4128:51: warning: implicit declaration of function ‘rd_kafka_AlterUserScramCredentials_result_response_error’; did you mean ‘Admin_c_AlterUserScramCredentialsResultResponses_to_py’? [-Wimplicit-function-declaration]
+       4128 |                 const rd_kafka_error_t *c_error = rd_kafka_AlterUserScramCredentials_result_response_error(c_response);
+            |                                                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                                                   Admin_c_AlterUserScramCredentialsResultResponses_to_py
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4128:51: warning: initialization of ‘const rd_kafka_error_t *’ {aka ‘const struct rd_kafka_error_s *’} from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4129:42: warning: implicit declaration of function ‘rd_kafka_AlterUserScramCredentials_result_response_user’; did you mean ‘Admin_c_AlterUserScramCredentialsResultResponses_to_py’? [-Wimplicit-function-declaration]
+       4129 |                 const char *c_username = rd_kafka_AlterUserScramCredentials_result_response_user(c_response);
+            |                                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                                          Admin_c_AlterUserScramCredentialsResultResponses_to_py
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4129:42: warning: initialization of ‘const char *’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c: At top level:
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4140:11: error: unknown type name ‘rd_kafka_DescribeCluster_result_t’
+       4140 |     const rd_kafka_DescribeCluster_result_t *c_describe_cluster_result) {
+            |           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c: In function ‘Admin_c_DescribeClusterResult_to_py’:
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4163:24: warning: implicit declaration of function ‘rd_kafka_DescribeCluster_result_cluster_id’; did you mean ‘rd_kafka_DescribeAcls_result_acls’? [-Wimplicit-function-declaration]
+       4163 |         c_cluster_id = rd_kafka_DescribeCluster_result_cluster_id(c_describe_cluster_result);
+            |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                        rd_kafka_DescribeAcls_result_acls
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4163:22: warning: assignment to ‘const char *’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+       4163 |         c_cluster_id = rd_kafka_DescribeCluster_result_cluster_id(c_describe_cluster_result);
+            |                      ^
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4167:24: warning: implicit declaration of function ‘rd_kafka_DescribeCluster_result_controller’; did you mean ‘rd_kafka_DescribeAcls_result_acls’? [-Wimplicit-function-declaration]
+       4167 |         c_controller = rd_kafka_DescribeCluster_result_controller(c_describe_cluster_result);
+            |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                        rd_kafka_DescribeAcls_result_acls
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4167:22: warning: assignment to ‘const rd_kafka_Node_t *’ {aka ‘const struct rd_kafka_Node_s *’} from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+       4167 |         c_controller = rd_kafka_DescribeCluster_result_controller(c_describe_cluster_result);
+            |                      ^
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4174:19: warning: implicit declaration of function ‘rd_kafka_DescribeCluster_result_nodes’; did you mean ‘rd_kafka_DescribeAcls_result_acls’? [-Wimplicit-function-declaration]
+       4174 |         c_nodes = rd_kafka_DescribeCluster_result_nodes(c_describe_cluster_result, &c_nodes_cnt);
+            |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                   rd_kafka_DescribeAcls_result_acls
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4174:17: warning: assignment to ‘const rd_kafka_Node_t **’ {aka ‘const struct rd_kafka_Node_s **’} from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+       4174 |         c_nodes = rd_kafka_DescribeCluster_result_nodes(c_describe_cluster_result, &c_nodes_cnt);
+            |                 ^
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4185:35: warning: implicit declaration of function ‘rd_kafka_DescribeCluster_result_authorized_operations’ [-Wimplicit-function-declaration]
+       4185 |         c_authorized_operations = rd_kafka_DescribeCluster_result_authorized_operations(
+            |                                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4185:33: warning: assignment to ‘const rd_kafka_AclOperation_t *’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+       4185 |         c_authorized_operations = rd_kafka_DescribeCluster_result_authorized_operations(
+            |                                 ^
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c: At top level:
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4325:62: error: unknown type name ‘rd_kafka_ListOffsetsResultInfo_t’
+       4325 | static PyObject *Admin_c_ListOffsetsResultInfos_to_py (const rd_kafka_ListOffsetsResultInfo_t **c_result_infos, size_t c_result_info_cnt) {
+            |                                                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c: In function ‘Admin_c_ListOffsetsResultInfos_to_py’:
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4339:71: warning: implicit declaration of function ‘rd_kafka_ListOffsetsResultInfo_topic_partition’ [-Wimplicit-function-declaration]
+       4339 |                 const rd_kafka_topic_partition_t *c_topic_partition = rd_kafka_ListOffsetsResultInfo_topic_partition(c_result_infos[i]);
+            |                                                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4339:71: warning: initialization of ‘const rd_kafka_topic_partition_t *’ {aka ‘const struct rd_kafka_topic_partition_s *’} from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4341:39: warning: implicit declaration of function ‘rd_kafka_ListOffsetsResultInfo_timestamp’ [-Wimplicit-function-declaration]
+       4341 |                 int64_t c_timestamp = rd_kafka_ListOffsetsResultInfo_timestamp(c_result_infos[i]);
+            |                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4352:33: warning: implicit declaration of function ‘rd_kafka_topic_partition_get_leader_epoch’; did you mean ‘rd_kafka_topic_partition_list_add_range’? [-Wimplicit-function-declaration]
+       4352 |                                 rd_kafka_topic_partition_get_leader_epoch(c_topic_partition));
+            |                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                                 rd_kafka_topic_partition_list_add_range
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c: In function ‘Admin_background_event_cb’:
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4474:14: error: ‘RD_KAFKA_EVENT_INCREMENTALALTERCONFIGS_RESULT’ undeclared (first use in this function); did you mean ‘RD_KAFKA_EVENT_ALTERCONFIGS_RESULT’?
+       4474 |         case RD_KAFKA_EVENT_INCREMENTALALTERCONFIGS_RESULT:
+            |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |              RD_KAFKA_EVENT_ALTERCONFIGS_RESULT
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4479:31: warning: implicit declaration of function ‘rd_kafka_IncrementalAlterConfigs_result_resources’; did you mean ‘rd_kafka_AlterConfigs_result_resources’? [-Wimplicit-function-declaration]
+       4479 |                 c_resources = rd_kafka_IncrementalAlterConfigs_result_resources(
+            |                               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                               rd_kafka_AlterConfigs_result_resources
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4480:25: warning: implicit declaration of function ‘rd_kafka_event_IncrementalAlterConfigs_result’; did you mean ‘rd_kafka_event_AlterConfigs_result’? [-Wimplicit-function-declaration]
+       4480 |                         rd_kafka_event_IncrementalAlterConfigs_result(rkev),
+            |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                         rd_kafka_event_AlterConfigs_result
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4479:29: warning: assignment to ‘const rd_kafka_ConfigResource_t **’ {aka ‘const struct rd_kafka_ConfigResource_s **’} from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+       4479 |                 c_resources = rd_kafka_IncrementalAlterConfigs_result_resources(
+            |                             ^
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4585:14: error: ‘RD_KAFKA_EVENT_DESCRIBEUSERSCRAMCREDENTIALS_RESULT’ undeclared (first use in this function); did you mean ‘RD_KAFKA_EVENT_DESCRIBECONSUMERGROUPS_RESULT’?
+       4585 |         case RD_KAFKA_EVENT_DESCRIBEUSERSCRAMCREDENTIALS_RESULT:
+            |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |              RD_KAFKA_EVENT_DESCRIBECONSUMERGROUPS_RESULT
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4587:23: error: unknown type name ‘rd_kafka_DescribeUserScramCredentials_result_t’
+       4587 |                 const rd_kafka_DescribeUserScramCredentials_result_t *c_describe_user_scram_credentials_result;
+            |                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4588:23: error: unknown type name ‘rd_kafka_UserScramCredentialsDescription_t’
+       4588 |                 const rd_kafka_UserScramCredentialsDescription_t **c_describe_user_scram_credentials_result_descriptions;
+            |                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4591:60: warning: implicit declaration of function ‘rd_kafka_event_DescribeUserScramCredentials_result’; did you mean ‘rd_kafka_event_DescribeConfigs_result’? [-Wimplicit-function-declaration]
+       4591 |                 c_describe_user_scram_credentials_result = rd_kafka_event_DescribeUserScramCredentials_result(rkev);
+            |                                                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                                                            rd_kafka_event_DescribeConfigs_result
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4591:58: warning: assignment to ‘const int *’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+       4591 |                 c_describe_user_scram_credentials_result = rd_kafka_event_DescribeUserScramCredentials_result(rkev);
+            |                                                          ^
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4593:73: warning: implicit declaration of function ‘rd_kafka_DescribeUserScramCredentials_result_descriptions’ [-Wimplicit-function-declaration]
+       4593 |                 c_describe_user_scram_credentials_result_descriptions = rd_kafka_DescribeUserScramCredentials_result_descriptions(
+            |                                                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4593:71: warning: assignment to ‘const int **’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+       4593 |                 c_describe_user_scram_credentials_result_descriptions = rd_kafka_DescribeUserScramCredentials_result_descriptions(
+            |                                                                       ^
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4602:14: error: ‘RD_KAFKA_EVENT_ALTERUSERSCRAMCREDENTIALS_RESULT’ undeclared (first use in this function); did you mean ‘RD_KAFKA_EVENT_ALTERCONFIGS_RESULT’?
+       4602 |         case RD_KAFKA_EVENT_ALTERUSERSCRAMCREDENTIALS_RESULT:
+            |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |              RD_KAFKA_EVENT_ALTERCONFIGS_RESULT
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4604:23: error: unknown type name ‘rd_kafka_AlterUserScramCredentials_result_t’
+       4604 |                 const rd_kafka_AlterUserScramCredentials_result_t *c_alter_user_scram_credentials_result;
+            |                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4605:23: error: unknown type name ‘rd_kafka_AlterUserScramCredentials_result_response_t’
+       4605 |                 const rd_kafka_AlterUserScramCredentials_result_response_t **c_alter_user_scram_credentials_result_responses;
+            |                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4608:57: warning: implicit declaration of function ‘rd_kafka_event_AlterUserScramCredentials_result’; did you mean ‘rd_kafka_event_AlterConfigs_result’? [-Wimplicit-function-declaration]
+       4608 |                 c_alter_user_scram_credentials_result = rd_kafka_event_AlterUserScramCredentials_result(rkev);
+            |                                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                                                         rd_kafka_event_AlterConfigs_result
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4608:55: warning: assignment to ‘const int *’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+       4608 |                 c_alter_user_scram_credentials_result = rd_kafka_event_AlterUserScramCredentials_result(rkev);
+            |                                                       ^
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4610:67: warning: implicit declaration of function ‘rd_kafka_AlterUserScramCredentials_result_responses’; did you mean ‘Admin_c_AlterUserScramCredentialsResultResponses_to_py’? [-Wimplicit-function-declaration]
+       4610 |                 c_alter_user_scram_credentials_result_responses = rd_kafka_AlterUserScramCredentials_result_responses(
+            |                                                                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                                                                   Admin_c_AlterUserScramCredentialsResultResponses_to_py
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4610:65: warning: assignment to ‘const int **’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+       4610 |                 c_alter_user_scram_credentials_result_responses = rd_kafka_AlterUserScramCredentials_result_responses(
+            |                                                                 ^
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4619:14: error: ‘RD_KAFKA_EVENT_DESCRIBETOPICS_RESULT’ undeclared (first use in this function); did you mean ‘RD_KAFKA_EVENT_DESCRIBECONFIGS_RESULT’?
+       4619 |         case RD_KAFKA_EVENT_DESCRIBETOPICS_RESULT:
+            |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |              RD_KAFKA_EVENT_DESCRIBECONFIGS_RESULT
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4621:23: error: unknown type name ‘rd_kafka_DescribeTopics_result_t’
+       4621 |                 const rd_kafka_DescribeTopics_result_t *c_describe_topics_res;
+            |                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4622:23: error: unknown type name ‘rd_kafka_TopicDescription_t’
+       4622 |                 const rd_kafka_TopicDescription_t **c_describe_topics_res_responses;
+            |                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4625:41: warning: implicit declaration of function ‘rd_kafka_event_DescribeTopics_result’; did you mean ‘rd_kafka_event_DescribeConfigs_result’? [-Wimplicit-function-declaration]
+       4625 |                 c_describe_topics_res = rd_kafka_event_DescribeTopics_result(rkev);
+            |                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                                         rd_kafka_event_DescribeConfigs_result
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4625:39: warning: assignment to ‘const int *’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+       4625 |                 c_describe_topics_res = rd_kafka_event_DescribeTopics_result(rkev);
+            |                                       ^
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4627:51: warning: implicit declaration of function ‘rd_kafka_DescribeTopics_result_topics’; did you mean ‘rd_kafka_DeleteTopics_result_topics’? [-Wimplicit-function-declaration]
+       4627 |                 c_describe_topics_res_responses = rd_kafka_DescribeTopics_result_topics
+            |                                                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                                                   rd_kafka_DeleteTopics_result_topics
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4627:49: warning: assignment to ‘const int **’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+       4627 |                 c_describe_topics_res_responses = rd_kafka_DescribeTopics_result_topics
+            |                                                 ^
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4637:14: error: ‘RD_KAFKA_EVENT_DESCRIBECLUSTER_RESULT’ undeclared (first use in this function); did you mean ‘RD_KAFKA_EVENT_DESCRIBEACLS_RESULT’?
+       4637 |         case RD_KAFKA_EVENT_DESCRIBECLUSTER_RESULT:
+            |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |              RD_KAFKA_EVENT_DESCRIBEACLS_RESULT
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4639:23: error: unknown type name ‘rd_kafka_DescribeCluster_result_t’
+       4639 |                 const rd_kafka_DescribeCluster_result_t *c_describe_cluster_res;
+            |                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4640:42: warning: implicit declaration of function ‘rd_kafka_event_DescribeCluster_result’; did you mean ‘rd_kafka_event_DescribeAcls_result’? [-Wimplicit-function-declaration]
+       4640 |                 c_describe_cluster_res = rd_kafka_event_DescribeCluster_result(rkev);
+            |                                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                                          rd_kafka_event_DescribeAcls_result
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4640:40: warning: assignment to ‘const int *’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+       4640 |                 c_describe_cluster_res = rd_kafka_event_DescribeCluster_result(rkev);
+            |                                        ^
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4704:14: error: ‘RD_KAFKA_EVENT_LISTOFFSETS_RESULT’ undeclared (first use in this function); did you mean ‘RD_KAFKA_EVENT_ALTERCONFIGS_RESULT’?
+       4704 |         case RD_KAFKA_EVENT_LISTOFFSETS_RESULT:
+            |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |              RD_KAFKA_EVENT_ALTERCONFIGS_RESULT
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4707:23: error: unknown type name ‘rd_kafka_ListOffsets_result_t’
+       4707 |                 const rd_kafka_ListOffsets_result_t *c_list_offsets_result = rd_kafka_event_ListOffsets_result(rkev);
+            |                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4707:78: warning: implicit declaration of function ‘rd_kafka_event_ListOffsets_result’; did you mean ‘rd_kafka_event_DeleteAcls_result’? [-Wimplicit-function-declaration]
+       4707 |                 const rd_kafka_ListOffsets_result_t *c_list_offsets_result = rd_kafka_event_ListOffsets_result(rkev);
+            |                                                                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                                                                              rd_kafka_event_DeleteAcls_result
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4707:78: warning: initialization of ‘const int *’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4708:23: error: unknown type name ‘rd_kafka_ListOffsetsResultInfo_t’
+       4708 |                 const rd_kafka_ListOffsetsResultInfo_t **c_result_infos = rd_kafka_ListOffsets_result_infos(
+            |                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4708:75: warning: implicit declaration of function ‘rd_kafka_ListOffsets_result_infos’ [-Wimplicit-function-declaration]
+       4708 |                 const rd_kafka_ListOffsetsResultInfo_t **c_result_infos = rd_kafka_ListOffsets_result_infos(
+            |                                                                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4708:75: warning: initialization of ‘const int **’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+      error: command '/usr/bin/x86_64-linux-gnu-gcc' failed with exit code 1
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+  ERROR: Failed building wheel for confluent-kafka
+  Running setup.py clean for confluent-kafka
+Failed to build confluent-kafka
+Installing collected packages: confluent-kafka
+  Attempting uninstall: confluent-kafka
+    Found existing installation: confluent-kafka 2.3.0
+    Uninstalling confluent-kafka-2.3.0:
+      Successfully uninstalled confluent-kafka-2.3.0
+  Running setup.py install for confluent-kafka: started
+  Running setup.py install for confluent-kafka: finished with status 'error'
+  error: subprocess-exited-with-error
+  
+  × Running setup.py install for confluent-kafka did not run successfully.
+  │ exit code: 1
+  ╰─> [556 lines of output]
+      running install
+      /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+        warnings.warn(
+      running build
+      running build_py
+      creating build
+      creating build/lib.linux-x86_64-cpython-311
+      creating build/lib.linux-x86_64-cpython-311/confluent_kafka
+      copying src/confluent_kafka/deserializing_consumer.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka
+      copying src/confluent_kafka/serializing_producer.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka
+      copying src/confluent_kafka/__init__.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka
+      copying src/confluent_kafka/error.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka
+      creating build/lib.linux-x86_64-cpython-311/confluent_kafka/avro
+      copying src/confluent_kafka/avro/cached_schema_registry_client.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka/avro
+      copying src/confluent_kafka/avro/load.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka/avro
+      copying src/confluent_kafka/avro/__init__.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka/avro
+      copying src/confluent_kafka/avro/error.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka/avro
+      creating build/lib.linux-x86_64-cpython-311/confluent_kafka/_model
+      copying src/confluent_kafka/_model/__init__.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka/_model
+      creating build/lib.linux-x86_64-cpython-311/confluent_kafka/serialization
+      copying src/confluent_kafka/serialization/__init__.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka/serialization
+      creating build/lib.linux-x86_64-cpython-311/confluent_kafka/admin
+      copying src/confluent_kafka/admin/_resource.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka/admin
+      copying src/confluent_kafka/admin/_scram.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka/admin
+      copying src/confluent_kafka/admin/_metadata.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka/admin
+      copying src/confluent_kafka/admin/_topic.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka/admin
+      copying src/confluent_kafka/admin/_group.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka/admin
+      copying src/confluent_kafka/admin/_config.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka/admin
+      copying src/confluent_kafka/admin/_cluster.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka/admin
+      copying src/confluent_kafka/admin/_listoffsets.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka/admin
+      copying src/confluent_kafka/admin/_acl.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka/admin
+      copying src/confluent_kafka/admin/__init__.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka/admin
+      creating build/lib.linux-x86_64-cpython-311/confluent_kafka/kafkatest
+      copying src/confluent_kafka/kafkatest/verifiable_producer.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka/kafkatest
+      copying src/confluent_kafka/kafkatest/verifiable_consumer.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka/kafkatest
+      copying src/confluent_kafka/kafkatest/verifiable_client.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka/kafkatest
+      copying src/confluent_kafka/kafkatest/__init__.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka/kafkatest
+      creating build/lib.linux-x86_64-cpython-311/confluent_kafka/schema_registry
+      copying src/confluent_kafka/schema_registry/avro.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka/schema_registry
+      copying src/confluent_kafka/schema_registry/json_schema.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka/schema_registry
+      copying src/confluent_kafka/schema_registry/schema_registry_client.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka/schema_registry
+      copying src/confluent_kafka/schema_registry/protobuf.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka/schema_registry
+      copying src/confluent_kafka/schema_registry/__init__.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka/schema_registry
+      copying src/confluent_kafka/schema_registry/error.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka/schema_registry
+      creating build/lib.linux-x86_64-cpython-311/confluent_kafka/_util
+      copying src/confluent_kafka/_util/validation_util.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka/_util
+      copying src/confluent_kafka/_util/__init__.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka/_util
+      copying src/confluent_kafka/_util/conversion_util.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka/_util
+      creating build/lib.linux-x86_64-cpython-311/confluent_kafka/avro/serializer
+      copying src/confluent_kafka/avro/serializer/message_serializer.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka/avro/serializer
+      copying src/confluent_kafka/avro/serializer/__init__.py -> build/lib.linux-x86_64-cpython-311/confluent_kafka/avro/serializer
+      running build_ext
+      building 'confluent_kafka.cimpl' extension
+      creating build/temp.linux-x86_64-cpython-311
+      creating build/temp.linux-x86_64-cpython-311/tmp
+      creating build/temp.linux-x86_64-cpython-311/tmp/pip-req-build-3xr0vdb2
+      creating build/temp.linux-x86_64-cpython-311/tmp/pip-req-build-3xr0vdb2/src
+      creating build/temp.linux-x86_64-cpython-311/tmp/pip-req-build-3xr0vdb2/src/confluent_kafka
+      creating build/temp.linux-x86_64-cpython-311/tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src
+      x86_64-linux-gnu-gcc -Wsign-compare -DNDEBUG -g -fwrapv -O2 -Wall -g -fstack-protector-strong -Wformat -Werror=format-security -g -fwrapv -O2 -fPIC -I/usr/include/python3.11 -c /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c -o build/temp.linux-x86_64-cpython-311/tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.o
+      In file included from /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:17:
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/confluent_kafka.h:66:2: error: #error "confluent-kafka-python requires librdkafka v2.3.0 or later. Install the latest version of librdkafka from the Confluent repositories, see http://docs.confluent.io/current/installation.html"
+         66 | #error "confluent-kafka-python requires librdkafka v2.3.0 or later. Install the latest version of librdkafka from the Confluent repositories, see http://docs.confluent.io/current/installation.html"
+            |  ^~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/confluent_kafka.h:388:30: error: unknown type name ‘rd_kafka_Uuid_t’
+        388 | PyObject *c_Uuid_to_py(const rd_kafka_Uuid_t *c_uuid);
+            |                              ^~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/confluent_kafka.h:500:17: error: unknown type name ‘rd_kafka_Uuid_t’
+        500 |                 rd_kafka_Uuid_t *cUuid;
+            |                 ^~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:82:9: error: unknown type name ‘rd_kafka_IsolationLevel_t’
+         82 |         rd_kafka_IsolationLevel_t isolation_level;
+            |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c: In function ‘Admin_options_to_c’:
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:168:24: warning: implicit declaration of function ‘rd_kafka_AdminOptions_set_include_authorized_operations’ [-Wimplicit-function-declaration]
+        168 |             (err_obj = rd_kafka_AdminOptions_set_include_authorized_operations(
+            |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:168:22: warning: assignment to ‘rd_kafka_error_t *’ {aka ‘struct rd_kafka_error_s *’} from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+        168 |             (err_obj = rd_kafka_AdminOptions_set_include_authorized_operations(
+            |                      ^
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:175:25: warning: implicit declaration of function ‘rd_kafka_AdminOptions_set_isolation_level’; did you mean ‘rd_kafka_AdminOptions_set_operation_timeout’? [-Wimplicit-function-declaration]
+        175 |              (err_obj = rd_kafka_AdminOptions_set_isolation_level(
+            |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                         rd_kafka_AdminOptions_set_operation_timeout
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:175:23: warning: assignment to ‘rd_kafka_error_t *’ {aka ‘struct rd_kafka_error_s *’} from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+        175 |              (err_obj = rd_kafka_AdminOptions_set_isolation_level(
+            |                       ^
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c: In function ‘Admin_incremental_config_to_c’:
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:405:52: error: ‘RD_KAFKA_ALTER_CONFIG_OP_TYPE_DELETE’ undeclared (first use in this function)
+        405 |                 if (incremental_operation_value != RD_KAFKA_ALTER_CONFIG_OP_TYPE_DELETE &&
+            |                                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:405:52: note: each undeclared identifier is reported only once for each function it appears in
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:409:25: warning: implicit declaration of function ‘rd_kafka_ConfigResource_add_incremental_config’; did you mean ‘rd_kafka_ConfigResource_set_config’? [-Wimplicit-function-declaration]
+        409 |                 error = rd_kafka_ConfigResource_add_incremental_config(
+            |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                         rd_kafka_ConfigResource_set_config
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:412:26: error: ‘rd_kafka_AlterConfigOpType_t’ undeclared (first use in this function); did you mean ‘rd_kafka_AlterConfigs’?
+        412 |                         (rd_kafka_AlterConfigOpType_t) incremental_operation_value,
+            |                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                          rd_kafka_AlterConfigs
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:412:55: error: expected ‘)’ before ‘incremental_operation_value’
+        412 |                         (rd_kafka_AlterConfigOpType_t) incremental_operation_value,
+            |                                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                                                       )
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:409:71: note: to match this ‘(’
+        409 |                 error = rd_kafka_ConfigResource_add_incremental_config(
+            |                                                                       ^
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c: In function ‘Admin_incremental_alter_configs’:
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:1061:46: error: ‘RD_KAFKA_ADMIN_OP_INCREMENTALALTERCONFIGS’ undeclared (first use in this function); did you mean ‘RD_KAFKA_ADMIN_OP_ALTERCONFIGS’?
+       1061 |         c_options = Admin_options_to_c(self, RD_KAFKA_ADMIN_OP_INCREMENTALALTERCONFIGS,
+            |                                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                                              RD_KAFKA_ADMIN_OP_ALTERCONFIGS
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:1160:9: warning: implicit declaration of function ‘rd_kafka_IncrementalAlterConfigs’ [-Wimplicit-function-declaration]
+       1160 |         rd_kafka_IncrementalAlterConfigs(self->rk, c_objs, cnt, c_options, rkqu);
+            |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c: In function ‘Admin_describe_user_scram_credentials’:
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:1830:46: error: ‘RD_KAFKA_ADMIN_OP_DESCRIBEUSERSCRAMCREDENTIALS’ undeclared (first use in this function); did you mean ‘RD_KAFKA_ADMIN_OP_DESCRIBECONSUMERGROUPS’?
+       1830 |         c_options = Admin_options_to_c(self, RD_KAFKA_ADMIN_OP_DESCRIBEUSERSCRAMCREDENTIALS,
+            |                                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                                              RD_KAFKA_ADMIN_OP_DESCRIBECONSUMERGROUPS
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:1879:9: warning: implicit declaration of function ‘rd_kafka_DescribeUserScramCredentials’; did you mean ‘Admin_describe_user_scram_credentials’? [-Wimplicit-function-declaration]
+       1879 |         rd_kafka_DescribeUserScramCredentials(self->rk, c_users, user_cnt, c_options, rkqu);
+            |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |         Admin_describe_user_scram_credentials
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c: In function ‘Admin_alter_user_scram_credentials’:
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:1915:9: error: unknown type name ‘rd_kafka_UserScramCredentialAlteration_t’
+       1915 |         rd_kafka_UserScramCredentialAlteration_t **c_alterations = NULL;
+            |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:1994:46: error: ‘RD_KAFKA_ADMIN_OP_ALTERUSERSCRAMCREDENTIALS’ undeclared (first use in this function)
+       1994 |         c_options = Admin_options_to_c(self, RD_KAFKA_ADMIN_OP_ALTERUSERSCRAMCREDENTIALS,
+            |                                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:2005:39: error: ‘rd_kafka_UserScramCredentialAlteration_t’ undeclared (first use in this function); did you mean ‘UserScramCredentialAlteration_type’?
+       2005 |         c_alterations = malloc(sizeof(rd_kafka_UserScramCredentialAlteration_t *) * c_alteration_cnt);
+            |                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                                       UserScramCredentialAlteration_type
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:2005:81: error: expected expression before ‘)’ token
+       2005 |         c_alterations = malloc(sizeof(rd_kafka_UserScramCredentialAlteration_t *) * c_alteration_cnt);
+            |                                                                                 ^
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:2082:44: warning: implicit declaration of function ‘rd_kafka_UserScramCredentialUpsertion_new’ [-Wimplicit-function-declaration]
+       2082 |                         c_alterations[i] = rd_kafka_UserScramCredentialUpsertion_new(c_user,
+            |                                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:2083:34: error: ‘rd_kafka_ScramMechanism_t’ undeclared (first use in this function)
+       2083 |                                 (rd_kafka_ScramMechanism_t) c_mechanism, iterations,
+            |                                  ^~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:2083:60: error: expected ‘)’ before ‘c_mechanism’
+       2083 |                                 (rd_kafka_ScramMechanism_t) c_mechanism, iterations,
+            |                                                            ^~~~~~~~~~~~
+            |                                                            )
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:2082:85: note: to match this ‘(’
+       2082 |                         c_alterations[i] = rd_kafka_UserScramCredentialUpsertion_new(c_user,
+            |                                                                                     ^
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:2110:44: warning: implicit declaration of function ‘rd_kafka_UserScramCredentialDeletion_new’ [-Wimplicit-function-declaration]
+       2110 |                         c_alterations[i] = rd_kafka_UserScramCredentialDeletion_new(c_user,(rd_kafka_ScramMechanism_t)c_mechanism);
+            |                                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:2110:119: error: expected ‘)’ before ‘c_mechanism’
+       2110 |                         c_alterations[i] = rd_kafka_UserScramCredentialDeletion_new(c_user,(rd_kafka_ScramMechanism_t)c_mechanism);
+            |                                                                                    ~                                  ^~~~~~~~~~~
+            |                                                                                                                       )
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:2129:9: warning: implicit declaration of function ‘rd_kafka_AlterUserScramCredentials’ [-Wimplicit-function-declaration]
+       2129 |         rd_kafka_AlterUserScramCredentials(self->rk, c_alterations, c_alteration_cnt, c_options, rkqu);
+            |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:2133:17: warning: implicit declaration of function ‘rd_kafka_UserScramCredentialAlteration_destroy_array’ [-Wimplicit-function-declaration]
+       2133 |                 rd_kafka_UserScramCredentialAlteration_destroy_array(c_alterations, c_alteration_cnt);
+            |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c: In function ‘Admin_describe_topics’:
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:2304:9: error: unknown type name ‘rd_kafka_TopicCollection_t’; did you mean ‘rd_kafka_topic_partition_t’?
+       2304 |         rd_kafka_TopicCollection_t *c_topic_collection = NULL;
+            |         ^~~~~~~~~~~~~~~~~~~~~~~~~~
+            |         rd_kafka_topic_partition_t
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:2366:30: warning: implicit declaration of function ‘rd_kafka_TopicCollection_of_topic_names’ [-Wimplicit-function-declaration]
+       2366 |         c_topic_collection = rd_kafka_TopicCollection_of_topic_names(c_topics, topics_cnt);
+            |                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:2366:28: warning: assignment to ‘int *’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+       2366 |         c_topic_collection = rd_kafka_TopicCollection_of_topic_names(c_topics, topics_cnt);
+            |                            ^
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:2367:46: error: ‘RD_KAFKA_ADMIN_OP_DESCRIBETOPICS’ undeclared (first use in this function); did you mean ‘RD_KAFKA_ADMIN_OP_DESCRIBECONFIGS’?
+       2367 |         c_options = Admin_options_to_c(self, RD_KAFKA_ADMIN_OP_DESCRIBETOPICS,
+            |                                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                                              RD_KAFKA_ADMIN_OP_DESCRIBECONFIGS
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:2389:9: warning: implicit declaration of function ‘rd_kafka_DescribeTopics’; did you mean ‘rd_kafka_DescribeConfigs’? [-Wimplicit-function-declaration]
+       2389 |         rd_kafka_DescribeTopics(self->rk, c_topic_collection, c_options, rkqu);
+            |         ^~~~~~~~~~~~~~~~~~~~~~~
+            |         rd_kafka_DescribeConfigs
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:2396:17: warning: implicit declaration of function ‘rd_kafka_TopicCollection_destroy’; did you mean ‘rd_kafka_topic_partition_destroy’? [-Wimplicit-function-declaration]
+       2396 |                 rd_kafka_TopicCollection_destroy(c_topic_collection);
+            |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                 rd_kafka_topic_partition_destroy
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c: In function ‘Admin_describe_cluster’:
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:2454:46: error: ‘RD_KAFKA_ADMIN_OP_DESCRIBECLUSTER’ undeclared (first use in this function); did you mean ‘RD_KAFKA_ADMIN_OP_DESCRIBEACLS’?
+       2454 |         c_options = Admin_options_to_c(self, RD_KAFKA_ADMIN_OP_DESCRIBECLUSTER,
+            |                                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                                              RD_KAFKA_ADMIN_OP_DESCRIBEACLS
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:2476:9: warning: implicit declaration of function ‘rd_kafka_DescribeCluster’; did you mean ‘rd_kafka_DescribeAcls’? [-Wimplicit-function-declaration]
+       2476 |         rd_kafka_DescribeCluster(self->rk, c_options, rkqu);
+            |         ^~~~~~~~~~~~~~~~~~~~~~~~
+            |         rd_kafka_DescribeAcls
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c: In function ‘Admin_list_offsets’:
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:2912:46: error: ‘RD_KAFKA_ADMIN_OP_LISTOFFSETS’ undeclared (first use in this function); did you mean ‘RD_KAFKA_ADMIN_OP_ALTERCONFIGS’?
+       2912 |         c_options = Admin_options_to_c(self, RD_KAFKA_ADMIN_OP_LISTOFFSETS,
+            |                                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                                              RD_KAFKA_ADMIN_OP_ALTERCONFIGS
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:2941:9: warning: implicit declaration of function ‘rd_kafka_ListOffsets’ [-Wimplicit-function-declaration]
+       2941 |         rd_kafka_ListOffsets(self->rk, c_topic_partitions, c_options, rkqu);
+            |         ^~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c: In function ‘Admin_c_ConsumerGroupDescription_to_py’:
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:3729:35: warning: implicit declaration of function ‘rd_kafka_ConsumerGroupDescription_authorized_operations’; did you mean ‘rd_kafka_ConsumerGroupDescription_coordinator’? [-Wimplicit-function-declaration]
+       3729 |         c_authorized_operations = rd_kafka_ConsumerGroupDescription_authorized_operations(c_consumer_group_description, &c_authorized_operations_cnt);
+            |                                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                                   rd_kafka_ConsumerGroupDescription_coordinator
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:3729:33: warning: assignment to ‘const rd_kafka_AclOperation_t *’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+       3729 |         c_authorized_operations = rd_kafka_ConsumerGroupDescription_authorized_operations(c_consumer_group_description, &c_authorized_operations_cnt);
+            |                                 ^
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c: At top level:
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:3815:17: error: unknown type name ‘rd_kafka_TopicPartitionInfo_t’
+       3815 |           const rd_kafka_TopicPartitionInfo_t *c_topic_partition_info){
+            |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c: In function ‘Admin_c_TopicPartitionInfo_to_py’:
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:3838:17: warning: implicit declaration of function ‘rd_kafka_TopicPartitionInfo_partition’; did you mean ‘rd_kafka_topic_partition_list_find’? [-Wimplicit-function-declaration]
+       3838 |                 rd_kafka_TopicPartitionInfo_partition(c_topic_partition_info));
+            |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                 rd_kafka_topic_partition_list_find
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:3840:20: warning: implicit declaration of function ‘rd_kafka_TopicPartitionInfo_leader’; did you mean ‘rd_kafka_topic_partition_available’? [-Wimplicit-function-declaration]
+       3840 |         c_leader = rd_kafka_TopicPartitionInfo_leader(c_topic_partition_info);
+            |                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                    rd_kafka_topic_partition_available
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:3840:18: warning: assignment to ‘const rd_kafka_Node_t *’ {aka ‘const struct rd_kafka_Node_s *’} from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+       3840 |         c_leader = rd_kafka_TopicPartitionInfo_leader(c_topic_partition_info);
+            |                  ^
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:3847:22: warning: implicit declaration of function ‘rd_kafka_TopicPartitionInfo_replicas’ [-Wimplicit-function-declaration]
+       3847 |         c_replicas = rd_kafka_TopicPartitionInfo_replicas(c_topic_partition_info, &c_replicas_cnt);
+            |                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:3847:20: warning: assignment to ‘const rd_kafka_Node_t **’ {aka ‘const struct rd_kafka_Node_s **’} from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+       3847 |         c_replicas = rd_kafka_TopicPartitionInfo_replicas(c_topic_partition_info, &c_replicas_cnt);
+            |                    ^
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:3855:18: warning: implicit declaration of function ‘rd_kafka_TopicPartitionInfo_isr’; did you mean ‘rd_kafka_topic_partition_list_sort’? [-Wimplicit-function-declaration]
+       3855 |         c_isrs = rd_kafka_TopicPartitionInfo_isr(c_topic_partition_info, &c_isrs_cnt);
+            |                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                  rd_kafka_topic_partition_list_sort
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:3855:16: warning: assignment to ‘const rd_kafka_Node_t **’ {aka ‘const struct rd_kafka_Node_s **’} from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+       3855 |         c_isrs = rd_kafka_TopicPartitionInfo_isr(c_topic_partition_info, &c_isrs_cnt);
+            |                ^
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c: At top level:
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:3886:11: error: unknown type name ‘rd_kafka_TopicDescription_t’
+       3886 |     const rd_kafka_TopicDescription_t *c_topic_description) {
+            |           ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c: In function ‘Admin_c_TopicPartitionInfos_to_py_from_TopicDescription’:
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:3890:15: error: unknown type name ‘rd_kafka_TopicPartitionInfo_t’
+       3890 |         const rd_kafka_TopicPartitionInfo_t **c_partitions = NULL;
+            |               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:3892:24: warning: implicit declaration of function ‘rd_kafka_TopicDescription_partitions’ [-Wimplicit-function-declaration]
+       3892 |         c_partitions = rd_kafka_TopicDescription_partitions(c_topic_description, &c_partitions_cnt);
+            |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:3892:22: warning: assignment to ‘const int **’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+       3892 |         c_partitions = rd_kafka_TopicDescription_partitions(c_topic_description, &c_partitions_cnt);
+            |                      ^
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c: At top level:
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:3910:15: error: unknown type name ‘rd_kafka_TopicDescription_t’
+       3910 |         const rd_kafka_TopicDescription_t *c_topic_description){
+            |               ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c: In function ‘Admin_c_TopicDescription_to_py’:
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:3920:15: error: unknown type name ‘rd_kafka_Uuid_t’
+       3920 |         const rd_kafka_Uuid_t *c_topic_id = NULL;
+            |               ^~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:3933:30: warning: implicit declaration of function ‘rd_kafka_TopicDescription_name’; did you mean ‘rd_kafka_topic_result_name’? [-Wimplicit-function-declaration]
+       3933 |                              rd_kafka_TopicDescription_name(c_topic_description));
+            |                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                              rd_kafka_topic_result_name
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:3933:30: warning: passing argument 3 of ‘cfl_PyDict_SetString’ makes pointer from integer without a cast [-Wint-conversion]
+       3933 |                              rd_kafka_TopicDescription_name(c_topic_description));
+            |                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                              |
+            |                              int
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/confluent_kafka.h:328:74: note: expected ‘const char *’ but argument is of type ‘int’
+        328 | void cfl_PyDict_SetString (PyObject *dict, const char *name, const char *val);
+            |                                                              ~~~~~~~~~~~~^~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:3935:22: warning: implicit declaration of function ‘rd_kafka_TopicDescription_topic_id’; did you mean ‘Admin_c_TopicDescription_to_py’? [-Wimplicit-function-declaration]
+       3935 |         c_topic_id = rd_kafka_TopicDescription_topic_id(c_topic_description);
+            |                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                      Admin_c_TopicDescription_to_py
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:3935:20: warning: assignment to ‘const int *’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+       3935 |         c_topic_id = rd_kafka_TopicDescription_topic_id(c_topic_description);
+            |                    ^
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:3940:39: warning: implicit declaration of function ‘rd_kafka_TopicDescription_is_internal’ [-Wimplicit-function-declaration]
+       3940 |         is_internal = PyBool_FromLong(rd_kafka_TopicDescription_is_internal(c_topic_description));
+            |                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:3950:35: warning: implicit declaration of function ‘rd_kafka_TopicDescription_authorized_operations’ [-Wimplicit-function-declaration]
+       3950 |         c_authorized_operations = rd_kafka_TopicDescription_authorized_operations(c_topic_description, &c_authorized_operations_cnt);
+            |                                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:3950:33: warning: assignment to ‘const rd_kafka_AclOperation_t *’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+       3950 |         c_authorized_operations = rd_kafka_TopicDescription_authorized_operations(c_topic_description, &c_authorized_operations_cnt);
+            |                                 ^
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c: At top level:
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:3981:11: error: unknown type name ‘rd_kafka_TopicDescription_t’
+       3981 |     const rd_kafka_TopicDescription_t **c_result_responses,
+            |           ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c: In function ‘Admin_c_DescribeTopicsResults_to_py’:
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:3989:29: warning: implicit declaration of function ‘rd_kafka_TopicDescription_error’; did you mean ‘rd_kafka_topic_result_error’? [-Wimplicit-function-declaration]
+       3989 |                             rd_kafka_TopicDescription_error(c_result_responses[i]);
+            |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                             rd_kafka_topic_result_error
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:3989:29: warning: initialization of ‘const rd_kafka_error_t *’ {aka ‘const struct rd_kafka_error_s *’} from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c: At top level:
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4013:47: error: unknown type name ‘rd_kafka_ScramMechanism_t’
+       4013 | static PyObject *Admin_c_ScramMechanism_to_py(rd_kafka_ScramMechanism_t mechanism){
+            |                                               ^~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4029:58: error: unknown type name ‘rd_kafka_ScramCredentialInfo_t’
+       4029 | static PyObject *Admin_c_ScramCredentialInfo_to_py(const rd_kafka_ScramCredentialInfo_t *scram_credential_info){
+            |                                                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c: In function ‘Admin_c_ScramCredentialInfo_to_py’:
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4035:9: error: unknown type name ‘rd_kafka_ScramMechanism_t’
+       4035 |         rd_kafka_ScramMechanism_t c_mechanism;
+            |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4039:23: warning: implicit declaration of function ‘rd_kafka_ScramCredentialInfo_mechanism’ [-Wimplicit-function-declaration]
+       4039 |         c_mechanism = rd_kafka_ScramCredentialInfo_mechanism(scram_credential_info);
+            |                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4040:27: warning: implicit declaration of function ‘Admin_c_ScramMechanism_to_py’ [-Wimplicit-function-declaration]
+       4040 |         scram_mechanism = Admin_c_ScramMechanism_to_py(c_mechanism);
+            |                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4040:25: warning: assignment to ‘PyObject *’ {aka ‘struct _object *’} from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+       4040 |         scram_mechanism = Admin_c_ScramMechanism_to_py(c_mechanism);
+            |                         ^
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4044:22: warning: implicit declaration of function ‘rd_kafka_ScramCredentialInfo_iterations’ [-Wimplicit-function-declaration]
+       4044 |         iterations = rd_kafka_ScramCredentialInfo_iterations(scram_credential_info);
+            |                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c: At top level:
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4056:70: error: unknown type name ‘rd_kafka_UserScramCredentialsDescription_t’
+       4056 | static PyObject *Admin_c_UserScramCredentialsDescription_to_py(const rd_kafka_UserScramCredentialsDescription_t *description){
+            |                                                                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c: In function ‘Admin_c_UserScramCredentialsDescription_to_py’:
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4065:46: warning: implicit declaration of function ‘rd_kafka_UserScramCredentialsDescription_user’; did you mean ‘Admin_c_UserScramCredentialsDescription_to_py’? [-Wimplicit-function-declaration]
+       4065 |         cfl_PyDict_SetString(kwargs, "user", rd_kafka_UserScramCredentialsDescription_user(description));
+            |                                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                                              Admin_c_UserScramCredentialsDescription_to_py
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4065:46: warning: passing argument 3 of ‘cfl_PyDict_SetString’ makes pointer from integer without a cast [-Wint-conversion]
+       4065 |         cfl_PyDict_SetString(kwargs, "user", rd_kafka_UserScramCredentialsDescription_user(description));
+            |                                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                                              |
+            |                                              int
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/confluent_kafka.h:328:74: note: expected ‘const char *’ but argument is of type ‘int’
+        328 | void cfl_PyDict_SetString (PyObject *dict, const char *name, const char *val);
+            |                                                              ~~~~~~~~~~~~^~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4067:37: warning: implicit declaration of function ‘rd_kafka_UserScramCredentialsDescription_scramcredentialinfo_count’ [-Wimplicit-function-declaration]
+       4067 |         scram_credential_info_cnt = rd_kafka_UserScramCredentialsDescription_scramcredentialinfo_count(description);
+            |                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4070:23: error: unknown type name ‘rd_kafka_ScramCredentialInfo_t’
+       4070 |                 const rd_kafka_ScramCredentialInfo_t *c_scram_credential_info =
+            |                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4071:25: warning: implicit declaration of function ‘rd_kafka_UserScramCredentialsDescription_scramcredentialinfo’ [-Wimplicit-function-declaration]
+       4071 |                         rd_kafka_UserScramCredentialsDescription_scramcredentialinfo(description,i);
+            |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4071:25: warning: initialization of ‘const int *’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c: At top level:
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4089:15: error: unknown type name ‘rd_kafka_UserScramCredentialsDescription_t’
+       4089 |         const rd_kafka_UserScramCredentialsDescription_t **c_descriptions,
+            |               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c: In function ‘Admin_c_UserScramCredentialsDescriptions_to_py’:
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4100:23: error: unknown type name ‘rd_kafka_UserScramCredentialsDescription_t’
+       4100 |                 const rd_kafka_UserScramCredentialsDescription_t *c_description = c_descriptions[i];
+            |                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4101:28: warning: assignment to ‘const char *’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+       4101 |                 c_username = rd_kafka_UserScramCredentialsDescription_user(c_description);
+            |                            ^
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4102:27: warning: implicit declaration of function ‘rd_kafka_UserScramCredentialsDescription_error’; did you mean ‘Admin_c_UserScramCredentialsDescription_to_py’? [-Wimplicit-function-declaration]
+       4102 |                 c_error = rd_kafka_UserScramCredentialsDescription_error(c_description);
+            |                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                           Admin_c_UserScramCredentialsDescription_to_py
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4102:25: warning: assignment to ‘const rd_kafka_error_t *’ {aka ‘const struct rd_kafka_error_s *’} from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+       4102 |                 c_error = rd_kafka_UserScramCredentialsDescription_error(c_description);
+            |                         ^
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c: At top level:
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4120:15: error: unknown type name ‘rd_kafka_AlterUserScramCredentials_result_response_t’
+       4120 |         const rd_kafka_AlterUserScramCredentials_result_response_t **c_responses,
+            |               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c: In function ‘Admin_c_AlterUserScramCredentialsResultResponses_to_py’:
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4127:23: error: unknown type name ‘rd_kafka_AlterUserScramCredentials_result_response_t’
+       4127 |                 const rd_kafka_AlterUserScramCredentials_result_response_t *c_response = c_responses[i];
+            |                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4128:51: warning: implicit declaration of function ‘rd_kafka_AlterUserScramCredentials_result_response_error’; did you mean ‘Admin_c_AlterUserScramCredentialsResultResponses_to_py’? [-Wimplicit-function-declaration]
+       4128 |                 const rd_kafka_error_t *c_error = rd_kafka_AlterUserScramCredentials_result_response_error(c_response);
+            |                                                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                                                   Admin_c_AlterUserScramCredentialsResultResponses_to_py
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4128:51: warning: initialization of ‘const rd_kafka_error_t *’ {aka ‘const struct rd_kafka_error_s *’} from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4129:42: warning: implicit declaration of function ‘rd_kafka_AlterUserScramCredentials_result_response_user’; did you mean ‘Admin_c_AlterUserScramCredentialsResultResponses_to_py’? [-Wimplicit-function-declaration]
+       4129 |                 const char *c_username = rd_kafka_AlterUserScramCredentials_result_response_user(c_response);
+            |                                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                                          Admin_c_AlterUserScramCredentialsResultResponses_to_py
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4129:42: warning: initialization of ‘const char *’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c: At top level:
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4140:11: error: unknown type name ‘rd_kafka_DescribeCluster_result_t’
+       4140 |     const rd_kafka_DescribeCluster_result_t *c_describe_cluster_result) {
+            |           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c: In function ‘Admin_c_DescribeClusterResult_to_py’:
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4163:24: warning: implicit declaration of function ‘rd_kafka_DescribeCluster_result_cluster_id’; did you mean ‘rd_kafka_DescribeAcls_result_acls’? [-Wimplicit-function-declaration]
+       4163 |         c_cluster_id = rd_kafka_DescribeCluster_result_cluster_id(c_describe_cluster_result);
+            |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                        rd_kafka_DescribeAcls_result_acls
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4163:22: warning: assignment to ‘const char *’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+       4163 |         c_cluster_id = rd_kafka_DescribeCluster_result_cluster_id(c_describe_cluster_result);
+            |                      ^
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4167:24: warning: implicit declaration of function ‘rd_kafka_DescribeCluster_result_controller’; did you mean ‘rd_kafka_DescribeAcls_result_acls’? [-Wimplicit-function-declaration]
+       4167 |         c_controller = rd_kafka_DescribeCluster_result_controller(c_describe_cluster_result);
+            |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                        rd_kafka_DescribeAcls_result_acls
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4167:22: warning: assignment to ‘const rd_kafka_Node_t *’ {aka ‘const struct rd_kafka_Node_s *’} from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+       4167 |         c_controller = rd_kafka_DescribeCluster_result_controller(c_describe_cluster_result);
+            |                      ^
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4174:19: warning: implicit declaration of function ‘rd_kafka_DescribeCluster_result_nodes’; did you mean ‘rd_kafka_DescribeAcls_result_acls’? [-Wimplicit-function-declaration]
+       4174 |         c_nodes = rd_kafka_DescribeCluster_result_nodes(c_describe_cluster_result, &c_nodes_cnt);
+            |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                   rd_kafka_DescribeAcls_result_acls
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4174:17: warning: assignment to ‘const rd_kafka_Node_t **’ {aka ‘const struct rd_kafka_Node_s **’} from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+       4174 |         c_nodes = rd_kafka_DescribeCluster_result_nodes(c_describe_cluster_result, &c_nodes_cnt);
+            |                 ^
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4185:35: warning: implicit declaration of function ‘rd_kafka_DescribeCluster_result_authorized_operations’ [-Wimplicit-function-declaration]
+       4185 |         c_authorized_operations = rd_kafka_DescribeCluster_result_authorized_operations(
+            |                                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4185:33: warning: assignment to ‘const rd_kafka_AclOperation_t *’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+       4185 |         c_authorized_operations = rd_kafka_DescribeCluster_result_authorized_operations(
+            |                                 ^
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c: At top level:
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4325:62: error: unknown type name ‘rd_kafka_ListOffsetsResultInfo_t’
+       4325 | static PyObject *Admin_c_ListOffsetsResultInfos_to_py (const rd_kafka_ListOffsetsResultInfo_t **c_result_infos, size_t c_result_info_cnt) {
+            |                                                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c: In function ‘Admin_c_ListOffsetsResultInfos_to_py’:
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4339:71: warning: implicit declaration of function ‘rd_kafka_ListOffsetsResultInfo_topic_partition’ [-Wimplicit-function-declaration]
+       4339 |                 const rd_kafka_topic_partition_t *c_topic_partition = rd_kafka_ListOffsetsResultInfo_topic_partition(c_result_infos[i]);
+            |                                                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4339:71: warning: initialization of ‘const rd_kafka_topic_partition_t *’ {aka ‘const struct rd_kafka_topic_partition_s *’} from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4341:39: warning: implicit declaration of function ‘rd_kafka_ListOffsetsResultInfo_timestamp’ [-Wimplicit-function-declaration]
+       4341 |                 int64_t c_timestamp = rd_kafka_ListOffsetsResultInfo_timestamp(c_result_infos[i]);
+            |                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4352:33: warning: implicit declaration of function ‘rd_kafka_topic_partition_get_leader_epoch’; did you mean ‘rd_kafka_topic_partition_list_add_range’? [-Wimplicit-function-declaration]
+       4352 |                                 rd_kafka_topic_partition_get_leader_epoch(c_topic_partition));
+            |                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                                 rd_kafka_topic_partition_list_add_range
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c: In function ‘Admin_background_event_cb’:
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4474:14: error: ‘RD_KAFKA_EVENT_INCREMENTALALTERCONFIGS_RESULT’ undeclared (first use in this function); did you mean ‘RD_KAFKA_EVENT_ALTERCONFIGS_RESULT’?
+       4474 |         case RD_KAFKA_EVENT_INCREMENTALALTERCONFIGS_RESULT:
+            |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |              RD_KAFKA_EVENT_ALTERCONFIGS_RESULT
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4479:31: warning: implicit declaration of function ‘rd_kafka_IncrementalAlterConfigs_result_resources’; did you mean ‘rd_kafka_AlterConfigs_result_resources’? [-Wimplicit-function-declaration]
+       4479 |                 c_resources = rd_kafka_IncrementalAlterConfigs_result_resources(
+            |                               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                               rd_kafka_AlterConfigs_result_resources
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4480:25: warning: implicit declaration of function ‘rd_kafka_event_IncrementalAlterConfigs_result’; did you mean ‘rd_kafka_event_AlterConfigs_result’? [-Wimplicit-function-declaration]
+       4480 |                         rd_kafka_event_IncrementalAlterConfigs_result(rkev),
+            |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                         rd_kafka_event_AlterConfigs_result
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4479:29: warning: assignment to ‘const rd_kafka_ConfigResource_t **’ {aka ‘const struct rd_kafka_ConfigResource_s **’} from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+       4479 |                 c_resources = rd_kafka_IncrementalAlterConfigs_result_resources(
+            |                             ^
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4585:14: error: ‘RD_KAFKA_EVENT_DESCRIBEUSERSCRAMCREDENTIALS_RESULT’ undeclared (first use in this function); did you mean ‘RD_KAFKA_EVENT_DESCRIBECONSUMERGROUPS_RESULT’?
+       4585 |         case RD_KAFKA_EVENT_DESCRIBEUSERSCRAMCREDENTIALS_RESULT:
+            |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |              RD_KAFKA_EVENT_DESCRIBECONSUMERGROUPS_RESULT
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4587:23: error: unknown type name ‘rd_kafka_DescribeUserScramCredentials_result_t’
+       4587 |                 const rd_kafka_DescribeUserScramCredentials_result_t *c_describe_user_scram_credentials_result;
+            |                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4588:23: error: unknown type name ‘rd_kafka_UserScramCredentialsDescription_t’
+       4588 |                 const rd_kafka_UserScramCredentialsDescription_t **c_describe_user_scram_credentials_result_descriptions;
+            |                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4591:60: warning: implicit declaration of function ‘rd_kafka_event_DescribeUserScramCredentials_result’; did you mean ‘rd_kafka_event_DescribeConfigs_result’? [-Wimplicit-function-declaration]
+       4591 |                 c_describe_user_scram_credentials_result = rd_kafka_event_DescribeUserScramCredentials_result(rkev);
+            |                                                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                                                            rd_kafka_event_DescribeConfigs_result
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4591:58: warning: assignment to ‘const int *’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+       4591 |                 c_describe_user_scram_credentials_result = rd_kafka_event_DescribeUserScramCredentials_result(rkev);
+            |                                                          ^
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4593:73: warning: implicit declaration of function ‘rd_kafka_DescribeUserScramCredentials_result_descriptions’ [-Wimplicit-function-declaration]
+       4593 |                 c_describe_user_scram_credentials_result_descriptions = rd_kafka_DescribeUserScramCredentials_result_descriptions(
+            |                                                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4593:71: warning: assignment to ‘const int **’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+       4593 |                 c_describe_user_scram_credentials_result_descriptions = rd_kafka_DescribeUserScramCredentials_result_descriptions(
+            |                                                                       ^
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4602:14: error: ‘RD_KAFKA_EVENT_ALTERUSERSCRAMCREDENTIALS_RESULT’ undeclared (first use in this function); did you mean ‘RD_KAFKA_EVENT_ALTERCONFIGS_RESULT’?
+       4602 |         case RD_KAFKA_EVENT_ALTERUSERSCRAMCREDENTIALS_RESULT:
+            |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |              RD_KAFKA_EVENT_ALTERCONFIGS_RESULT
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4604:23: error: unknown type name ‘rd_kafka_AlterUserScramCredentials_result_t’
+       4604 |                 const rd_kafka_AlterUserScramCredentials_result_t *c_alter_user_scram_credentials_result;
+            |                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4605:23: error: unknown type name ‘rd_kafka_AlterUserScramCredentials_result_response_t’
+       4605 |                 const rd_kafka_AlterUserScramCredentials_result_response_t **c_alter_user_scram_credentials_result_responses;
+            |                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4608:57: warning: implicit declaration of function ‘rd_kafka_event_AlterUserScramCredentials_result’; did you mean ‘rd_kafka_event_AlterConfigs_result’? [-Wimplicit-function-declaration]
+       4608 |                 c_alter_user_scram_credentials_result = rd_kafka_event_AlterUserScramCredentials_result(rkev);
+            |                                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                                                         rd_kafka_event_AlterConfigs_result
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4608:55: warning: assignment to ‘const int *’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+       4608 |                 c_alter_user_scram_credentials_result = rd_kafka_event_AlterUserScramCredentials_result(rkev);
+            |                                                       ^
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4610:67: warning: implicit declaration of function ‘rd_kafka_AlterUserScramCredentials_result_responses’; did you mean ‘Admin_c_AlterUserScramCredentialsResultResponses_to_py’? [-Wimplicit-function-declaration]
+       4610 |                 c_alter_user_scram_credentials_result_responses = rd_kafka_AlterUserScramCredentials_result_responses(
+            |                                                                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                                                                   Admin_c_AlterUserScramCredentialsResultResponses_to_py
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4610:65: warning: assignment to ‘const int **’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+       4610 |                 c_alter_user_scram_credentials_result_responses = rd_kafka_AlterUserScramCredentials_result_responses(
+            |                                                                 ^
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4619:14: error: ‘RD_KAFKA_EVENT_DESCRIBETOPICS_RESULT’ undeclared (first use in this function); did you mean ‘RD_KAFKA_EVENT_DESCRIBECONFIGS_RESULT’?
+       4619 |         case RD_KAFKA_EVENT_DESCRIBETOPICS_RESULT:
+            |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |              RD_KAFKA_EVENT_DESCRIBECONFIGS_RESULT
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4621:23: error: unknown type name ‘rd_kafka_DescribeTopics_result_t’
+       4621 |                 const rd_kafka_DescribeTopics_result_t *c_describe_topics_res;
+            |                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4622:23: error: unknown type name ‘rd_kafka_TopicDescription_t’
+       4622 |                 const rd_kafka_TopicDescription_t **c_describe_topics_res_responses;
+            |                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4625:41: warning: implicit declaration of function ‘rd_kafka_event_DescribeTopics_result’; did you mean ‘rd_kafka_event_DescribeConfigs_result’? [-Wimplicit-function-declaration]
+       4625 |                 c_describe_topics_res = rd_kafka_event_DescribeTopics_result(rkev);
+            |                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                                         rd_kafka_event_DescribeConfigs_result
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4625:39: warning: assignment to ‘const int *’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+       4625 |                 c_describe_topics_res = rd_kafka_event_DescribeTopics_result(rkev);
+            |                                       ^
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4627:51: warning: implicit declaration of function ‘rd_kafka_DescribeTopics_result_topics’; did you mean ‘rd_kafka_DeleteTopics_result_topics’? [-Wimplicit-function-declaration]
+       4627 |                 c_describe_topics_res_responses = rd_kafka_DescribeTopics_result_topics
+            |                                                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                                                   rd_kafka_DeleteTopics_result_topics
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4627:49: warning: assignment to ‘const int **’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+       4627 |                 c_describe_topics_res_responses = rd_kafka_DescribeTopics_result_topics
+            |                                                 ^
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4637:14: error: ‘RD_KAFKA_EVENT_DESCRIBECLUSTER_RESULT’ undeclared (first use in this function); did you mean ‘RD_KAFKA_EVENT_DESCRIBEACLS_RESULT’?
+       4637 |         case RD_KAFKA_EVENT_DESCRIBECLUSTER_RESULT:
+            |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |              RD_KAFKA_EVENT_DESCRIBEACLS_RESULT
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4639:23: error: unknown type name ‘rd_kafka_DescribeCluster_result_t’
+       4639 |                 const rd_kafka_DescribeCluster_result_t *c_describe_cluster_res;
+            |                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4640:42: warning: implicit declaration of function ‘rd_kafka_event_DescribeCluster_result’; did you mean ‘rd_kafka_event_DescribeAcls_result’? [-Wimplicit-function-declaration]
+       4640 |                 c_describe_cluster_res = rd_kafka_event_DescribeCluster_result(rkev);
+            |                                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                                          rd_kafka_event_DescribeAcls_result
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4640:40: warning: assignment to ‘const int *’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+       4640 |                 c_describe_cluster_res = rd_kafka_event_DescribeCluster_result(rkev);
+            |                                        ^
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4704:14: error: ‘RD_KAFKA_EVENT_LISTOFFSETS_RESULT’ undeclared (first use in this function); did you mean ‘RD_KAFKA_EVENT_ALTERCONFIGS_RESULT’?
+       4704 |         case RD_KAFKA_EVENT_LISTOFFSETS_RESULT:
+            |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |              RD_KAFKA_EVENT_ALTERCONFIGS_RESULT
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4707:23: error: unknown type name ‘rd_kafka_ListOffsets_result_t’
+       4707 |                 const rd_kafka_ListOffsets_result_t *c_list_offsets_result = rd_kafka_event_ListOffsets_result(rkev);
+            |                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4707:78: warning: implicit declaration of function ‘rd_kafka_event_ListOffsets_result’; did you mean ‘rd_kafka_event_DeleteAcls_result’? [-Wimplicit-function-declaration]
+       4707 |                 const rd_kafka_ListOffsets_result_t *c_list_offsets_result = rd_kafka_event_ListOffsets_result(rkev);
+            |                                                                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                                                                              rd_kafka_event_DeleteAcls_result
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4707:78: warning: initialization of ‘const int *’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4708:23: error: unknown type name ‘rd_kafka_ListOffsetsResultInfo_t’
+       4708 |                 const rd_kafka_ListOffsetsResultInfo_t **c_result_infos = rd_kafka_ListOffsets_result_infos(
+            |                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4708:75: warning: implicit declaration of function ‘rd_kafka_ListOffsets_result_infos’ [-Wimplicit-function-declaration]
+       4708 |                 const rd_kafka_ListOffsetsResultInfo_t **c_result_infos = rd_kafka_ListOffsets_result_infos(
+            |                                                                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      /tmp/pip-req-build-3xr0vdb2/src/confluent_kafka/src/Admin.c:4708:75: warning: initialization of ‘const int **’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+      error: command '/usr/bin/x86_64-linux-gnu-gcc' failed with exit code 1
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+  Rolling back uninstall of confluent-kafka
+  Moving to /usr/local/LICENSE.txt
+   from /tmp/pip-uninstall-vmyrtybb/LICENSE.txt
+  Moving to /usr/local/lib/python3.11/dist-packages/confluent_kafka-2.3.0.dist-info/
+   from /usr/local/lib/python3.11/dist-packages/~onfluent_kafka-2.3.0.dist-info
+  Moving to /usr/local/lib/python3.11/dist-packages/confluent_kafka.libs/
+   from /usr/local/lib/python3.11/dist-packages/~onfluent_kafka.libs
+  Moving to /usr/local/lib/python3.11/dist-packages/confluent_kafka/
+   from /usr/local/lib/python3.11/dist-packages/~onfluent_kafka
+error: legacy-install-failure
+
+× Encountered error while trying to install package.
+╰─> confluent-kafka
+
+note: This is an issue with the package mentioned above, not pip.
+hint: See above for output from the failure.
+[8mha:////4FL1MmsoOsvwMwxTRoAsX3wOAVorp0xOomfuqHs2iJpoAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIEGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDud5/avgGihzBsvgAAAA==[0m[Pipeline] }
+[8mha:////4JhQKym5FypXed50YFWZKsyE4MzIngBbCitE0ipKsujTAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0aRAVLRWGl5gEmPsWHeO7eBUvIiv8QcCkajYYrWzzTxfsI4Bjhw0WkW9odga9G7U88LMob86zmj5gi1TZKewUbnhTp0WbDgpWFKUsBKwUdQ6joZ0gq2w8i4rJ0lX5xTm7yCgNN0ADyjEbE4ypC9MAXa3sYtMP89fAUzeJyjr+lP7N5Fka9C+AAAA[0m[Pipeline] // dir
+[8mha:////4LqQwhHQpBjPmjszxcqpWaPl+ldq+UU1rSJVXs8wA23RAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKpAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN/6HNLi+AAAA[0m[Pipeline] }
+[8mha:////4P/hkSaPNP/7QTSjXx1arjmYcFJUKsOgOvraXw4hX6jaAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJChxCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7Bs1kbwS+AAAA[0m[Pipeline] // script
+[8mha:////4KUSrYwQLRE7Q18hWNQ0SblEkBOlt47JnewYGLZsmaOGAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJChUAoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AEJzO+1vgAAAA==[0m[Pipeline] }
+[8mha:////4I7gH4EB1D2C14wwdeYTKo0pm2sZncOkYz73gLgH4FbQAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGhQJUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkFZ73Md6g86L7QJvgAAAA==[0m[Pipeline] // stage
+[8mha:////4CgSHLgL0DZDxD6gKx5lbImQijeEGtZMBrQfU787heWHAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjIQokREVrueEFJjbGiXUX7AtJxYv4Gn8gEImKrXZWWs3zBWVOcKDkZeOwDZjrILvY+6nJgVJ7iTTIhs6yJswUndRu0GTdcUZN7GCOKGChYOmwjpQDeoaVaszdVNGgr06cpm2voAj2Bg8QajKzSfyFMcH62ttM+PP8FcDYMYgtQ7HbfI7lG24AeonBAAAA[0m[Pipeline] stage
+[8mha:////4KgMG8vuV1P5iWXad562mcy3VHmfX7++7wAc3naoMjQ0AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUggUJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfACJxiXBwgAAAA==[0m[Pipeline] { (Precheck)
+Stage "Precheck" skipped due to earlier failure(s)
+[8mha:////4GP67/acDURduOuYq3O4FNzPceuwJ+VkyqQcRJt0VzU4AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSQIGEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDud5/avgGPSihQvgAAAA==[0m[Pipeline] }
+[8mha:////4DNYMOLmKuVgoKkBN8j3wHQ1jLs2Xjpp75iz1qaUHeFJAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISEhIaq0lhteYGJjnFh3xnZIKl7E1/gDgUhUbLHa2WaeL1imCEeOFltDnaPUOAy+t9PCgWN38Txgy2dsmBJ7g9IMkrWpZ5ScDcwpSlgIWBlqPCdHNsNatOquKq/IVqccp+8goHT6Bg8oxGTOKuYvjBE2114npp/nrwDGEDKU+92ntm+8qXPsvgAAAA==[0m[Pipeline] // stage
+[8mha:////4OxS0paLW521ERup4e0+XRA5l6CrwNShbM6BV93o3Hb9AAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYTTIISEqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFhKHbbz7F8A3hC6xLBAAAA[0m[Pipeline] stage
+[8mha:////4EtJcZwFU1wGX+Zdd5/TTo3Nsi4rQNlGKHkPeSns/d4gAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AyTE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAR33berCAAAA[0m[Pipeline] { (Run playbook)
+Stage "Run playbook" skipped due to earlier failure(s)
+[8mha:////4B6qAxyJV1PRzT31HDCFIAgCuImb3xGnaTt4HJRSrEFWAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSEglR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMHmfoKzrT+3f7U6HIL4AAAA=[0m[Pipeline] }
+[8mha:////4JhoPG8dxcDqzDSExYh8QJGEKhEauPNPqduetUc5iiOMAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSIRCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7Bt6t3Jy+AAAA[0m[Pipeline] // stage
+[8mha:////4DXeukI9/TN7k3MX4m2dffQbxJc9JL39W83WrLm3PMZwAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYRDQYMQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHILYMxW7zOZZv0arFYsEAAAA=[0m[Pipeline] stage
+[8mha:////4NT7dVjSenQ7g0eMsxcFVb6nKb4BQnCfuvVNJyDyS4yvAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogURoSYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+mJlT6cIAAAA=[0m[Pipeline] { (Postcheck)
+Stage "Postcheck" skipped due to earlier failure(s)
+[8mha:////4J17OWEos/LjrLl9ran0OzVtCm+9aGC5AMVkI01jMJoHAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi6BCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nffWr7BkvyE9e+AAAA[0m[Pipeline] }
+[8mha:////4KXABV5Te3LnSKMb+9erHd3PqlFV4MNej3A5EGVr/UhJAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCRIUQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcr97lPbN3gRSGu+AAAA[0m[Pipeline] // stage
+[8mha:////4AW5JhO/uQRH37SGFRc/kR0YfMAXcKF/XXzRS3ljMuI6AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BKWgpeYTTpEGIitZywwtMbIwT6y7YF5KKF/E1/oAhEhVb7ay0mucLqhThQNGJzmLvMbVeDGF0uYmJYn8JNImOzqIlTBSsUHZSZOxxQUVsYUlRwkrC2mIbKHl0DBvZ6buug0ZXnzjmbS+h9OYGDyhkNrOO/IU5wvY6mkT48/wVwDwwFA1DuWs+x+oNx+hU+cEAAAA=[0m[Pipeline] stage
+[8mha:////4HOzixghk5k4IXiPjSn6kHa26r+XxX8oy233SQDr1vwRAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0gQEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LDwyoG8LCAAAA[0m[Pipeline] { (Compare-Hash)
+Stage "Compare-Hash" skipped due to earlier failure(s)
+[8mha:////4OqkS7mcxckaNkJkia6Wo5Rcfv5JY9U69P1tbnHi52+0AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgYQQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcr97lPbN0R070u+AAAA[0m[Pipeline] }
+[8mha:////4Oy6XOPB8sg4nbRc9Bk6AuHtSVlpdy0jYsLNqu2xVKeAAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSICGEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDud5/avgF3l7T3vgAAAA==[0m[Pipeline] // stage
+[8mha:////4L1C4YQd7rRdd9Cx7HbqdUgBh0vuH53lnUUFcZ8clo58AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJpKECIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfL8TZNsPKeJmDr0AAAA=[0m[Pipeline] }
+[8mha:////4MCjXlPRdYd/2slEgyJzsOXHWHRPNJ1F820pBpR9pbKMAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIUVoxjZZuh8QQRYgxkdjFZhMoTeTXvICMzVv7qv9e81xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL0tBtv8AOl5irb0AAAA=[0m[Pipeline] // node
+[8mha:////4EeL9IY1z26dGs4XIJmY+Fi4OeiEUokA4Y5EonWhlqwnAAAAox+LCAAAAAAAAP9tjTESgjAQRTcwFraWHiKgrWNlm6HxBJHEGMjsYrIYKk/k1byDjMxY+av/XvNeb1ilCEeKTnYWe4+p9XIIo5ufzBT7a6AsO7rIljBRsLKxuSFjTws2xBaWiQJKBWuLbaDk0TFsVKcfugoaXXXmOLuDgsKbOzxBqLnMOvIXpgjb22gS4a/zNwDTMDCUu7pmEPsP1O2iob4AAAA=[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 1
+Finished: FAILURE

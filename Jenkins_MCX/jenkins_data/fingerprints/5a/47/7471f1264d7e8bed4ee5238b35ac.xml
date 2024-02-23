@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2024-02-21 10:05:28.207 UTC</timestamp>
+  <md5sum>5a477471f1264d7e8bed4ee5238b35ac</md5sum>
+  <fileName>Credential id=shiva.txt name=shiva.txt</fileName>
+  <usages>
+    <entry>
+      <string>ansible-install</string>
+      <ranges>111-172</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

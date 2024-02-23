@@ -10,7 +10,7 @@
     </entry>
     <entry>
       <string>ansible-install</string>
-      <ranges>28,89</ranges>
+      <ranges>28,89,106,108</ranges>
     </entry>
   </usages>
   <facets/>

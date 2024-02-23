@@ -1,0 +1,28 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@848.v5a_383b_d14921">
+  <node class="cps.n.StepAtomNode" plugin="workflow-cps@3769.v8b_e595e4d40d">
+    <parentIds>
+      <string>48</string>
+    </parentIds>
+    <id>49</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.durable_task.ShellStep</descriptorId>
+  </node>
+  <actions>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@3769.v8b_e595e4d40d">
+      <arguments>
+        <entry>
+          <string>script</string>
+          <string>
+                            git clone -c advice.detachedHead=false --depth 1 --branch master https://7250-27-7-100-72.ngrok-free.app/shiva/New 106
+                        </string>
+        </entry>
+      </arguments>
+      <sensitiveVariables/>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@1259.vb_47f14fffc8a_">
+      <startTime>1708425533353</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogStorageAction/>
+  </actions>
+</Tag>

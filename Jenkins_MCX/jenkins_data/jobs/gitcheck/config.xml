@@ -7,6 +7,8 @@
       <triggers/>
       <parameters>
         <string>REF</string>
+        <string>AIR_GAPPED</string>
+        <string>ARTEFACTS_DIR</string>
         <string>GIT_REPO</string>
       </parameters>
       <options/>
@@ -28,18 +30,29 @@
           <defaultValue>1.0.2</defaultValue>
           <trim>true</trim>
         </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>ARTEFACTS_DIR</name>
+          <description>Relative path where the playbook hosts and config are present.</description>
+          <defaultValue>.</defaultValue>
+          <trim>true</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.BooleanParameterDefinition>
+          <name>AIR_GAPPED</name>
+          <description>Specify if the environment is air-gapped</description>
+          <defaultValue>false</defaultValue>
+        </hudson.model.BooleanParameterDefinition>
       </parameterDefinitions>
     </hudson.model.ParametersDefinitionProperty>
   </properties>
   <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@3769.v8b_e595e4d40d">
     <script>pipeline {
-    agent {
-        label ansible-runner
-    }
+    agent any
 
     parameters {
         string(name: &apos;GIT_REPO&apos;, description: &apos;URL of the Git repository&apos;, defaultValue: &apos;&apos;)
         string(name: &apos;REF&apos;, description: &apos;Branch or tag.&apos;, trim: true, defaultValue: &apos;1.0.2&apos;)
+        string(name: &apos;ARTEFACTS_DIR&apos;, description: &apos;Relative path where the playbook hosts and config are present.&apos;, trim: true, defaultValue: &apos;.&apos;)
+        booleanParam(name: &apos;AIR_GAPPED&apos;, description: &apos;Specify if the environment is air-gapped&apos;, defaultValue: false)
     }
 
     stages {
@@ -60,6 +73,65 @@
                         sh &quot;&quot;&quot;
                             git clone -c advice.detachedHead=false --depth 1 --branch ${params.REF} ${params.GIT_REPO} ${env.BUILD_NUMBER}
                         &quot;&quot;&quot;
+                    }
+                }
+            }
+        }
+        
+        stage(&apos;Install Python and Create Virtual Environment&apos;) {
+            steps {
+                script {
+                    // Install Python 3
+                    sh &apos;apt-get update&apos;
+                    sh &apos;apt-get install -y python3&apos;
+
+                    // Install python3-virtualenv
+                    sh &apos;apt-get install -y python3-virtualenv&apos;
+
+                    // Check virtualenv version
+                    sh &apos;virtualenv --version&apos;
+
+                    // Create a virtualenv in the desired folder
+                    sh &apos;virtualenv --python=/usr/bin/python3 /root&apos;
+                
+
+                    // Activate the virtualenv
+                    sh &apos;source /root/bin/activate&apos;
+
+                    // Check Python version in the virtualenv
+                    sh &apos;python3 --version&apos;
+
+                    // Check pip version in the virtualenv
+                    sh &apos;pip --version&apos;
+                    
+                    sh &apos;pip install kafka-python --break-system-packages&apos;
+                }
+            }
+        }
+
+        stage(&apos;Download Packages&apos;) {
+            steps {
+                script {
+                    
+                     // Activate the virtualenv
+                    sh &apos;source /root/bin/activate&apos;
+                    
+                    sh &apos;pip -V&apos;
+                    // Define the package versions
+                    def kafkaPythonVersion = &apos;2.0.2&apos;
+                    def confluentKafkaVersion = &apos;2.3.0&apos;
+
+                    if (params.AIR_GAPPED) {
+                        // Change working directory to the specified location
+                        dir(&quot;${params.ARTEFACTS_DIR}&quot;) {
+                            // Install Python packages without internet (from local tar.gz files)
+                            sh &quot;pip install kafka-python-${kafkaPythonVersion}.tar.gz&quot;
+                            sh &quot;pip install confluent-kafka-${confluentKafkaVersion}.tar.gz&quot;
+                        }
+                    } else {
+                        // Install Python packages with internet
+                        sh &quot;pip install kafka-python==${kafkaPythonVersion} --break-system-packages&quot;
+                        sh &quot;pip install confluent-kafka==${confluentKafkaVersion} --break-system-packages&quot;
                     }
                 }
             }

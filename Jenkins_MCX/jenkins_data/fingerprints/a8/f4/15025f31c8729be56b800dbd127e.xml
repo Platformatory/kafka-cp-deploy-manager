@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2024-02-21 10:02:08.588 UTC</timestamp>
+  <md5sum>a8f415025f31c8729be56b800dbd127e</md5sum>
+  <fileName>Credential id=id name=id</fileName>
+  <usages>
+    <entry>
+      <string>ansible-install</string>
+      <ranges>110</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

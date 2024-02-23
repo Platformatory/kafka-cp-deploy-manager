@@ -10,10 +10,12 @@
         <string>ANSIBLE_LIMIT</string>
         <string>UP_GRADE_DOWN_GRADE</string>
         <string>ANSIBLE_TAGS</string>
+        <string>POST_CHECK</string>
         <string>PRIVATE_KEY</string>
         <string>ARTEFACTS_DIR</string>
         <string>GIT_REPO</string>
         <string>CP_VERSION</string>
+        <string>HASH_CHECK</string>
         <string>COLLECTIONS_DIR</string>
         <string>REF</string>
         <string>PRE_CHECK</string>
@@ -35,6 +37,18 @@
           <trim>false</trim>
         </hudson.model.StringParameterDefinition>
         <hudson.model.StringParameterDefinition>
+          <name>POST_CHECK</name>
+          <description>Python_artifact</description>
+          <defaultValue>postcheck.py</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>HASH_CHECK</name>
+          <description>Python_artifact</description>
+          <defaultValue>hashcheck.py</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
           <name>GIT_REPO</name>
           <description>URL of the Git repository</description>
           <trim>false</trim>
@@ -43,6 +57,7 @@
           <name>TOKEN</name>
           <description>Private access token for the Git repository</description>
           <defaultValue></defaultValue>
+          <credentialType>com.cloudbees.plugins.credentials.common.StandardCredentials</credentialType>
           <required>false</required>
         </com.cloudbees.plugins.credentials.CredentialsParameterDefinition>
         <hudson.model.StringParameterDefinition>
@@ -73,6 +88,7 @@
           <name>PRIVATE_KEY</name>
           <description>SSH private key for accessing the remote machines.</description>
           <defaultValue></defaultValue>
+          <credentialType>com.cloudbees.plugins.credentials.common.StandardCredentials</credentialType>
           <required>true</required>
         </com.cloudbees.plugins.credentials.CredentialsParameterDefinition>
         <hudson.model.StringParameterDefinition>
@@ -109,6 +125,8 @@
 
     parameters {
         string(name: &apos;PRE_CHECK&apos;, description: &apos;Python_artifact&apos;, defaultValue: &apos;precheck.py&apos;)
+        string(name: &apos;POST_CHECK&apos;, description: &apos;Python_artifact&apos;, defaultValue: &apos;postcheck.py&apos;)
+        string(name: &apos;HASH_CHECK&apos;, description: &apos;Python_artifact&apos;, defaultValue: &apos;hashcheck.py&apos;)
         string(name: &apos;GIT_REPO&apos;, description: &apos;URL of the Git repository&apos;, defaultValue: &apos;&apos;)
         credentials(name: &apos;TOKEN&apos;, description: &apos;Private access token for the Git repository&apos;, defaultValue: &apos;&apos;, required: false)
         string(name: &apos;REF&apos;, description: &apos;Branch or tag.&apos;, trim: true, defaultValue: &apos;1.0.2&apos;)
@@ -192,14 +210,32 @@
                         if (params.AIR_GAPPED) {
                             echo &quot;location of collections in air-gapped mode&quot;
                             sh &quot;&quot;&quot;
-                                echo ${params.COLLECTIONS_DIR}
+                                ansible-galaxy collection install confluent.platform:${params.CP_VERSION}
                             &quot;&quot;&quot;
                         } else {
                             echo &quot;Downloading collection with internet&quot;
                             sh &quot;&quot;&quot;
-                                ansible-galaxy collection install confluent.platform
+                                ansible-galaxy collection install confluent.platform:${params.CP_VERSION}
                             &quot;&quot;&quot;
                         }
+                    }
+                }
+            }
+        }
+
+        stage(&apos;Download Packages&apos;) {
+            steps {
+                script {
+                    def kafkaPythonVersion = &apos;2.0.2&apos;
+                    def confluentKafkaVersion = &apos;2.3.0&apos;
+
+                    if (params.AIR_GAPPED) {
+                        dir(&quot;${params.ARTEFACTS_DIR}&quot;) {
+                            sh &quot;pip install kafka-python-${kafkaPythonVersion}.tar.gz --break-system-packages&quot;
+                        }
+                    } else {
+                        sh &quot;pip install kafka-python==${kafkaPythonVersion} --break-system-packages&quot;
+                        sh &quot;pip install confluent-kafka==${confluentKafkaVersion} --break-system-packages&quot;
                     }
                 }
             }
@@ -232,14 +268,28 @@
                     if (params.ANSIBLE_LIMIT) {
                         ansibleArgs = ansibleArgs.concat(&quot; --limit &quot; + params.ANSIBLE_LIMIT)
                     }
-                    withCredentials([file(credentialsId: params.PRIVATE_KEY, variable: &apos;PRIVATE_KEY&apos;)]) {
-                        dir(&quot;${env.BUILD_NUMBER}&quot;) {
-                            sh &quot;&quot;&quot;
-                                cd ${params.ARTEFACTS_DIR}
-                                cat &quot;\$PRIVATE_KEY&quot; &gt; private-key
-                                chmod 400 private-key
-                                ansible-playbook -i hosts.yml confluent.platform.all ${ansibleArgs}
-                            &quot;&quot;&quot;
+
+                    if (params.AIR_GAPPED) {
+                        withCredentials([file(credentialsId: params.PRIVATE_KEY, variable: &apos;PRIVATE_KEY&apos;)]) {
+                            dir(&quot;${env.BUILD_NUMBER}&quot;) {
+                                sh &quot;&quot;&quot;
+                                    cd ${params.ARTEFACTS_DIR}
+                                    cat &quot;\$PRIVATE_KEY&quot; &gt; private-key
+                                    chmod 400 private-key
+                                    ansible-playbook -i hosts.yml confluent.platform.all ${ansibleArgs}
+                                &quot;&quot;&quot;
+                            }
+                        }
+                    } else {
+                        withCredentials([file(credentialsId: params.PRIVATE_KEY, variable: &apos;PRIVATE_KEY&apos;)]) {
+                            dir(&quot;${env.BUILD_NUMBER}&quot;) {
+                                sh &quot;&quot;&quot;
+                                    cd ${params.ARTEFACTS_DIR}
+                                    cat &quot;\$PRIVATE_KEY&quot; &gt; private-key
+                                    chmod 400 private-key
+                                    ansible-playbook -i inhosts.yml confluent.platform.all ${ansibleArgs}
+                                &quot;&quot;&quot;
+                            }
                         }
                     }
                 }
@@ -251,7 +301,18 @@
                 dir(&quot;${env.BUILD_NUMBER}&quot;) {
                     sh &quot;&quot;&quot;
                         cd ${params.ARTEFACTS_DIR}
-                        python3 ${params.PRE_CHECK}
+                        python3 ${params.POST_CHECK}
+                    &quot;&quot;&quot;
+                }
+            }
+        }
+
+        stage(&apos;Compare-Hash&apos;) {
+            steps {
+                dir(&quot;${env.BUILD_NUMBER}&quot;) {
+                    sh &quot;&quot;&quot;
+                        cd ${params.ARTEFACTS_DIR}
+                        python3 ${params.HASH_CHECK}
                     &quot;&quot;&quot;
                 }
             }

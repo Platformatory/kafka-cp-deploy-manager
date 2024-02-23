@@ -1,0 +1,350 @@
+Started by user [8mha:////4N1/qo4ZI1y2ZBkDTgFjONYwh8jChZqixWJJmW2Y5LXvAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgZu/dLi1CL9xJTczDwA9svhPMAAAAA=[0mButler
+[8mha:////4DvOiTZV83YzZKne3xwmrh3Wwcca2wPG89jj+YkyAFifAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4Fqg6UAMZd8Tu5QA82q4C1+b2B3JdiIqzts+bjP13w/mAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4H7xZOfhsAwt6Fxqg3TubJ+MO4UVF8X2lKqdp59EuO6CAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/jenkins_home/workspace/ansible-install
+[8mha:////4Ix6aqUIkIoIaX6yq9AKOIQx5Xh1aXtOjNddXh3nM/jAAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4HC7dHuMIGHbjoyNIAMx3s8FBNuAXPZHwn8LOzVaVh4RAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4K3E8LB2RN2AjtOzDNp6PlpviOsGOBo2HglWL+cQWC89AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Check Java)
+[8mha:////4Ols2hQKleVIFSRqaQwlP2gyaSRfDSiNwpgsHChQVxR8AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] script
+[8mha:////4LCytmUaueYuwhK/VH8sK7ltp1ML96iQ3fgQq+I0enV9AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] {
+[8mha:////4FMcWYtKMZ18xzdD09phcbt7wCex47FBNuTN/N02E3vXAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaoyVLaHxBMgiwpL/WWDdrTyRV/MOEjexcpJJ5k3zXm9Y5wQnSpZ7g73DrB2PYbR18YlSfws0cU9XrgkzBcOlmSR15rygpGJgCWtgJWBjUAfKDm2BrfDqodqg0LaXkup3FNC4boAnMFHNRaXyhTnB7j52mfDn+SuAORZg+9pD/AAeoCAqvAAAAA==[0m[Pipeline] sh
++ grep version
++ java -version
+[8mha:////4GGXNYx7pNIp3k00Hn5iNo2z9VjrsiDt3OvfY6/AAS5lAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKBDglR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYO0G2F+S7bfcBITL9lL0AAAA=[0m[Pipeline] echo
+Java Version: openjdk version "11.0.21" 2023-10-17
+[8mha:////4B3Ba5jo61h2Y4sLIZLXEkBu+qTy3nxEDIn7kCiPE//MAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6KEzcQ4uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL0tBtv8AHk6T5r0AAAA=[0m[Pipeline] }
+[8mha:////4PAQ+E/usypWcKXJrdAlmzAMU/ooAxNCB1Hkl4YnbJQaAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRNBSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsTZPsPXymMMb0AAAA=[0m[Pipeline] // script
+[8mha:////4D4vpxhu5u8ONHDtDMYfxZ7pufrN+srw5KmSkf/HGdelAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRQqJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5NudINt/AHkw63u9AAAA[0m[Pipeline] }
+[8mha:////4LzjyZ+tSsEVA0GJd9nr30UzOAvX4r3/Cm5AzgLo+RalAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRElSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsTZPsP073CUL0AAAA=[0m[Pipeline] // stage
+[8mha:////4Lg94SqbklvKE5UmasmTrkOFs/cCrWa9UFJ0FAimdHnZAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjJKgQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHILYMxWb3OZZvBXXnAcEAAAA=[0m[Pipeline] stage
+[8mha:////4MQf37HbYLLWNoC9P2dWCkmMpF/ZdO1m/uP8uu6i5WMlAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/s94rDCAAAA[0m[Pipeline] { (Check Python)
+[8mha:////4OmBB2hy6MpYMFnPaCsjwbc/O6ILA5z5TnEBE18QC0foAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] script
+[8mha:////4DP5zpvYxlHmsEjGqPmu8KF3fIqFg2DNG3qR3KgihLq3AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] {
+[8mha:////4P9tI9RGIbUFrxzEY+9N0FBDTFk3IGdaJOFBfCh+/IiHAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiOhCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBr2eB0O+AAAA[0m[Pipeline] sh
++ python3 --version
+[8mha:////4BYP0vodEMwaZir3/0BMLKpO/dJ1LzjesZz2qg+AKXcYAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICVEgoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKHeHXPvt8AGtm4OQvgAAAA==[0m[Pipeline] echo
+Python Version: Python 3.11.2
+[8mha:////4E0H0hlZnXgaULYfakLiJ0IEr3VakK7DeUvzPGGAH+WLAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiUCEhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3da768AGz5oXivgAAAA==[0m[Pipeline] }
+[8mha:////4JRN4YlJuDCsxlKk8QzNqLIOT4zYbxoObHB7mxAp2L7VAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRaSgQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJyjrOtf+8AGMia70vgAAAA==[0m[Pipeline] // script
+[8mha:////4FpDQbFa7m5Oyh757APrZIqnGnH5CzbCo0jkGKPvKnSQAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQKJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw+/avVIvgAAAA==[0m[Pipeline] }
+[8mha:////4FJagaImtIet5ermcoJXtzabMhlYQILVKrjPc29p2kO+AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEFQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrdPtf28AG9C/nMvgAAAA==[0m[Pipeline] // stage
+[8mha:////4O7UofLW982zbJ7fMI56T900NEHNxzuBY4ws5CYQoaeFAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjIagQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHILYMxWb3OZZvmG8PMMEAAAA=[0m[Pipeline] stage
+[8mha:////4PLkdkW1N/BzBDxgIL1B2d7UBTb9bWGo0ek1DHSu/lZiAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQoIFMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfACW9ZT2wgAAAA==[0m[Pipeline] { (Check Ansible)
+[8mha:////4Kx/ExnQlI9EHduQAdCC7qZHTcaPey8c8K5iGn50VCXDAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYoABMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAyQCqkwgAAAA==[0m[Pipeline] script
+[8mha:////4FEHXRdYceWc9boKm+2JDaKpROref5dfcUU2oQ8u9kkSAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgEJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAnLfKUwgAAAA==[0m[Pipeline] {
+[8mha:////4Cb6Z+ysmgyIFEgiF9QVrzqbTXE9ZK/Shu7Bc42S6Qu8AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUYEQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNwcnzs++AAAA[0m[Pipeline] sh
++ ansible --version
++ grep ansible
+[8mha:////4OYkNgnxNJ5cFp18dIoH4kWGacX3Ic7PKrsZcCpkkJ1pAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoEFCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw959s4fvgAAAA==[0m[Pipeline] echo
+Ansible Version: ansible [core 2.14.3]
+  configured module search path = ['/root/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
+  ansible python module location = /usr/lib/python3/dist-packages/ansible
+  ansible collection location = /root/.ansible/collections:/usr/share/ansible/collections
+  executable location = /usr/bin/ansible
+[8mha:////4JbeSPn+TMEnrcOO+4kTvNihCu4yh4VgEDH3L/Umj4SgAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEFCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw/Evt9vvgAAAA==[0m[Pipeline] }
+[8mha:////4FEj6xTk5KouWUx59WyFt+4Qy3RvMZDbEwX77t5Kve30AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihYICUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkG5r3PVhw/70fR5vgAAAA==[0m[Pipeline] // script
+[8mha:////4LBn/QAAtuqevs0QbP78u/I7S6990uGVX0MKdERe4e4QAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRiESDqNJaaXiBiQ/jxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgRI80WIqdFd6NJi8xcRiujifR80V0TJEdihanljU2C7acEJYUJawkbJA6x9GSSbCVvXqoyiky1TmF/B0llFbf4QmFzOakQvrCHGB3G3Vk+nn+CmD2PkFZ17n2hw/IMq/FvgAAAA==[0m[Pipeline] }
+[8mha:////4PEPCycfNww8B+sC9+WcM08QgUW5qOiPv7tu18JOBvnJAAAApR+LCAAAAAAAAP9tjTsOwjAQRDdBFLSUHGIj8alQKlrLDScwiTFOrN1gOzgVJ+Jq3AGLSFRMMZo3zXu9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw/KU6NBvgAAAA==[0m[Pipeline] // stage
+[8mha:////4DETpUfXKwaTVvIWqQX8qZNCVKPFvHPN/7c2vAxB+0f0AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYRTABWiorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxJah2Ow+x/INLGR4lsEAAAA=[0m[Pipeline] stage
+[8mha:////4Nki9xyu01fjx4CK3qPtcTqay+rd8plct8gVVWBv4UFWAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD02yRsvCAAAA[0m[Pipeline] { (Check Collections Folder)
+[8mha:////4IYaaV/MVFuCy6YkKmVbdiXT2CyDWJqlcMuqaaomAnjUAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QIIBMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfADpB/iZwgAAAA==[0m[Pipeline] script
+[8mha:////4F6WvmNB7fuB+vpj48ZrGQpyiosMlOHB32st5OepIn7fAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0YAAJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAD8aiCpwgAAAA==[0m[Pipeline] {
+[8mha:////4GQmh70cezvVGMA4uL5HnWuRCFrs7u/L95/UlfwOgh2qAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJS0IAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN65NpgK+AAAA[0m[Pipeline] sh
++ ls /root/.ansible/collections/ansible_collections
+confluent
+confluent-7.6.0
+confluent-community-7.6.0.tar.gz
+confluent-platform-7.5.3.tar.gz
+confluent.platform-7.4.1.info
+confluent.platform-7.4.3.info
+confluent.platform-7.5.3.info
+[8mha:////4JHjP97QxliMGI5eLYqVbh8qZo0hPwn4GVj7IZC3UrvbAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBAUSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANEcrdIdd+O3wAYuAr1r4AAAA=[0m[Pipeline] echo
+Collections Folder is present.
+[8mha:////4Cx9+OKtuqwFiEl4kXnUQShA/6arcaaDghjOW+bCX2mEAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBAUSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wAC7Fjs74AAAA=[0m[Pipeline] }
+[8mha:////4KqvP1P4ckDDmZg9GxZm8+m0V9m8a8iIllAGSb60hWNeAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiARIFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wANN5Ipb4AAAA=[0m[Pipeline] // script
+[8mha:////4EHxlM8z6/Lt6uPw3R0fRqP3RFF1DQGHuzOqjkEEAAWCAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSBNEgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3da768AEHPRMZvgAAAA==[0m[Pipeline] }
+[8mha:////4DNRx5LvYUccIrsRo/d17RIPZiOePInuuTXPaJSjzMnTAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIpCBWiSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BGVd59ofPgVcH52+AAAA[0m[Pipeline] // stage
+[8mha:////4CYTmN74xX1DykIOeP1yTNciZj+eLEq0Mod6ne/T5FkxAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BKWgpeYTThApR0VpueIGJjXFi3QX7QlLxIr7GHzBEomKrnZVW83xBlSIcKDrRWew9ptaLIYwuNzFR7C+BJtHRWbSEiYIVyk6KjD0uqIgtLClKWElYW2wDJY+OYSM7fdd10OjqE8e87SWU3tzgAYXMZtaRvzBH2F5Hkwh/nr8CmAeGomEom93nWL0BolrfU8EAAAA=[0m[Pipeline] stage
+[8mha:////4JU9icrTM18/5pN7YXhuPTxZPRtMvYVSc1WwG5SPMUFjAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ARbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAUxleXrCAAAA[0m[Pipeline] { (Git Checkout)
+[8mha:////4GUNdEB/62vIp0i8G3GmoOoc9KYSCs3HiOfraueNgN2cAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QTAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD+jQxyjCAAAA[0m[Pipeline] script
+[8mha:////4P1Hvz+SvEVzv2qM6fsxNRpT/wquBuJILHO+6YTWTcZQAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QQIJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAD9vR8YwgAAAA==[0m[Pipeline] {
+[8mha:////4OJ5Y+Z6kYPYQoI1Dt3SVh8Q6DagA2zq9ziAxXFsS0q8AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSUIAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNzJSLA2+AAAA[0m[Pipeline] sh
++ git clone -c advice.detachedHead=false --depth 1 --branch master https://9da9-2406-7400-81-a9e1-10bf-56c4-6e5b-9e17.ngrok-free.app/shiva/New 168
+Cloning into '168'...
+[8mha:////4H8EBc2kWzXxPsoDkPw4RT2U2JE58V0MO+8rbnIN66m9AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCARISSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wA3f8Jkb4AAAA=[0m[Pipeline] }
+[8mha:////4Bqr8tW2EsOyKjTgS4iPfC1IskpSWfLmw4NMQbGGc+LTAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJBAFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wA6THqyr4AAAA=[0m[Pipeline] // script
+[8mha:////4PDVAiFi/8euYIVzYnNtObBqHQX7KcxrDflsEVuo1YnGAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIaBBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw/Rc3k7vgAAAA==[0m[Pipeline] }
+[8mha:////4IfBMyXIyGwAyQvWJcN9+Kbgs4PFtB20fpHLCnuTAvFtAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSQCpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BGW9z3WoP87xLGm+AAAA[0m[Pipeline] // stage
+[8mha:////4OARKP1sScdgGgZEwdcJh4+KNayyhYyy1GyntezmdngIAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BKWgpeYTThApR0VpueIGJjXFi3QX7QlLxIr7GHzBEomKrnZVW83xBlSIcKDrRWew9ptaLIYwuNzFR7C+BJtHRWbSEiYIVyk6KjD0uqIgtLClKWElYW2wDJY+OYSM7fdd10OjqE8e87SWU3tzgAYXMZtaRvzBH2F5Hkwh/nr8CmAeGomEod83nWL0Bs4L0PsEAAAA=[0m[Pipeline] stage
+[8mha:////4MnyABtjXgvzzBc7BdYQ/JdzneNogwYIQX1//SVUPrBwAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0oRNiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsP+Y+xAMIAAAA=[0m[Pipeline] { (Download collection)
+[8mha:////4J3iuR/GuNjaIQLMmz5lpI/jxQB8IRvm03NWvVNoJdB9AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KgtiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPlyKrR8IAAAA=[0m[Pipeline] dir
+Running in /var/jenkins_home/workspace/ansible-install/168
+[8mha:////4N+Gnq0QA9+3d3vpWvEp+ckW/zar2Rabaua2xjKr7iNVAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AgbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxATOXFRXCAAAA[0m[Pipeline] {
+[8mha:////4JoE1ekxdK9uNZZp2DXN4K6lCQ+0emCjWSiq+omrj8tiAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QiAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LDyb6zSXCAAAA[0m[Pipeline] script
+[8mha:////4CEa1x0f+NPGWb0LGEB9tUaCyAOkIhk84LRqQlAd5bZBAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QgIhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0XdaX3CAAAA[0m[Pipeline] {
+[8mha:////4A5XF0yCQR5WXJoZ2WG+rwtXF7wpopnZk+QU8J97QW3uAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCAxJCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw8/Nre1vgAAAA==[0m[Pipeline] echo
+location of collections in air-gapped mode
+[8mha:////4DtI+PQ40yVKsHLlxOI//67Lz2PA8Hp5qoHSqorRCinoAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCpAQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANEcrdIdd+O3wAfgesrL4AAAA=[0m[Pipeline] sh
++ echo /root/.ansible/collections/ansible_collections
+/root/.ansible/collections/ansible_collections
+[8mha:////4B48BvthV2zcqrY4ceWnywbOls0h+rcdOfULnz1G/xy3AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIYGEUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpGCKU+22u3eEDnEU1g74AAAA=[0m[Pipeline] }
+[8mha:////4MGTay2HH3flP7Y2NxwMgm7wR9QXUf4siNGR9N9l0IAjAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIBASSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wAr6ZuP74AAAA=[0m[Pipeline] // script
+[8mha:////4PV0j1y0O06KySbowj4fd5lXRGu2MRfmbGZAuQTbRqCxAAAApR+LCAAAAAAAAP9tjTsOwjAQRDdBFLSUHGLT8ClQKlrLDScwiTFOrN1gOzgVJ+Jq3AGLSFRMMZo3zXu9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw+Gi9SyvgAAAA==[0m[Pipeline] }
+[8mha:////4IT3DiGbs51QKsB4UFzQQ61cm89LtDzA+YzjAJoss6fuAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKpkgZR0VppeIGJjXFi3Tn2haTiRXyNP2ARiYotVjvbzOsN2xThRNGK3uDgMHVOBD/ZvMRMcbh5mkVPV9ERJvJGtGZuSZvzii2xgTVFCRsJO4Odp+TQMuxlrx6q8gptdeGYv6OE0ukRnlDIbGYV+QtLhMN90onw5/krgCUEhrKpc9XNB7Vojw6+AAAA[0m[Pipeline] // dir
+[8mha:////4BF+M61LyffpuilGI2pZNbhVP4blpphG4bGzTO4ojcTdAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKpkgZR0VppeIGJjXFi3Tn2haTiRXyNP2ARiYotVjvbzOsN2xThRNGK3uDgMHVOBD/ZvMRMcbh5mkVPV9ERJvJGtGZuSZvzii2xgTVFCRsJO4Odp+TQMuxlrx6q8gptdeGYv6OE0ukRnlDIbGYV+QtLhMN90onw5/krgCUEhrJpctX1B6FLEhG+AAAA[0m[Pipeline] }
+[8mha:////4MLx00k/UD49LeGAPkToZk9t6XtCqdImMf5rmx0e54RwAAAApR+LCAAAAAAAAP9tjTsOwjAQRDdBFLSUHGLT8ClQKlrLDScwiTFOrN1gOzgVJ+Jq3AGLSFRMMZo3zXu9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuD7l22w+SqEmtvgAAAA==[0m[Pipeline] // stage
+[8mha:////4JS93rn8KRvRqt6X0FvKKTJ/ZGfiL/Zyb//5solMyCtXAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYTTIISEqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFhKLa7z7F8A1VY3njBAAAA[0m[Pipeline] stage
+[8mha:////4J3EoupzLf/DmZrY196zz0qRUWPlBEVhNKyY6iLRO/B9AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QyDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASgVHzvCAAAA[0m[Pipeline] { (Download Packages)
+[8mha:////4BuivThLIkAiC3oUhjXBmStvGkWnoPvzIq72VUKzA2PMAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUCYRQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3+2y7zedZvQGUkOl7wgAAAA==[0m[Pipeline] script
+[8mha:////4N5RIqkNQ2PyDKjJXj/b4UMzjySOHY9HVdhh/tIJ4Q9fAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUJgbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAdsxXVDCAAAA[0m[Pipeline] {
+[8mha:////4NH0bmtymoZz/lyr4KyCSrCJ9OhpmIeZ4Lxug4vTsUO8AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUsDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD7WcRxfCAAAA[0m[Pipeline] dir
+Running in /var/jenkins_home/workspace/ansible-install
+[8mha:////4H0Q1M0tYTyH2mIjxjbicHN1ywZdVcpq2gXXKZ+fiZfZAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUgoEBMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfAARKflFwgAAAA==[0m[Pipeline] {
+[8mha:////4EYgis60CrvHxTGdRHgq1mQ7yJ3RyFzVSGh8YcG7Mh3+AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgESBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK//dQuvAE/wUw2vgAAAA==[0m[Pipeline] sh
++ pip install kafka-python-2.0.2.tar.gz --break-system-packages
+Processing ./kafka-python-2.0.2.tar.gz
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Building wheels for collected packages: kafka-python
+  Building wheel for kafka-python (setup.py): started
+  Building wheel for kafka-python (setup.py): finished with status 'done'
+  Created wheel for kafka-python: filename=kafka_python-2.0.2-py2.py3-none-any.whl size=246500 sha256=da1139785e16fdda459538c18ad52682f0f2e3dadd43f826033c2929287c7f1b
+  Stored in directory: /root/.cache/pip/wheels/45/16/c7/b34765d57a7599ac74b4316b7c90af2dc841f4499d5a4a0023
+Successfully built kafka-python
+Installing collected packages: kafka-python
+  Attempting uninstall: kafka-python
+    Found existing installation: kafka-python 2.0.2
+    Uninstalling kafka-python-2.0.2:
+      Successfully uninstalled kafka-python-2.0.2
+Successfully installed kafka-python-2.0.2
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+[8mha:////4NhSqHm2ufJ57sb6PvqFfLfFQUrHfJ0vTRdkpTDRYvHUAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIESBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDud5/avgEM9aTqvgAAAA==[0m[Pipeline] }
+[8mha:////4PAN0R3FM7+52+UFi9/E57Tesz4LBnikSNCbec6xuBD9AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUUCBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDud5/avgE0tzcbvgAAAA==[0m[Pipeline] // dir
+[8mha:////4Cv+poq59I5iHwIpK4kUWy+jgQeB01DQ/WuuoI6WT82WAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiqhSIitZKwwtMYowd686xHZyKF/E1/kAgEhVbrHa2mecL1jHAkYNGq6g3FFuD3o16Xpg59FfHGS1fsGWK7BQ2KjfcqdOCDScFS4oSVgI2ilrH0ZBOsBVW3mXlJOnqnML8HQSUphvgAYWYzUmG9IUpwO42dpHp5/krgMn7BGVdf2r/Bis1Ykm+AAAA[0m[Pipeline] }
+[8mha:////4OOeEtdsO8tS6GGdKzIK6nPT9842zYA1diwK39BPfQZwAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCBxKiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7Bmi3M8++AAAA[0m[Pipeline] // script
+[8mha:////4KlDFhpl/rETZ3uOsxXi6qrN7c659Zc0/H3nC0hd9JnXAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSgSJEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOWhzrWvPyjtqGS+AAAA[0m[Pipeline] }
+[8mha:////4NrA1oLge2CWPaghzdhNCQRwYzVIhmspDVD2DzTFfnEAAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJChSIhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyjrfa5D/QGf/OjCvgAAAA==[0m[Pipeline] // stage
+[8mha:////4Gpu7FpoukJ7s2Ur1ngaxWwmRHY9R8GGFqTalGjhhAJBAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjJAokREVrueEFJjbGiXUX7AtJxYv4Gn8gEImKrXZWWs3zBWVOcKDkZeOwDZjrILvY+6nJgVJ7iTTIhs6yJswUndRu0GTdcUZN7GCOKGChYOmwjpQDeoaVaszdVNGgr06cpm2voAj2Bg8QajKzSfyFMcH62ttM+PP8FcDYMYgtQ7HbfI7lG8By7g/BAAAA[0m[Pipeline] stage
+[8mha:////4ImXUcVkgVvOMrwEww6SY/yljeFF05qYxaGWIlYmymBIAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUMCEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LDy1zm5PCAAAA[0m[Pipeline] { (Precheck)
+[8mha:////4KgMG8vuV1P5iWXad562mcy3VHmfX7++7wAc3naoMjQ0AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUggUJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfACJxiXBwgAAAA==[0m[Pipeline] dir
+Running in /var/jenkins_home/workspace/ansible-install/168
+[8mha:////4Dfbk/WQ22Y6u4wWTdZIohqFN8Dg1JKSw7SSMXbZGwWYAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0gAEJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfADxKa4dwgAAAA==[0m[Pipeline] {
+[8mha:////4PtLPF49GFA9xYN5LN8+IjdBBsg/+yzsWucPJqpbx61sAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSgISEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK//dQuvAFhm4w4vgAAAA==[0m[Pipeline] sh
++ cd .
++ python3 precheck.py
+Number of topics in the Kafka cluster: 131
+Hash of the topics: f2b8cf9fcaf0262961314b76f63c9e9fdd4b26dd4d0093a174da0c0f61cee6d0
+Hash saved to 'Pretopics_hash.txt'
+[8mha:////4JXIOARu5Y6jlAurU+VJQ8GcLDfzEohFh8gFHRVpdyXiAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSIISEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDud5/avgEnfoSDvgAAAA==[0m[Pipeline] }
+[8mha:////4OEW4AmE/YhyI7JTy4Bj1fIY+5y/KsHGX4Rotw26HULkAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSUICEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDud5/avgEhOLzWvgAAAA==[0m[Pipeline] // dir
+[8mha:////4MwVom5pe/VHL/dglcLVgYZGcj0Gw/fPIJmd1sYfkDPqAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUUVCVLRWGl5gEmPsWHeO7eBUvIiv8QcCkajYYrWzzTxfsI4Bjhw0WkW9odga9G7U88LMob86zmj5gi1TZKewUbnhTp0WbDgpWFKUsBKwUdQ6joZ0gq2w8i4rJ0lX5xTm7yCgNN0ADyjEbE4ypC9MAXa3sYtMP89fAUzeJyjr+lP7N2K67VC+AAAA[0m[Pipeline] }
+[8mha:////4BXKE1T2++yf7mycq9vnyfUwynsUPxA+zLQROl1RYOH6AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiOhCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7Bn04uAK+AAAA[0m[Pipeline] // stage
+[8mha:////4DXeukI9/TN7k3MX4m2dffQbxJc9JL39W83WrLm3PMZwAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYRDQYMQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHILYMxW7zOZZv0arFYsEAAAA=[0m[Pipeline] stage
+[8mha:////4NT7dVjSenQ7g0eMsxcFVb6nKb4BQnCfuvVNJyDyS4yvAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogURoSYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+mJlT6cIAAAA=[0m[Pipeline] { (Run playbook)
+[8mha:////4HPw6VCJMlJiBKqAkCyDqstEax5xP54sVri99TQSAO5PAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUsCHE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAfY0Sa7CAAAA[0m[Pipeline] script
+[8mha:////4K0b+bLjFp6O58QX/Xtef3PBj1NRG2TNkQSupNIOMuU0AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUggkhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD1KB9/zCAAAA[0m[Pipeline] {
+[8mha:////4Brxmc2aGTGOZAn6goEjg/Sn3/2ujuIGty3jBIM8KBdlAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0gAUhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LDypufCDCAAAA[0m[Pipeline] withCredentials
+Masking supported pattern matches of $PRIVATE_KEY
+[8mha:////4HOzixghk5k4IXiPjSn6kHa26r+XxX8oy233SQDr1vwRAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0gQEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LDwyoG8LCAAAA[0m[Pipeline] {
+[8mha:////4DSUHsIiZwlLsO3hRYMH5tCSzO8uSDbHZVhwzJqpW3hPAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0Agkhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD2IFAYXCAAAA[0m[Pipeline] dir
+Running in /var/jenkins_home/workspace/ansible-install/168
+[8mha:////4LLKHN8CQYguJ9i3Kk3MSN9RWZSwZhJfbY0Zw9f2gNFVAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AyHE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAcawv9fCAAAA[0m[Pipeline] {
+[8mha:////4CThfXzoZd0ZfTZnMIyk2JzhzRKtSz6tOu87RS9Ny1TpAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSAkJUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDud9+ahfeGJWicb4AAAA=[0m[Pipeline] sh
++ cd .
++ cat ****
++ chmod 400 private-key
++ ansible-playbook -i hosts.yml confluent.platform.all --skip-tags package
+[WARNING]: running playbook inside collection confluent.platform
+[WARNING]: Could not match supplied host pattern, ignoring: kafka_controller
+[WARNING]: Could not match supplied host pattern, ignoring: schema_registry
+[WARNING]: Could not match supplied host pattern, ignoring: kafka_connect
+[WARNING]: Could not match supplied host pattern, ignoring: ksql
+[WARNING]: Could not match supplied host pattern, ignoring: control_center
+[WARNING]: Could not match supplied host pattern, ignoring: kafka_rest
+[WARNING]: Could not match supplied host pattern, ignoring:
+kafka_connect_replicator
+
+PLAY [Host Prerequisites] ******************************************************
+
+TASK [Create Certificate Authority and Copy to Ansible Host] *******************
+skipping: [localhost]
+
+TASK [confluent.platform.common : Confirm Hash Merging Enabled] ****************
+ok: [localhost] => {
+    "changed": false,
+    "msg": "All assertions passed"
+}
+
+TASK [confluent.platform.common : Verify Ansible version] **********************
+ok: [localhost] => {
+    "changed": false,
+    "msg": "All assertions passed"
+}
+
+TASK [confluent.platform.common : Check the presence of Controller and Zookeeper] ***
+skipping: [localhost]
+
+TASK [confluent.platform.common : Gather OS Facts] *****************************
+ok: [localhost]
+
+TASK [confluent.platform.common : Verify Python version] ***********************
+ok: [localhost] => {
+    "changed": false,
+    "msg": "All assertions passed"
+}
+
+TASK [confluent.platform.common : Red Hat Repo Setup and Java Installation] ****
+skipping: [localhost]
+
+TASK [confluent.platform.common : Ubuntu Repo Setup and Java Installation] *****
+included: /root/.ansible/collections/ansible_collections/confluent/platform/roles/common/tasks/ubuntu.yml for localhost
+
+TASK [confluent.platform.common : Add Confluent Apt Key] ***********************
+skipping: [localhost]
+
+TASK [confluent.platform.common : Ensure Custom Apt Repo does not Exists when repository_configuration is Confluent] ***
+skipping: [localhost]
+
+TASK [confluent.platform.common : Add Confluent Apt Repo] **********************
+skipping: [localhost]
+
+TASK [confluent.platform.common : Add Confluent Clients Apt Key] ***************
+skipping: [localhost]
+
+TASK [confluent.platform.common : Add Confluent Clients Apt Repo] **************
+skipping: [localhost]
+
+TASK [confluent.platform.common : Ensure Confluent Apt Repo does not Exists when repository_configuration is Custom] ***
+skipping: [localhost]
+
+TASK [confluent.platform.common : Ensure Confluent Clients Apt Repo does not Exists when repository_configuration is Custom] ***
+skipping: [localhost]
+
+TASK [confluent.platform.common : Add Custom Apt Repo] *************************
+skipping: [localhost]
+
+TASK [confluent.platform.common : meta] ****************************************
+
+TASK [confluent.platform.common : Make Sure man pages Directory Exists] ********
+ok: [localhost]
+
+TASK [confluent.platform.common : Custom Java Install] *************************
+included: /root/.ansible/collections/ansible_collections/confluent/platform/roles/common/tasks/custom_java_install.yml for localhost
+
+TASK [confluent.platform.common : Check custom_java_path in Centos7] ***********
+skipping: [localhost]
+
+TASK [confluent.platform.common : Check custom_java_path in Debian] ************
+skipping: [localhost]
+
+TASK [confluent.platform.common : Java Update Alternatives] ********************
+skipping: [localhost]
+
+TASK [confluent.platform.common : Keytool Update Alternatives] *****************
+skipping: [localhost]
+
+TASK [confluent.platform.common : Add open JDK repo] ***************************
+ok: [localhost]
+
+TASK [confluent.platform.common : Get Java Version] ****************************
+ok: [localhost]
+
+TASK [confluent.platform.common : Print Java Version] **************************
+ok: [localhost] => {
+    "msg": "Current Java Version is: openjdk version \"11.0.21\" 2023-10-17"
+}
+
+TASK [confluent.platform.common : Debian Repo Setup and Java Installation] *****
+skipping: [localhost]
+
+TASK [confluent.platform.common : Config Validations] **************************
+skipping: [localhost]
+
+TASK [confluent.platform.common : Create Confluent Platform install directory] ***
+ok: [localhost]
+
+TASK [confluent.platform.common : Expand remote Confluent Platform archive] ****
+ok: [localhost]
+
+TASK [confluent.platform.common : Create Jolokia directory] ********************
+skipping: [localhost]
+
+TASK [confluent.platform.common : Copy Jolokia Jar] ****************************
+skipping: [localhost]
+
+TASK [confluent.platform.common : Download Jolokia Jar] ************************
+skipping: [localhost]
+
+TASK [confluent.platform.common : Create Prometheus install directory] *********
+skipping: [localhost]
+
+TASK [confluent.platform.common : Copy Prometheus Jar] *************************
+skipping: [localhost]
+
+TASK [confluent.platform.common : Download Prometheus JMX Exporter Jar] ********
+skipping: [localhost]
+
+TASK [confluent.platform.common : Install Confluent CLI] ***********************
+skipping: [localhost]
+
+TASK [confluent.platform.common : set_fact] ************************************
+ok: [localhost]
+
+PLAY [Zookeeper Status Finding] ************************************************
+
+TASK [Populate service facts] **************************************************
+ok: [localhost]
+
+TASK [Determine Installation Pattern - Parallel or Serial] *********************
+ok: [localhost]
+
+TASK [Group Hosts by Installation Pattern] *************************************
+ok: [localhost]
+
+PLAY [Zookeeper Parallel Provisioning] *****************************************
+
+TASK [include_role : common] ***************************************************
+skipping: [localhost]
+
+TASK [confluent.platform.zookeeper : Gather OS Facts] **************************
+ok: [localhost] => (item=ansible_os_family)
+ok: [localhost] => (item=ansible_fqdn)
+
+TASK [confluent.platform.zookeeper : Create Zookeeper Group] *******************
+ok: [localhost]
+
+TASK [confluent.platform.zookeeper : Check if Zookeeper User Exists] ***********
+ok: [localhost]
+
+TASK [confluent.platform.zookeeper : Create Zookeeper User] ********************
+skipping: [localhost]
+
+TASK [confluent.platform.zookeeper : Copy Zookeeper Service from archive file to system] ***
+fatal: [localhost]: FAILED! => {"changed": false, "msg": "Source /opt/confluent/confluent-7.5.3/lib/systemd/system/confluent-zookeeper.service not found"}
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=19   changed=0    unreachable=0    failed=1    skipped=26   rescued=0    ignored=0   
+
+[8mha:////4DhojJLAP43TNnqM9K8mRDEBD0oQNPqZKohnv9TKxBHaAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSoghR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMHmfoKzrT+3fvae3VL4AAAA=[0m[Pipeline] }
+[8mha:////4OYLCdRpKtNLLMldzs2WSozYt0R3I3QH3f/6FWvASLn/AAAAph+LCAAAAAAAAP9tjbEOgjAURR8QB1dHP6LgYmIMk2vD4hfUUmuheQ/bhzD5Rf6a/2AjiZN3uucs5/WGVQxQU7CiM9g7jNqJwY82PTFR6K+eJtHRRWjCSN6IxkwNtea0YENsYFmWQyFhbVB7ig4tw0Z26qFKr9CWZw7JHSXkrr3DEzKZyqwCf2EOsL2NbST8df4GYB4GhmJXVQz5Yf8BpqkVfb8AAAA=[0m[Pipeline] // dir
+[8mha:////4KDF5iHtLA7YvgjZr23x/feDDyHmyf/GPS63hgIy2+lXAAAAph+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxGksHAcKtsMjSeIJMZAZheTRag8kVfzDmZkxspf/fea93rDKgaoKVjRGewdxtaJwY82PTFR6K+eJtHRRbSEkbwRjZka0ua0YENsYFmWQyFhbbD1FB1aho3s1EOVXqEtzxySO0rInb7DEzKZyqwCf2EOsL2NOhL+On8DMA8DQ1HtKob8sP8AuStAL78AAAA=[0m[Pipeline] }
+[8mha:////4Mv/Xb6gl03FOKeB1ZMa0y+J+zT4zZmtC+dRbEXHdhTpAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDiAZFVLRWGl5gYmOcWHfBvpBUvIiv8QcsIlGx1c4083rDIgY4UrCiNdg5jI0TvR9semKk0F09jaKli2gII3kjajPWpM1pxprYwLwsh0LC0mDjKTq0DCvZqocqvUJbnjkkV0nInb7DEzKZyqwCf2EKsL4NOhL+On8DMPU9Q7Hd7Bjyw/4DgWnT3r8AAAA=[0m[Pipeline] // withCredentials
+[8mha:////4Olt0GmCO0Ag4uyO6c0uuiNoNdqHDTTaSNiIkIeLizjaAAAApR+LCAAAAAAAAP9tjTESgjAQRZcwFraWHiLoUDkOlW2GxhPEEGMgs4vJIlSeyKt5BxmZsfJX/73mvd6wShEqik62FjuPyXjZh8HNT44Uu2ugUbZ0kYYwUbCytmNNjT0tWBNbWJYJyBWsLZpAyaNj2KhWP3QRNLrizHF2RwXCN3d4QqbmMuvIX5gibG9Dkwh/nb8BmPqeId/vSgZxKD+HL+uLvwAAAA==[0m[Pipeline] }
+[8mha:////4NxGSqimGXryEnBR9UG2vE19v9EmX0jsZa13+JFEJKizAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDiAZFVLRWGl5gYmOcWHfBvpBUvIiv8QcsIlGx1c4083rDIgY4UrCiNdg5jI0TvR9semKk0F09jaKli2gII3kjajPWpM1pxprYwLwsh0LC0mDjKTq0DCvZqocqvUJbnjkkV0nInb7DEzKZyqwCf2EKsL4NOhL+On8DMPU9Q7Hd7Bnyw+4DqS/p4b8AAAA=[0m[Pipeline] // script
+[8mha:////4MtFO07Ug96xvmAPgvbpIC4e3bYZLOvgvImlv2n00GAsAAAAph+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxGksHAcKtsMjSeIJMZAZheTRag8kVfzDmZkxspf/fea93rDKgaoKVjRGewdxtaJwY82PTFR6K+eJtHRRbSEkbwRjZka0ua0YENsYFmWQyFhbbD1FB1aho3s1EOVXqEtzxySO0rInb7DEzKZyqwCf2EOsL2NOhL+On8DMA8DQ1Ht9gz5ofoAtq28s78AAAA=[0m[Pipeline] }
+[8mha:////4O6qhS322AMLj3l5JT6RYBFFaxvv+zw9i9NA8lpau8+LAAAAph+LCAAAAAAAAP9tjbEOgjAURR8QB1dHP6LgYmIMk2vD4hfUUmuheQ/bhzD5Rf6a/2AjiZN3uucs5/WGVQxQU7CiM9g7jNqJwY82PTFR6K+eJtHRRWjCSN6IxkwNtea0YENsYFmWQyFhbVB7ig4tw0Z26qFKr9CWZw7JHSXkrr3DEzKZyqwCf2EOsL2NbST8df4GYB4GhmJX7RnyQ/UBju8vQr8AAAA=[0m[Pipeline] // stage
+[8mha:////4DYkQLI+w8fcE3SOe8Xxc+heF9T0KInZrlFCsHSlHSYpAAAAqB+LCAAAAAAAAP9tjTEOwjAQBM+JUtBS8ggHJCQKREVrpeEFJjHGiXUX7AtOxYv4Gn8gEImKrXZWWs3zBUUMcKBgZWuwcxhrJ3s/2KnJRKG7eEqypbOsCSN5IyuTKmrMccaK2MAckUGuYGGw9hQdWoalavVdl16jLU8cpm2vIHPNDR4g1GRmHfgLY4DVdWgi4c/zVwBjzyC2DPlmvfs8izeidQsiwgAAAA==[0m[Pipeline] stage
+[8mha:////4D93Quooc/IVUJdp0UOHVtq15EOwlm1QAJQs7XR9wrofAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BApTCChTqxRF04QkhCSRv+XJKWdOBFX4w6UVmLCg2Vbst7rDWUMUFMwzGlsLUZpWed7MyU2UGivngbm6MIkYSSvWaOHhpQ+LbWhpGFRlkPBYaVReooWTYI1d+IhKi/QVOcUpu3IIbfqDk/I+EROIqS5jAE2t15Fwh/nLwDGLkGx2+5nP3y/5Qdi1BftxAAAAA==[0m[Pipeline] { (Postcheck)
+Stage "Postcheck" skipped due to earlier failure(s)
+[8mha:////4Clu+0HyZRYuROrC4zMVR64i61Tn2r2cbthnnvronu/hAAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDHQilorXS8AJjG2PHugu2g1PxIr7GH4gSiYotVjvbzPsDqxigoWCY09hZjNKy3g9mWixT6G6eMnN0ZZIwktes1bklpc8LtpQ0LClKqDisNUpP0aJJsOFOPEXtBZr6ksL0nTiUVj3gBQWfzEmENMMYYHsfVCT8ef4KYOz7BNV+d5z78AXvkKWwwAAAAA==[0m[Pipeline] }
+[8mha:////4OjbzDOLxAzL/5Kyjb43G6pffa5eut4Oa+96ZffJOwD7AAAApR+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxGgsnCsbDM0niCSGAOZXUwWofJEXs07GGXGyl/8+e837/mCVQxwoGBFZ7B3GFsnBj/atMREob94mkRHZ9ESRvJGNGZqSJvjgg2xgSVZDoWEtcHWU3RoGTayU3dVeoW2PHFI315C7vQNHpDJZGYV+AtzgO111JHw5/krgHkYGIq6rj5d7d4zyCh5wAAAAA==[0m[Pipeline] // stage
+[8mha:////4F5JlPb32JNpnoq2TcB35fXz9NiHEw1Zdu2Zix3sIJyiAAAApx+LCAAAAAAAAP9tjbEOgjAURV8hDK6OfkRJEzfj5Nqw+AUVai0070H7ECa/yF/zH0RJnLzTPTe5Oc8XFCnCkaKTrcXOY6q97MPoliYnit010CRbusiaMFGwsrJTRY09rVgRW1gjMsg1bCzWgZJHx7DVrbmbMhh05Znjsh00ZL4Z4AFCL2Y2kb8wR9jdxiYR/jx/BTD3DGLPkCulPs/iDQudJVLCAAAA[0m[Pipeline] stage
+[8mha:////4FfVohLSyPWVcDWn+tG2Rvv6z/yC7JxZFeYPnHMk2GqlAAAApx+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BCpwoqYWKMunCA0ISSN/i9JSjtxIq7GHQitxIQHy7Zkvdcb6hjgSMEwp7G3GDvLBj+anNhEob96mpijC+sII3nNWj21pPRprS0lDauKEioBG42dp2jRJNgKJx+y8RJNc04hbwcBpVV3eEIhMjnJkJYyB9jdRhUJf5y/AJiHBBXnfPH991t/ANWAUNjEAAAA[0m[Pipeline] { (Compare-Hash)
+Stage "Compare-Hash" skipped due to earlier failure(s)
+[8mha:////4I2lSl4nh8xSoSFf7aKNY/kB9cbrwzshBJC894nEBL+rAAAApB+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjQImo0lppeIGJjbFj3RnbIal4EV/jD1iJRMUWq51t5v2BTQxwpqCZVTgYjL1h3o06LzZRGG6OJmbpynrCSE6xTk0dSdWu2FFSsKYooeKwVdg7igZ1gh234ilqJ1DXlxTyd+JQGvmAFxQ8m5MIaYE5wP4+ykj48/wVwOx9gqppjksfvmAXsSHAAAAA[0m[Pipeline] }
+[8mha:////4Ko0DtArFkJwB6VfkTXYCX15jwvqdUhqDGkf0dV20dVGAAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjSHSIitZKwwtMYowd686cHZKKF/E1/oCVSFRssdrZZt4f2ESGE7ERTuNgMXZWBD+avMREPNw8TcLRVXSEkbwWrZ5a6vV5xZaShjVFCZWErcbOU7RoEuykU09Ve4WmviTO31FCafsHvKCQ2ZwUpwVmhv197CPhz/NXAHMICaqmOSzdfAFUeB99wAAAAA==[0m[Pipeline] // stage
+[8mha:////4Kacre1KlBY/knDCE9r3WT4xzsIi37ImeQny2onjPGcQAAAApB+LCAAAAAAAAP9tjTEOwjAQBM+JKGgpeYSjSFAhKlorDS8wsTFOrLtgX3AqXsTX+AMRkajYameaeb1hlSIcKTrZWew9ptbLIYxufjJT7K+BsuzoIlvCRMHKxuaGjD0t2BBbWCYKKBWsLbaBkkfHsFGdfugqaHTVmePsDgoKb+7wBKHmMuvIX5gibG+jSYS/zt8ATMPAUNb1nkHsPjQUfUu+AAAA[0m[Pipeline] }
+[8mha:////4Cp+qUyQXB5qdaYH5qGlLqAX/jIVLKkpihDdYUpS9bVxAAAApR+LCAAAAAAAAP9tjTEOwjAQBM+JKGgpeYSjCIkGUdFaaXiBiY1xYt0F+4JT8SK+xh+IiETFVjvTzOsNqxThSNHJzmLvMbVeDmF085OZYn8NlGVHF9kSJgpWNjY3ZOxpwYbYwjJRQKlgbbENlDw6ho3q9ENXQaOrzhxnd1BQeHOHJwg1l1lH/sIUYXsbTSL8df4GYBoGhrKu9wxi9wFH+7mSvgAAAA==[0m[Pipeline] // node
+[8mha:////4DNTrkMtd7wjMlzfNH/tzxFTh+CVph8+j+jx8nIMarZMAAAApB+LCAAAAAAAAP9tjTEOwjAQBM+JKGgpeYSj0FAgKlorDS8wsTFOrLtgX3AqXsTX+AMRkajYameaeb1hlSIcKTrZWew9ptbLIYxufjJT7K+BsuzoIlvCRMHKxuaGjD0t2BBbWCYKKBWsLbaBkkfHsFGdfugqaHTVmePsDgoKb+7wBKHmMuvIX5gibG+jSYS/zt8ATMPAUNb1nkHsPmHi3ti+AAAA[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 2
+Finished: FAILURE
