@@ -1,0 +1,34 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@1326.ve643e00e9220">
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@3769.v8b_e595e4d40d">
+    <script>pipeline {
+    agent any
+            
+
+    stages {
+        stage(&apos;Pre-Upgrade&apos;) {
+            steps {
+                script {
+                    // Your pre-upgrade steps here
+                    sh &apos;&apos;&apos;
+                        #!/bin/bash
+                        hash=$(kafka-topics --bootstrap-server 54.237.75.150:9092 --list | sha256sum)
+                        hash=$(echo &quot;$hash&quot; | cut -d&apos; &apos; -f1)
+                        echo &quot;$hash&quot; &gt; pre_upgrade_topics_hash.txt
+                        echo &quot;Hash saved to pre_upgrade_topics_hash.txt&quot;
+                    &apos;&apos;&apos;
+                }
+            }
+        }
+    }
+}
+</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

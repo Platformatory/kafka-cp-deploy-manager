@@ -1,30 +1,5 @@
 <?xml version='1.1' encoding='UTF-8'?>
 <hudson.model.Queue_-State>
-  <counter>666</counter>
-  <items>
-    <hudson.model.Queue_-BuildableItem>
-      <actions/>
-      <id>610</id>
-      <task class="org.jenkinsci.plugins.workflow.support.steps.ExecutorStepExecution$PlaceholderTask" plugin="workflow-durable-task-step@1284.v4fcd365b_75b_e">
-        <context class="org.jenkinsci.plugins.workflow.cps.CpsStepContext" plugin="workflow-cps@3769.v8b_e595e4d40d">
-          <executionRef class="org.jenkinsci.plugins.workflow.job.WorkflowRun$Owner" plugin="workflow-job@1326.ve643e00e9220">
-            <job>agentcheck</job>
-            <id>6</id>
-          </executionRef>
-          <id>3</id>
-          <bodyHeads/>
-          <body class="org.jenkinsci.plugins.workflow.cps.HandleBodyReference">
-            <id>1</id>
-          </body>
-          <threadId>0</threadId>
-          <stepDescriptorId>org.jenkinsci.plugins.workflow.support.steps.ExecutorStep</stepDescriptorId>
-        </context>
-        <label>ansible-runner</label>
-        <runId>agentcheck#6</runId>
-      </task>
-      <inQueueSince>1710488886545</inQueueSince>
-      <buildableStartMilliseconds>1710488886547</buildableStartMilliseconds>
-      <isPending>false</isPending>
-    </hudson.model.Queue_-BuildableItem>
-  </items>
+  <counter>668</counter>
+  <items/>
 </hudson.model.Queue_-State>
