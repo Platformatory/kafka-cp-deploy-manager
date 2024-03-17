@@ -1,0 +1,123 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@1326.ve643e00e9220">
+  <actions>
+    <hudson.model.ParametersAction>
+      <safeParameters class="sorted-set"/>
+      <parameters>
+        <hudson.model.StringParameterValue>
+          <name>PRE_CHECK</name>
+          <description>Python_artifact</description>
+          <value>precheck.py</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>POST_CHECK</name>
+          <description>Python_artifact</description>
+          <value>postcheck.py</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>HASH_CHECK</name>
+          <description>Python_artifact</description>
+          <value>hashcheck.py</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>GIT_REPO</name>
+          <description>URL of the Git repository</description>
+          <value>https://9da9-2406-7400-81-a9e1-10bf-56c4-6e5b-9e17.ngrok-free.app/shiva/New</value>
+        </hudson.model.StringParameterValue>
+        <com.cloudbees.plugins.credentials.CredentialsParameterValue plugin="credentials@1271.v54b_1c2c6388a_">
+          <name>TOKEN</name>
+          <description>Private access token for the Git repository</description>
+          <value></value>
+          <isDefaultValue>true</isDefaultValue>
+        </com.cloudbees.plugins.credentials.CredentialsParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>REF</name>
+          <description>Branch or tag.</description>
+          <value>master</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>ARTEFACTS_DIR</name>
+          <description>Relative path where the playbook hosts and config are present.</description>
+          <value>.</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>COLLECTIONS_DIR</name>
+          <description>Relative path where the tar files are present</description>
+          <value>/root/.ansible/collections/ansible_collections</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>CP_VERSION</name>
+          <description>CP version to install.</description>
+          <value>7.6.0</value>
+        </hudson.model.StringParameterValue>
+        <com.cloudbees.plugins.credentials.CredentialsParameterValue plugin="credentials@1271.v54b_1c2c6388a_">
+          <name>PRIVATE_KEY</name>
+          <description>SSH private key for accessing the remote machines.</description>
+          <value>shiva.txt</value>
+          <isDefaultValue>false</isDefaultValue>
+        </com.cloudbees.plugins.credentials.CredentialsParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>ANSIBLE_TAGS</name>
+          <description>Values to pass to the --tags parameter</description>
+          <value></value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>ANSIBLE_SKIP_TAGS</name>
+          <description>Values to pass to the --skip-tags parameter</description>
+          <value>package</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>ANSIBLE_LIMIT</name>
+          <description>Values to pass to the --limit parameter</description>
+          <value></value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.BooleanParameterValue>
+          <name>UP_GRADE_DOWN_GRADE</name>
+          <description>Upgrade and downgrade</description>
+          <value>true</value>
+        </hudson.model.BooleanParameterValue>
+        <hudson.model.BooleanParameterValue>
+          <name>AIR_GAPPED</name>
+          <description>Specify if the environment is air-gapped</description>
+          <value>true</value>
+        </hudson.model.BooleanParameterValue>
+      </parameters>
+      <parameterDefinitionNames>
+        <string>PRE_CHECK</string>
+        <string>POST_CHECK</string>
+        <string>HASH_CHECK</string>
+        <string>GIT_REPO</string>
+        <string>TOKEN</string>
+        <string>REF</string>
+        <string>ARTEFACTS_DIR</string>
+        <string>COLLECTIONS_DIR</string>
+        <string>CP_VERSION</string>
+        <string>PRIVATE_KEY</string>
+        <string>ANSIBLE_TAGS</string>
+        <string>ANSIBLE_SKIP_TAGS</string>
+        <string>ANSIBLE_LIMIT</string>
+        <string>UP_GRADE_DOWN_GRADE</string>
+        <string>AIR_GAPPED</string>
+      </parameterDefinitionNames>
+    </hudson.model.ParametersAction>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>admin</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+  </actions>
+  <queueId>555</queueId>
+  <timestamp>1708674012246</timestamp>
+  <startTime>1708674012260</startTime>
+  <result>FAILURE</result>
+  <duration>18</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>

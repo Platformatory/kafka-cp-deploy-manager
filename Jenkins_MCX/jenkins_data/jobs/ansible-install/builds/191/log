@@ -1,0 +1,828 @@
+Started by user [8mha:////4N1/qo4ZI1y2ZBkDTgFjONYwh8jChZqixWJJmW2Y5LXvAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgZu/dLi1CL9xJTczDwA9svhPMAAAAA=[0mButler
+[8mha:////4DvOiTZV83YzZKne3xwmrh3Wwcca2wPG89jj+YkyAFifAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4Fqg6UAMZd8Tu5QA82q4C1+b2B3JdiIqzts+bjP13w/mAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4H7xZOfhsAwt6Fxqg3TubJ+MO4UVF8X2lKqdp59EuO6CAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/jenkins_home/workspace/ansible-install
+[8mha:////4Ix6aqUIkIoIaX6yq9AKOIQx5Xh1aXtOjNddXh3nM/jAAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4HC7dHuMIGHbjoyNIAMx3s8FBNuAXPZHwn8LOzVaVh4RAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4K3E8LB2RN2AjtOzDNp6PlpviOsGOBo2HglWL+cQWC89AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Check Java)
+[8mha:////4Ols2hQKleVIFSRqaQwlP2gyaSRfDSiNwpgsHChQVxR8AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] script
+[8mha:////4LCytmUaueYuwhK/VH8sK7ltp1ML96iQ3fgQq+I0enV9AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] {
+[8mha:////4FMcWYtKMZ18xzdD09phcbt7wCex47FBNuTN/N02E3vXAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaoyVLaHxBMgiwpL/WWDdrTyRV/MOEjexcpJJ5k3zXm9Y5wQnSpZ7g73DrB2PYbR18YlSfws0cU9XrgkzBcOlmSR15rygpGJgCWtgJWBjUAfKDm2BrfDqodqg0LaXkup3FNC4boAnMFHNRaXyhTnB7j52mfDn+SuAORZg+9pD/AAeoCAqvAAAAA==[0m[Pipeline] sh
++ grep version
++ java -version
+[8mha:////4GGXNYx7pNIp3k00Hn5iNo2z9VjrsiDt3OvfY6/AAS5lAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKBDglR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYO0G2F+S7bfcBITL9lL0AAAA=[0m[Pipeline] echo
+Java Version: openjdk version "11.0.21" 2023-10-17
+[8mha:////4B3Ba5jo61h2Y4sLIZLXEkBu+qTy3nxEDIn7kCiPE//MAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6KEzcQ4uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL0tBtv8AHk6T5r0AAAA=[0m[Pipeline] }
+[8mha:////4PAQ+E/usypWcKXJrdAlmzAMU/ooAxNCB1Hkl4YnbJQaAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRNBSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsTZPsPXymMMb0AAAA=[0m[Pipeline] // script
+[8mha:////4D4vpxhu5u8ONHDtDMYfxZ7pufrN+srw5KmSkf/HGdelAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRQqJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5NudINt/AHkw63u9AAAA[0m[Pipeline] }
+[8mha:////4LzjyZ+tSsEVA0GJd9nr30UzOAvX4r3/Cm5AzgLo+RalAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRElSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsTZPsP073CUL0AAAA=[0m[Pipeline] // stage
+[8mha:////4Lg94SqbklvKE5UmasmTrkOFs/cCrWa9UFJ0FAimdHnZAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjJKgQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHILYMxWb3OZZvBXXnAcEAAAA=[0m[Pipeline] stage
+[8mha:////4MQf37HbYLLWNoC9P2dWCkmMpF/ZdO1m/uP8uu6i5WMlAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/s94rDCAAAA[0m[Pipeline] { (Check Python)
+[8mha:////4OmBB2hy6MpYMFnPaCsjwbc/O6ILA5z5TnEBE18QC0foAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] script
+[8mha:////4DP5zpvYxlHmsEjGqPmu8KF3fIqFg2DNG3qR3KgihLq3AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] {
+[8mha:////4P9tI9RGIbUFrxzEY+9N0FBDTFk3IGdaJOFBfCh+/IiHAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiOhCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBr2eB0O+AAAA[0m[Pipeline] sh
++ python3 --version
+[8mha:////4BYP0vodEMwaZir3/0BMLKpO/dJ1LzjesZz2qg+AKXcYAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICVEgoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKHeHXPvt8AGtm4OQvgAAAA==[0m[Pipeline] echo
+Python Version: Python 3.11.2
+[8mha:////4E0H0hlZnXgaULYfakLiJ0IEr3VakK7DeUvzPGGAH+WLAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiUCEhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3da768AGz5oXivgAAAA==[0m[Pipeline] }
+[8mha:////4JRN4YlJuDCsxlKk8QzNqLIOT4zYbxoObHB7mxAp2L7VAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRaSgQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJyjrOtf+8AGMia70vgAAAA==[0m[Pipeline] // script
+[8mha:////4FpDQbFa7m5Oyh757APrZIqnGnH5CzbCo0jkGKPvKnSQAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQKJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw+/avVIvgAAAA==[0m[Pipeline] }
+[8mha:////4FJagaImtIet5ermcoJXtzabMhlYQILVKrjPc29p2kO+AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEFQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrdPtf28AG9C/nMvgAAAA==[0m[Pipeline] // stage
+[8mha:////4O7UofLW982zbJ7fMI56T900NEHNxzuBY4ws5CYQoaeFAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjIagQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHILYMxWb3OZZvmG8PMMEAAAA=[0m[Pipeline] stage
+[8mha:////4PLkdkW1N/BzBDxgIL1B2d7UBTb9bWGo0ek1DHSu/lZiAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQoIFMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfACW9ZT2wgAAAA==[0m[Pipeline] { (Check Ansible)
+[8mha:////4Kx/ExnQlI9EHduQAdCC7qZHTcaPey8c8K5iGn50VCXDAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYoABMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAyQCqkwgAAAA==[0m[Pipeline] script
+[8mha:////4FEHXRdYceWc9boKm+2JDaKpROref5dfcUU2oQ8u9kkSAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgEJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAnLfKUwgAAAA==[0m[Pipeline] {
+[8mha:////4Cb6Z+ysmgyIFEgiF9QVrzqbTXE9ZK/Shu7Bc42S6Qu8AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUYEQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNwcnzs++AAAA[0m[Pipeline] sh
++ grep ansible
++ ansible --version
+[8mha:////4OYkNgnxNJ5cFp18dIoH4kWGacX3Ic7PKrsZcCpkkJ1pAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoEFCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw959s4fvgAAAA==[0m[Pipeline] echo
+Ansible Version: ansible [core 2.14.3]
+  configured module search path = ['/root/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
+  ansible python module location = /usr/lib/python3/dist-packages/ansible
+  ansible collection location = /root/.ansible/collections:/usr/share/ansible/collections
+  executable location = /usr/bin/ansible
+[8mha:////4JbeSPn+TMEnrcOO+4kTvNihCu4yh4VgEDH3L/Umj4SgAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEFCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw/Evt9vvgAAAA==[0m[Pipeline] }
+[8mha:////4FEj6xTk5KouWUx59WyFt+4Qy3RvMZDbEwX77t5Kve30AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihYICUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkG5r3PVhw/70fR5vgAAAA==[0m[Pipeline] // script
+[8mha:////4LBn/QAAtuqevs0QbP78u/I7S6990uGVX0MKdERe4e4QAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRiESDqNJaaXiBiQ/jxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgRI80WIqdFd6NJi8xcRiujifR80V0TJEdihanljU2C7acEJYUJawkbJA6x9GSSbCVvXqoyiky1TmF/B0llFbf4QmFzOakQvrCHGB3G3Vk+nn+CmD2PkFZ17n2hw/IMq/FvgAAAA==[0m[Pipeline] }
+[8mha:////4PEPCycfNww8B+sC9+WcM08QgUW5qOiPv7tu18JOBvnJAAAApR+LCAAAAAAAAP9tjTsOwjAQRDdBFLSUHGIj8alQKlrLDScwiTFOrN1gOzgVJ+Jq3AGLSFRMMZo3zXu9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw/KU6NBvgAAAA==[0m[Pipeline] // stage
+[8mha:////4DETpUfXKwaTVvIWqQX8qZNCVKPFvHPN/7c2vAxB+0f0AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYRTABWiorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxJah2Ow+x/INLGR4lsEAAAA=[0m[Pipeline] stage
+[8mha:////4Nki9xyu01fjx4CK3qPtcTqay+rd8plct8gVVWBv4UFWAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD02yRsvCAAAA[0m[Pipeline] { (Check Collections Folder)
+[8mha:////4IYaaV/MVFuCy6YkKmVbdiXT2CyDWJqlcMuqaaomAnjUAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QIIBMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfADpB/iZwgAAAA==[0m[Pipeline] script
+[8mha:////4F6WvmNB7fuB+vpj48ZrGQpyiosMlOHB32st5OepIn7fAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0YAAJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAD8aiCpwgAAAA==[0m[Pipeline] {
+[8mha:////4GQmh70cezvVGMA4uL5HnWuRCFrs7u/L95/UlfwOgh2qAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJS0IAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN65NpgK+AAAA[0m[Pipeline] sh
++ ls /root/.ansible/collections/ansible_collections
+confluent
+confluent-7.6.0
+confluent-community-7.6.0.tar.gz
+confluent-platform-7.5.3.tar.gz
+confluent-platform-7.6.0.tar.gz
+confluent.platform-7.4.1.info
+confluent.platform-7.4.3.info
+confluent.platform-7.5.3.info
+confluent.platform-7.6.0.info
+[8mha:////4JHjP97QxliMGI5eLYqVbh8qZo0hPwn4GVj7IZC3UrvbAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBAUSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANEcrdIdd+O3wAYuAr1r4AAAA=[0m[Pipeline] echo
+Collections Folder is present.
+[8mha:////4Cx9+OKtuqwFiEl4kXnUQShA/6arcaaDghjOW+bCX2mEAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBAUSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wAC7Fjs74AAAA=[0m[Pipeline] }
+[8mha:////4KqvP1P4ckDDmZg9GxZm8+m0V9m8a8iIllAGSb60hWNeAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiARIFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wANN5Ipb4AAAA=[0m[Pipeline] // script
+[8mha:////4EHxlM8z6/Lt6uPw3R0fRqP3RFF1DQGHuzOqjkEEAAWCAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSBNEgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3da768AEHPRMZvgAAAA==[0m[Pipeline] }
+[8mha:////4DNRx5LvYUccIrsRo/d17RIPZiOePInuuTXPaJSjzMnTAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIpCBWiSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BGVd59ofPgVcH52+AAAA[0m[Pipeline] // stage
+[8mha:////4CYTmN74xX1DykIOeP1yTNciZj+eLEq0Mod6ne/T5FkxAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BKWgpeYTThApR0VpueIGJjXFi3QX7QlLxIr7GHzBEomKrnZVW83xBlSIcKDrRWew9ptaLIYwuNzFR7C+BJtHRWbSEiYIVyk6KjD0uqIgtLClKWElYW2wDJY+OYSM7fdd10OjqE8e87SWU3tzgAYXMZtaRvzBH2F5Hkwh/nr8CmAeGomEom93nWL0BolrfU8EAAAA=[0m[Pipeline] stage
+[8mha:////4JU9icrTM18/5pN7YXhuPTxZPRtMvYVSc1WwG5SPMUFjAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ARbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAUxleXrCAAAA[0m[Pipeline] { (Git Checkout)
+[8mha:////4GUNdEB/62vIp0i8G3GmoOoc9KYSCs3HiOfraueNgN2cAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QTAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD+jQxyjCAAAA[0m[Pipeline] script
+[8mha:////4P1Hvz+SvEVzv2qM6fsxNRpT/wquBuJILHO+6YTWTcZQAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QQIJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAD9vR8YwgAAAA==[0m[Pipeline] {
+[8mha:////4OJ5Y+Z6kYPYQoI1Dt3SVh8Q6DagA2zq9ziAxXFsS0q8AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSUIAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNzJSLA2+AAAA[0m[Pipeline] sh
++ git clone -c advice.detachedHead=false --depth 1 --branch master https://9da9-2406-7400-81-a9e1-10bf-56c4-6e5b-9e17.ngrok-free.app/shiva/New 191
+Cloning into '191'...
+[8mha:////4H8EBc2kWzXxPsoDkPw4RT2U2JE58V0MO+8rbnIN66m9AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCARISSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wA3f8Jkb4AAAA=[0m[Pipeline] }
+[8mha:////4Bqr8tW2EsOyKjTgS4iPfC1IskpSWfLmw4NMQbGGc+LTAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJBAFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wA6THqyr4AAAA=[0m[Pipeline] // script
+[8mha:////4PDVAiFi/8euYIVzYnNtObBqHQX7KcxrDflsEVuo1YnGAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIaBBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw/Rc3k7vgAAAA==[0m[Pipeline] }
+[8mha:////4IfBMyXIyGwAyQvWJcN9+Kbgs4PFtB20fpHLCnuTAvFtAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSQCpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BGW9z3WoP87xLGm+AAAA[0m[Pipeline] // stage
+[8mha:////4OARKP1sScdgGgZEwdcJh4+KNayyhYyy1GyntezmdngIAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BKWgpeYTThApR0VpueIGJjXFi3QX7QlLxIr7GHzBEomKrnZVW83xBlSIcKDrRWew9ptaLIYwuNzFR7C+BJtHRWbSEiYIVyk6KjD0uqIgtLClKWElYW2wDJY+OYSM7fdd10OjqE8e87SWU3tzgAYXMZtaRvzBH2F5Hkwh/nr8CmAeGomEod83nWL0Bs4L0PsEAAAA=[0m[Pipeline] stage
+[8mha:////4MnyABtjXgvzzBc7BdYQ/JdzneNogwYIQX1//SVUPrBwAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0oRNiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsP+Y+xAMIAAAA=[0m[Pipeline] { (Download collection)
+[8mha:////4J3iuR/GuNjaIQLMmz5lpI/jxQB8IRvm03NWvVNoJdB9AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KgtiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPlyKrR8IAAAA=[0m[Pipeline] dir
+Running in /var/jenkins_home/workspace/ansible-install/191
+[8mha:////4N+Gnq0QA9+3d3vpWvEp+ckW/zar2Rabaua2xjKr7iNVAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AgbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxATOXFRXCAAAA[0m[Pipeline] {
+[8mha:////4JoE1ekxdK9uNZZp2DXN4K6lCQ+0emCjWSiq+omrj8tiAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QiAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LDyb6zSXCAAAA[0m[Pipeline] script
+[8mha:////4CEa1x0f+NPGWb0LGEB9tUaCyAOkIhk84LRqQlAd5bZBAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QgIhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0XdaX3CAAAA[0m[Pipeline] {
+[8mha:////4A5XF0yCQR5WXJoZ2WG+rwtXF7wpopnZk+QU8J97QW3uAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCAxJCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw8/Nre1vgAAAA==[0m[Pipeline] sh
++ ansible-galaxy collection install confluent-platform-7.6.0.tar.gz
+[WARNING]: Collection at
+'/root/.ansible/collections/ansible_collections/confluent-7.6.0/libexec' does
+not have a MANIFEST.json file, nor has it galaxy.yml: cannot detect version.
+[WARNING]: Collection at
+'/root/.ansible/collections/ansible_collections/confluent-7.6.0/src' does not
+have a MANIFEST.json file, nor has it galaxy.yml: cannot detect version.
+[WARNING]: Collection at
+'/root/.ansible/collections/ansible_collections/confluent-7.6.0/etc' does not
+have a MANIFEST.json file, nor has it galaxy.yml: cannot detect version.
+[WARNING]: Collection at
+'/root/.ansible/collections/ansible_collections/confluent-7.6.0/lib' does not
+have a MANIFEST.json file, nor has it galaxy.yml: cannot detect version.
+[WARNING]: Collection at
+'/root/.ansible/collections/ansible_collections/confluent-7.6.0/bin' does not
+have a MANIFEST.json file, nor has it galaxy.yml: cannot detect version.
+[WARNING]: Collection at
+'/root/.ansible/collections/ansible_collections/confluent-7.6.0/share' does not
+have a MANIFEST.json file, nor has it galaxy.yml: cannot detect version.
+[WARNING]: Collection at
+'/root/.ansible/collections/ansible_collections/.config/molecule' does not have
+a MANIFEST.json file, nor has it galaxy.yml: cannot detect version.
+[WARNING]: Collection at
+'/root/.ansible/collections/ansible_collections/.github/workflows' does not
+have a MANIFEST.json file, nor has it galaxy.yml: cannot detect version.
+[WARNING]: Collection at
+'/root/.ansible/collections/ansible_collections/.github/ISSUE_TEMPLATE' does
+not have a MANIFEST.json file, nor has it galaxy.yml: cannot detect version.
+Starting galaxy collection install process
+Nothing to do. All requested collections are already installed. If you want to reinstall them, consider using `--force`.
+[8mha:////4EZ4YoAMhJoFRF6+hucQUFPzvYoda8/9zB8dd5RdCR23AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCpAQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wAMjehBb4AAAA=[0m[Pipeline] }
+[8mha:////4CcBFgr1QY/j7HvOd0mFa38vMa+FhZUP8iiYTX6BT2d3AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIYGQUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpGCKU+22u3eEDCnUy9L4AAAA=[0m[Pipeline] // script
+[8mha:////4AUmrv6UL8yWqtX4sfkxSqbuBPJw8rmdYMD7XDf+OBqfAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIKBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw8+u9GvvgAAAA==[0m[Pipeline] }
+[8mha:////4JzpeNyD3OcimGOLLqa34J/t/uxs2efGXZv3CqcNerTDAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSQBpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BGW9z3WoPxC708W+AAAA[0m[Pipeline] // dir
+[8mha:////4AL15sre1jXSBZQYa744FU/0+hEr2fHZfDs5dXEra/JFAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKpQoOoaC03vMAkxtix7ox9Ial4EV/jD1hEomKL1c4283rDOic4UrLCGxwc5s6JGEZblpgoDddAk/B0ER1hpmCEMpOi3pwWVMQGllQ1rCRsDHaBskPLsJVeP3QTNNrmzKl8Bwm16+/whEoWM+vEX5gT7G5jnwl/nr8CmGNkqPdtqbb9AA85hpe+AAAA[0m[Pipeline] }
+[8mha:////4Pp2H/eCtXjAeSqa4dgRVl3X0HFGjd4e+i+cS9zb0ZnaAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSQBpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BGVd5zrsPzd7FWa+AAAA[0m[Pipeline] // stage
+[8mha:////4AkCBgMkMjKyOraOEa2Id7MQul2deAV9PkGjAaIy2BgLAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYTTICgQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHIDYMxXb3OZZvgOqIicEAAAA=[0m[Pipeline] stage
+[8mha:////4G7fhTGZG1ux1FeX61z2eoNOe+K5F1NGkIxJ2pogfLZ1AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AyTE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAUsyu2PCAAAA[0m[Pipeline] { (Download Packages)
+[8mha:////4J3EoupzLf/DmZrY196zz0qRUWPlBEVhNKyY6iLRO/B9AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QyDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASgVHzvCAAAA[0m[Pipeline] script
+[8mha:////4BuivThLIkAiC3oUhjXBmStvGkWnoPvzIq72VUKzA2PMAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUCYRQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3+2y7zedZvQGUkOl7wgAAAA==[0m[Pipeline] {
+[8mha:////4N5RIqkNQ2PyDKjJXj/b4UMzjySOHY9HVdhh/tIJ4Q9fAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUJgbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAdsxXVDCAAAA[0m[Pipeline] dir
+Running in /var/jenkins_home/workspace/ansible-install
+[8mha:////4NH0bmtymoZz/lyr4KyCSrCJ9OhpmIeZ4Lxug4vTsUO8AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUsDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD7WcRxfCAAAA[0m[Pipeline] {
+[8mha:////4CcAqZ0qv5jcDZcdpZfD8rb7XsrQJIvYQ9P6w63firfZAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQUGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK//dQuvAFMXHrfvgAAAA==[0m[Pipeline] sh
++ pip install kafka-python-2.0.2.tar.gz --break-system-packages
+Processing ./kafka-python-2.0.2.tar.gz
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Building wheels for collected packages: kafka-python
+  Building wheel for kafka-python (setup.py): started
+  Building wheel for kafka-python (setup.py): finished with status 'done'
+  Created wheel for kafka-python: filename=kafka_python-2.0.2-py2.py3-none-any.whl size=246500 sha256=808dd7437d6e93e6c3a09a3791cee96773952b0fb8c37cc150fba388aa8fb6b7
+  Stored in directory: /root/.cache/pip/wheels/45/16/c7/b34765d57a7599ac74b4316b7c90af2dc841f4499d5a4a0023
+Successfully built kafka-python
+Installing collected packages: kafka-python
+  Attempting uninstall: kafka-python
+    Found existing installation: kafka-python 2.0.2
+    Uninstalling kafka-python-2.0.2:
+      Successfully uninstalled kafka-python-2.0.2
+Successfully installed kafka-python-2.0.2
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+[8mha:////4FhwszGTUpwdgdsNVohJVJhr4GcnHsZgbsiPR3lMc3/IAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISQKRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyv/vU9g0/Fv9WvgAAAA==[0m[Pipeline] }
+[8mha:////4NnbN/ljDvPbeQSoyW5nlmHH1O4V1djPO7cgPrqd/vxZAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCkSBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDud5/avgEglKoEvgAAAA==[0m[Pipeline] // dir
+[8mha:////4EUJfgzR7xBX/99euVU8sEehQ9AnzYdMSk5ln+yPx30xAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCBQWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nffWr7BhjWOfW+AAAA[0m[Pipeline] }
+[8mha:////4A5ZTL3vdQztANJDnZWGTQMPJ6ZoLSmKyzs5QfXdMjHeAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMLpiBCiSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BGVd59ofPliMol6+AAAA[0m[Pipeline] // script
+[8mha:////4KH2KaAewUXvw/E+fm8y5GScRKRzcQWgiEJVVHrXtZIQAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSQSREldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOWhzrWvPxsO89i+AAAA[0m[Pipeline] }
+[8mha:////4A0vvyIM24U8q66oGskyZiavVtCV2TIoT+4mwNWnoXy1AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMLpiBCiSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BGV9yLWvPy/AEIO+AAAA[0m[Pipeline] // stage
+[8mha:////4DYfv8nIyK3raVPrSwFDVyij3QYG1WoWAVYLS0vzJWpzAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYRDQYGEqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFlKHabz7F8A2WhssTBAAAA[0m[Pipeline] stage
+[8mha:////4P3nhhPVWiNzcUWdz78kCY0kRUt5XUmyx443cT0tGkc9AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUNiTE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAUPegdTCAAAA[0m[Pipeline] { (Precheck)
+[8mha:////4ImXUcVkgVvOMrwEww6SY/yljeFF05qYxaGWIlYmymBIAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUMCEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LDy1zm5PCAAAA[0m[Pipeline] dir
+Running in /var/jenkins_home/workspace/ansible-install/191
+[8mha:////4KgMG8vuV1P5iWXad562mcy3VHmfX7++7wAc3naoMjQ0AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUggUJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfACJxiXBwgAAAA==[0m[Pipeline] {
+[8mha:////4ObFfn3UWxjDRNGkww77aFtBhjLvS5fg1Hl6gQ25GdDyAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSQIGEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK//dQuvAGulDDkvgAAAA==[0m[Pipeline] sh
++ cd .
++ python3 precheck.py
+Number of topics in the Kafka cluster: 131
+Hash of the topics: f2b8cf9fcaf0262961314b76f63c9e9fdd4b26dd4d0093a174da0c0f61cee6d0
+Hash saved to 'Pretopics_hash.txt'
+[8mha:////4NIToTq5nAydZuVDdMGTCh25zghO56HoHvwHnjTCIXZGAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSICQkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyv/vU9g0qmXSbvgAAAA==[0m[Pipeline] }
+[8mha:////4AooC1x16LltFkJwEQ0OAtohX502u+Ip0gIZhkw6iELlAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUSAkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyv/vU9g0S2+dqvgAAAA==[0m[Pipeline] // dir
+[8mha:////4DCbfsVm3ofDVA6siMfuyyn8E3BLCwGABkbtPT4JVFqhAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKpAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcr97lPbNw1Zsji+AAAA[0m[Pipeline] }
+[8mha:////4IZ+AjrYjwXsd4BZRhVz5vQ8W9bwHQDDAfxyooLpEHYSAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCGQlR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMHmfoKzrT+3fTtvjvr4AAAA=[0m[Pipeline] // stage
+[8mha:////4O/a58AWAJF6iItk9R6CJuO3AjIUbvureNxXpc1Y3USWAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYTTUIAQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHIDYMxXb3OZZvrfC948EAAAA=[0m[Pipeline] stage
+[8mha:////4CoM8giVtVym/1piCHXfbnnx/HUw1HlfbXEBkGuw+mVNAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUkQoxdY2ycIKQhJA2+r8kKe3EibgadyBQiQkPlm3Jes8XVDHAkYJlncHeYVSODX60ObGJQn/xNLGOzkwRRvKGCTMJ0qZdqqBkYFFRworD2qDyFB3aBBveybusvURbn1LI24FD6fQNHlDwTE4ypG+ZA2yvo46EP85fAMxDgnLfZGt2n2f1Btc458LCAAAA[0m[Pipeline] { (Run playbook)
+[8mha:////4NT7dVjSenQ7g0eMsxcFVb6nKb4BQnCfuvVNJyDyS4yvAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogURoSYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+mJlT6cIAAAA=[0m[Pipeline] script
+[8mha:////4HPw6VCJMlJiBKqAkCyDqstEax5xP54sVri99TQSAO5PAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUsCHE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAfY0Sa7CAAAA[0m[Pipeline] {
+[8mha:////4K0b+bLjFp6O58QX/Xtef3PBj1NRG2TNkQSupNIOMuU0AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUggkhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD1KB9/zCAAAA[0m[Pipeline] withCredentials
+Masking supported pattern matches of $PRIVATE_KEY
+[8mha:////4Brxmc2aGTGOZAn6goEjg/Sn3/2ujuIGty3jBIM8KBdlAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0gAUhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LDypufCDCAAAA[0m[Pipeline] {
+[8mha:////4HOzixghk5k4IXiPjSn6kHa26r+XxX8oy233SQDr1vwRAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0gQEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LDwyoG8LCAAAA[0m[Pipeline] dir
+Running in /var/jenkins_home/workspace/ansible-install/191
+[8mha:////4DSUHsIiZwlLsO3hRYMH5tCSzO8uSDbHZVhwzJqpW3hPAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0Agkhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD2IFAYXCAAAA[0m[Pipeline] {
+[8mha:////4Hu3PHG7QDTFOAvMGHzZ15kHc+qn57IZJoVYZmF5Tye9AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSgRCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBmOCTVC+AAAA[0m[Pipeline] sh
++ cd .
++ cat ****
++ chmod 400 private-key
++ ansible-playbook -i hosts.yml confluent.platform.all --skip-tags package
+[WARNING]: running playbook inside collection confluent.platform
+[WARNING]: Could not match supplied host pattern, ignoring: kafka_controller
+[WARNING]: Could not match supplied host pattern, ignoring: schema_registry
+[WARNING]: Could not match supplied host pattern, ignoring: kafka_connect
+[WARNING]: Could not match supplied host pattern, ignoring: ksql
+[WARNING]: Could not match supplied host pattern, ignoring: control_center
+[WARNING]: Could not match supplied host pattern, ignoring: kafka_rest
+[WARNING]: Could not match supplied host pattern, ignoring:
+kafka_connect_replicator
+
+PLAY [Host Prerequisites] ******************************************************
+
+TASK [Create Certificate Authority and Copy to Ansible Host] *******************
+skipping: [localhost]
+
+TASK [confluent.platform.common : Confirm Hash Merging Enabled] ****************
+ok: [localhost] => {
+    "changed": false,
+    "msg": "All assertions passed"
+}
+
+TASK [confluent.platform.common : Verify Ansible version] **********************
+ok: [localhost] => {
+    "changed": false,
+    "msg": "All assertions passed"
+}
+
+TASK [confluent.platform.common : Check the presence of Controller and Zookeeper] ***
+skipping: [localhost]
+
+TASK [confluent.platform.common : Gather OS Facts] *****************************
+ok: [localhost]
+
+TASK [confluent.platform.common : Verify Python version] ***********************
+ok: [localhost] => {
+    "changed": false,
+    "msg": "All assertions passed"
+}
+
+TASK [confluent.platform.common : Red Hat Repo Setup and Java Installation] ****
+skipping: [localhost]
+
+TASK [confluent.platform.common : Ubuntu Repo Setup and Java Installation] *****
+included: /root/.ansible/collections/ansible_collections/confluent/platform/roles/common/tasks/ubuntu.yml for localhost
+
+TASK [confluent.platform.common : Add Confluent Apt Key] ***********************
+skipping: [localhost]
+
+TASK [confluent.platform.common : Ensure Custom Apt Repo does not Exists when repository_configuration is Confluent] ***
+skipping: [localhost]
+
+TASK [confluent.platform.common : Add Confluent Apt Repo] **********************
+skipping: [localhost]
+
+TASK [confluent.platform.common : Add Confluent Clients Apt Key] ***************
+skipping: [localhost]
+
+TASK [confluent.platform.common : Add Confluent Clients Apt Repo] **************
+skipping: [localhost]
+
+TASK [confluent.platform.common : Ensure Confluent Apt Repo does not Exists when repository_configuration is Custom] ***
+skipping: [localhost]
+
+TASK [confluent.platform.common : Ensure Confluent Clients Apt Repo does not Exists when repository_configuration is Custom] ***
+skipping: [localhost]
+
+TASK [confluent.platform.common : Add Custom Apt Repo] *************************
+skipping: [localhost]
+
+TASK [confluent.platform.common : meta] ****************************************
+
+TASK [confluent.platform.common : Make Sure man pages Directory Exists] ********
+ok: [localhost]
+
+TASK [confluent.platform.common : Custom Java Install] *************************
+included: /root/.ansible/collections/ansible_collections/confluent/platform/roles/common/tasks/custom_java_install.yml for localhost
+
+TASK [confluent.platform.common : Check custom_java_path in Centos7] ***********
+skipping: [localhost]
+
+TASK [confluent.platform.common : Check custom_java_path in Debian] ************
+skipping: [localhost]
+
+TASK [confluent.platform.common : Java Update Alternatives] ********************
+skipping: [localhost]
+
+TASK [confluent.platform.common : Keytool Update Alternatives] *****************
+skipping: [localhost]
+
+TASK [confluent.platform.common : Add open JDK repo] ***************************
+ok: [localhost]
+
+TASK [confluent.platform.common : Get Java Version] ****************************
+ok: [localhost]
+
+TASK [confluent.platform.common : Print Java Version] **************************
+ok: [localhost] => {
+    "msg": "Current Java Version is: openjdk version \"11.0.21\" 2023-10-17"
+}
+
+TASK [confluent.platform.common : Debian Repo Setup and Java Installation] *****
+skipping: [localhost]
+
+TASK [confluent.platform.common : Config Validations] **************************
+skipping: [localhost]
+
+TASK [confluent.platform.common : Create Confluent Platform install directory] ***
+ok: [localhost]
+
+TASK [confluent.platform.common : Expand remote Confluent Platform archive] ****
+skipping: [localhost]
+
+TASK [confluent.platform.common : Create Jolokia directory] ********************
+skipping: [localhost] => (item=kafka_broker) 
+skipping: [localhost] => (item=zookeeper) 
+skipping: [localhost]
+
+TASK [confluent.platform.common : Copy Jolokia Jar] ****************************
+skipping: [localhost] => (item=kafka_broker) 
+skipping: [localhost] => (item=zookeeper) 
+skipping: [localhost]
+
+TASK [confluent.platform.common : Download Jolokia Jar] ************************
+skipping: [localhost] => (item=kafka_broker) 
+skipping: [localhost] => (item=zookeeper) 
+skipping: [localhost]
+
+TASK [confluent.platform.common : Create Prometheus install directory] *********
+skipping: [localhost]
+
+TASK [confluent.platform.common : Copy Prometheus Jar] *************************
+skipping: [localhost]
+
+TASK [confluent.platform.common : Download Prometheus JMX Exporter Jar] ********
+skipping: [localhost]
+
+TASK [confluent.platform.common : Install Confluent CLI] ***********************
+skipping: [localhost]
+
+TASK [confluent.platform.common : set_fact] ************************************
+ok: [localhost]
+
+PLAY [Zookeeper Status Finding] ************************************************
+
+TASK [Populate service facts] **************************************************
+ok: [localhost]
+
+TASK [Determine Installation Pattern - Parallel or Serial] *********************
+ok: [localhost]
+
+TASK [Group Hosts by Installation Pattern] *************************************
+ok: [localhost]
+
+PLAY [Zookeeper Parallel Provisioning] *****************************************
+
+TASK [include_role : common] ***************************************************
+skipping: [localhost]
+
+TASK [confluent.platform.zookeeper : Gather OS Facts] **************************
+ok: [localhost] => (item=ansible_os_family)
+ok: [localhost] => (item=ansible_fqdn)
+
+TASK [confluent.platform.zookeeper : Create Zookeeper Group] *******************
+ok: [localhost]
+
+TASK [confluent.platform.zookeeper : Check if Zookeeper User Exists] ***********
+ok: [localhost]
+
+TASK [confluent.platform.zookeeper : Create Zookeeper User] ********************
+skipping: [localhost]
+
+TASK [confluent.platform.zookeeper : Copy Zookeeper Service from archive file to system] ***
+ok: [localhost]
+
+TASK [include_role : ssl] ******************************************************
+skipping: [localhost]
+
+TASK [Configure Kerberos] ******************************************************
+skipping: [localhost]
+
+TASK [Copy Custom Zookeeper Files] *********************************************
+skipping: [localhost]
+
+TASK [confluent.platform.zookeeper : Set Zookeeper Data Dir Ownership] *********
+ok: [localhost]
+
+TASK [confluent.platform.zookeeper : Set Ownership of Data Dir Files] **********
+ok: [localhost]
+
+TASK [confluent.platform.zookeeper : Set Zookeeper Transaction Log Data Dir Ownership] ***
+skipping: [localhost]
+
+TASK [confluent.platform.zookeeper : Set Ownership of Transaction Log Data Dir Files] ***
+skipping: [localhost]
+
+TASK [confluent.platform.zookeeper : Create Zookeeper myid File] ***************
+ok: [localhost]
+
+TASK [confluent.platform.zookeeper : Create Zookeeper Config directory] ********
+ok: [localhost]
+
+TASK [confluent.platform.zookeeper : Create Zookeeper Config] ******************
+ok: [localhost]
+
+TASK [confluent.platform.zookeeper : Create Log Directory] *********************
+ok: [localhost]
+
+TASK [confluent.platform.zookeeper : Create log4j Directory] *******************
+ok: [localhost]
+
+TASK [confluent.platform.zookeeper : Create Zookeeper log4j config] ************
+ok: [localhost]
+
+TASK [confluent.platform.zookeeper : Create logredactor rule file directory] ***
+skipping: [localhost]
+
+TASK [confluent.platform.zookeeper : Copy logredactor rule file from control node to component node] ***
+skipping: [localhost]
+
+TASK [Configure logredactor] ***************************************************
+skipping: [localhost] => (item={'logger_name': 'log4j.rootLogger', 'appenderRefs': 'zkAppender'}) 
+skipping: [localhost]
+
+TASK [confluent.platform.zookeeper : Restart zookeeper] ************************
+skipping: [localhost]
+
+TASK [confluent.platform.zookeeper : Create Zookeeper Jolokia Config] **********
+skipping: [localhost]
+
+TASK [confluent.platform.zookeeper : Create Zookeeper Jaas config] *************
+skipping: [localhost]
+
+TASK [confluent.platform.zookeeper : Deploy JMX Exporter Config File] **********
+skipping: [localhost]
+
+TASK [confluent.platform.zookeeper : Create Service Override Directory] ********
+ok: [localhost]
+
+TASK [confluent.platform.zookeeper : Write Service Overrides] ******************
+ok: [localhost]
+
+TASK [confluent.platform.zookeeper : Certs were Updated - Trigger Restart] *****
+skipping: [localhost]
+
+TASK [confluent.platform.zookeeper : meta] *************************************
+
+TASK [confluent.platform.zookeeper : Zookeeper Service Started] ****************
+ok: [localhost]
+
+TASK [confluent.platform.zookeeper : Zookeeper Health Check] *******************
+included: /root/.ansible/collections/ansible_collections/confluent/platform/roles/zookeeper/tasks/health_check.yml for localhost
+
+TASK [confluent.platform.zookeeper : Wait for Zookeeper Status] ****************
+ok: [localhost]
+
+TASK [confluent.platform.zookeeper : Wait for Zookeeper Quorum] ****************
+ok: [localhost]
+
+TASK [confluent.platform.zookeeper : Fetch Files for Debugging Failure] ********
+skipping: [localhost]
+
+TASK [confluent.platform.zookeeper : Fail Provisioning] ************************
+skipping: [localhost]
+
+TASK [confluent.platform.zookeeper : Delete temporary keys/certs when keystore and trustore is provided] ***
+[WARNING]: Could not match supplied host pattern, ignoring: zookeeper_serial
+[WARNING]: Could not match supplied host pattern, ignoring: zookeeper_follower
+[WARNING]: Could not match supplied host pattern, ignoring: zookeeper_leader
+[WARNING]: Could not match supplied host pattern, ignoring:
+kafka_controller_parallel
+[WARNING]: Could not match supplied host pattern, ignoring:
+kafka_controller_serial
+skipping: [localhost] => (item=/var/ssl/private/ca.crt) 
+skipping: [localhost] => (item=/var/ssl/private/zookeeper.crt) 
+skipping: [localhost] => (item=/var/ssl/private/zookeeper.key) 
+skipping: [localhost]
+
+PLAY [Zookeeper Serial Ordering] ***********************************************
+skipping: no hosts matched
+
+PLAY [Zookeeper Followers Provisioning] ****************************************
+skipping: no hosts matched
+
+PLAY [Zookeeper Leader Provisioning] *******************************************
+skipping: no hosts matched
+
+PLAY [Kafka Controller Status Finding] *****************************************
+skipping: no hosts matched
+
+PLAY [Kafka Controller Parallel Provisioning] **********************************
+skipping: no hosts matched
+
+PLAY [Kafka Controller Serial Provisioning] ************************************
+skipping: no hosts matched
+
+PLAY [Kafka Broker Status Finding] *********************************************
+
+TASK [Populate service facts] **************************************************
+ok: [localhost]
+
+TASK [Determine Installation Pattern - Parallel or Serial] *********************
+ok: [localhost]
+
+TASK [Group Hosts by Installation Pattern] *************************************
+ok: [localhost]
+
+PLAY [Kafka Broker Parallel Provisioning] **************************************
+
+TASK [include_role : common] ***************************************************
+skipping: [localhost]
+
+TASK [confluent.platform.kafka_broker : Gather OS Facts] ***********************
+ok: [localhost] => (item=ansible_os_family)
+ok: [localhost] => (item=ansible_fqdn)
+ok: [localhost] => (item=ansible_distribution)
+
+TASK [confluent.platform.kafka_broker : Assert that datadir is not present in the inventory] ***
+ok: [localhost] => (item=localhost) => {
+    "ansible_loop_var": "item",
+    "changed": false,
+    "item": "localhost",
+    "msg": "All assertions passed"
+}
+
+TASK [confluent.platform.kafka_broker : Assert log.dirs Property not Misconfigured] ***
+ok: [localhost] => {
+    "changed": false,
+    "msg": "All assertions passed"
+}
+
+TASK [confluent.platform.kafka_broker : Kafka Broker group] ********************
+ok: [localhost]
+
+TASK [confluent.platform.kafka_broker : Check if Kafka Broker User Exists] *****
+ok: [localhost]
+
+TASK [confluent.platform.kafka_broker : Create Kafka Broker user] **************
+skipping: [localhost]
+
+TASK [confluent.platform.kafka_broker : Copy Kafka Broker Service from archive file to system] ***
+ok: [localhost]
+
+TASK [include_role : ssl] ******************************************************
+skipping: [localhost]
+
+TASK [confluent.platform.kafka_broker : include_tasks] *************************
+skipping: [localhost]
+
+TASK [Configure Kerberos] ******************************************************
+skipping: [localhost]
+
+TASK [Copy Custom Kafka Files] *************************************************
+skipping: [localhost]
+
+TASK [confluent.platform.kafka_broker : Set Permissions on /var/lib/kafka] *****
+ok: [localhost]
+
+TASK [confluent.platform.kafka_broker : Set Permissions on Data Dirs] **********
+ok: [localhost] => (item=/var/lib/kafka/data)
+
+TASK [confluent.platform.kafka_broker : Set Permissions on Data Dir files] *****
+ok: [localhost] => (item=/var/lib/kafka/data)
+
+TASK [confluent.platform.kafka_broker : Create Kafka Broker Config directory] ***
+ok: [localhost]
+
+TASK [confluent.platform.kafka_broker : Create Kafka Broker Config] ************
+ok: [localhost]
+
+TASK [confluent.platform.kafka_broker : Create Kafka Broker Client Config] *****
+ok: [localhost]
+
+TASK [confluent.platform.kafka_broker : Include Kraft Cluster Data] ************
+skipping: [localhost]
+
+TASK [confluent.platform.kafka_broker : Create Zookeeper TLS Client Config] ****
+skipping: [localhost]
+
+TASK [confluent.platform.kafka_broker : Create Logs Directory] *****************
+ok: [localhost]
+
+TASK [Update Kafka log4j Config for Log Cleanup] *******************************
+
+TASK [confluent.platform.common : Replace rootLogger] **************************
+ok: [localhost]
+
+TASK [confluent.platform.common : Replace DailyRollingFileAppender with RollingFileAppender] ***
+ok: [localhost]
+
+TASK [confluent.platform.common : Remove Key log4j.appender.X.DatePattern] *****
+ok: [localhost]
+
+TASK [confluent.platform.common : Register Appenders] **************************
+ok: [localhost]
+
+TASK [confluent.platform.common : Add Max Size Properties] *********************
+ok: [localhost] => (item=['kafkaAppender', 'Append=true'])
+ok: [localhost] => (item=['kafkaAppender', 'MaxBackupIndex=10'])
+ok: [localhost] => (item=['kafkaAppender', 'MaxFileSize=100MB'])
+ok: [localhost] => (item=['stateChangeAppender', 'Append=true'])
+ok: [localhost] => (item=['stateChangeAppender', 'MaxBackupIndex=10'])
+ok: [localhost] => (item=['stateChangeAppender', 'MaxFileSize=100MB'])
+ok: [localhost] => (item=['requestAppender', 'Append=true'])
+ok: [localhost] => (item=['requestAppender', 'MaxBackupIndex=10'])
+ok: [localhost] => (item=['requestAppender', 'MaxFileSize=100MB'])
+ok: [localhost] => (item=['cleanerAppender', 'Append=true'])
+ok: [localhost] => (item=['cleanerAppender', 'MaxBackupIndex=10'])
+ok: [localhost] => (item=['cleanerAppender', 'MaxFileSize=100MB'])
+ok: [localhost] => (item=['controllerAppender', 'Append=true'])
+ok: [localhost] => (item=['controllerAppender', 'MaxBackupIndex=10'])
+ok: [localhost] => (item=['controllerAppender', 'MaxFileSize=100MB'])
+ok: [localhost] => (item=['authorizerAppender', 'Append=true'])
+ok: [localhost] => (item=['authorizerAppender', 'MaxBackupIndex=10'])
+ok: [localhost] => (item=['authorizerAppender', 'MaxFileSize=100MB'])
+
+TASK [confluent.platform.kafka_broker : Set Permissions on Log4j Conf] *********
+ok: [localhost]
+
+TASK [confluent.platform.kafka_broker : Create logredactor rule file directory] ***
+skipping: [localhost]
+
+TASK [confluent.platform.kafka_broker : Copy logredactor rule file from control node to component node] ***
+skipping: [localhost]
+
+TASK [Configure logredactor] ***************************************************
+skipping: [localhost] => (item={'logger_name': 'log4j.rootLogger', 'appenderRefs': 'kafkaAppender'}) 
+skipping: [localhost]
+
+TASK [confluent.platform.kafka_broker : Restart kafka broker] ******************
+skipping: [localhost]
+
+TASK [confluent.platform.kafka_broker : Create Kafka Broker Jolokia Config] ****
+skipping: [localhost]
+
+TASK [confluent.platform.kafka_broker : Create Kafka Broker Jaas Config] *******
+skipping: [localhost]
+
+TASK [confluent.platform.kafka_broker : Create Kafka Broker Password File] *****
+skipping: [localhost]
+
+TASK [confluent.platform.kafka_broker : Create Zookeeper chroot] ***************
+skipping: [localhost]
+
+TASK [confluent.platform.kafka_broker : Create SCRAM Users] ********************
+skipping: [localhost] => (item=None) 
+skipping: [localhost] => (item=None) 
+skipping: [localhost]
+
+TASK [confluent.platform.kafka_broker : Create SCRAM 256 Users] ****************
+skipping: [localhost] => (item=None) 
+skipping: [localhost] => (item=None) 
+skipping: [localhost]
+
+TASK [confluent.platform.kafka_broker : Deploy JMX Exporter Config File] *******
+skipping: [localhost]
+
+TASK [confluent.platform.kafka_broker : Create Service Override Directory] *****
+ok: [localhost]
+
+TASK [confluent.platform.kafka_broker : Write Service Overrides] ***************
+ok: [localhost]
+
+TASK [confluent.platform.kafka_broker : Create sysctl directory on Debian distributions] ***
+skipping: [localhost]
+
+TASK [confluent.platform.kafka_broker : Tune virtual memory settings] **********
+ok: [localhost] => (item={'key': 'vm.swappiness', 'value': 1})
+ok: [localhost] => (item={'key': 'vm.dirty_background_ratio', 'value': 5})
+ok: [localhost] => (item={'key': 'vm.dirty_ratio', 'value': 80})
+ok: [localhost] => (item={'key': 'vm.max_map_count', 'value': 262144})
+
+TASK [confluent.platform.kafka_broker : Certs were Updated - Trigger Restart] ***
+skipping: [localhost]
+
+TASK [confluent.platform.kafka_broker : meta] **********************************
+
+TASK [confluent.platform.kafka_broker : Encrypt secrets] ***********************
+skipping: [localhost]
+
+TASK [Encrypt Controller secrets] **********************************************
+skipping: [localhost]
+
+TASK [confluent.platform.kafka_broker : meta] **********************************
+
+TASK [confluent.platform.kafka_broker : Kafka Started] *************************
+ok: [localhost]
+
+TASK [confluent.platform.kafka_broker : Wait for Broker health checks to complete] ***
+included: /root/.ansible/collections/ansible_collections/confluent/platform/roles/kafka_broker/tasks/health_check.yml for localhost
+
+TASK [confluent.platform.kafka_broker : Get Topics with UnderReplicatedPartitions] ***
+ok: [localhost]
+
+TASK [confluent.platform.kafka_broker : Get Topics with UnderReplicatedPartitions with Secrets Protection enabled] ***
+skipping: [localhost]
+
+TASK [confluent.platform.kafka_broker : Wait for Metadata Service to start] ****
+skipping: [localhost]
+
+TASK [confluent.platform.kafka_broker : Wait for Embedded Rest Proxy to start] ***
+skipping: [localhost]
+
+TASK [confluent.platform.kafka_broker : Fetch Files for Debugging Failure] *****
+skipping: [localhost]
+
+TASK [confluent.platform.kafka_broker : Fail Provisioning] *********************
+skipping: [localhost]
+
+TASK [confluent.platform.kafka_broker : Register Cluster] **********************
+skipping: [localhost]
+
+TASK [confluent.platform.kafka_broker : Create RBAC Rolebindings] **************
+skipping: [localhost]
+
+TASK [confluent.platform.kafka_broker : Delete temporary keys/certs when keystore and trustore is provided] ***
+[WARNING]: Could not match supplied host pattern, ignoring: kafka_broker_serial
+[WARNING]: Could not match supplied host pattern, ignoring:
+kafka_broker_non_controller
+[WARNING]: Could not match supplied host pattern, ignoring:
+kafka_broker_controller
+[WARNING]: Could not match supplied host pattern, ignoring:
+kafka_connect_parallel
+[WARNING]: Could not match supplied host pattern, ignoring:
+kafka_connect_serial
+[WARNING]: Could not match supplied host pattern, ignoring: ksql_parallel
+[WARNING]: Could not match supplied host pattern, ignoring: ksql_serial
+[WARNING]: Could not match supplied host pattern, ignoring: kafka_rest_parallel
+[WARNING]: Could not match supplied host pattern, ignoring: kafka_rest_serial
+[WARNING]: Could not match supplied host pattern, ignoring:
+control_center_parallel
+[WARNING]: Could not match supplied host pattern, ignoring:
+control_center_serial
+[WARNING]: Could not match supplied host pattern, ignoring:
+kafka_connect_replicator_parallel
+[WARNING]: Could not match supplied host pattern, ignoring:
+kafka_connect_replicator_serial
+skipping: [localhost] => (item=/var/ssl/private/ca.crt) 
+skipping: [localhost] => (item=/var/ssl/private/kafka_broker.crt) 
+skipping: [localhost] => (item=/var/ssl/private/kafka_broker.key) 
+skipping: [localhost]
+
+PLAY [Kafka Broker Serial Provisioning] ****************************************
+skipping: no hosts matched
+
+PLAY [Kafka Broker Serial Ordering] ********************************************
+skipping: no hosts matched
+
+PLAY [Kafka Broker Non Controllers Provisioning] *******************************
+skipping: no hosts matched
+
+PLAY [Kafka Broker Controller Provisioning] ************************************
+skipping: no hosts matched
+
+PLAY [Schema Registry Provisioning] ********************************************
+skipping: no hosts matched
+
+PLAY [Kafka Connect Status Finding] ********************************************
+skipping: no hosts matched
+
+PLAY [Kafka Connect Parallel Provisioning] *************************************
+skipping: no hosts matched
+
+PLAY [Kafka Connect Serial Provisioning] ***************************************
+skipping: no hosts matched
+
+PLAY [KSQL Status Finding] *****************************************************
+skipping: no hosts matched
+
+PLAY [KSQL Parallel Provisioning] **********************************************
+skipping: no hosts matched
+
+PLAY [KSQL Serial Provisioning] ************************************************
+skipping: no hosts matched
+
+PLAY [Kafka Rest Status Finding] ***********************************************
+skipping: no hosts matched
+
+PLAY [Kafka Rest Parallel Provisioning] ****************************************
+skipping: no hosts matched
+
+PLAY [Kafka Rest Serial Provisioning] ******************************************
+skipping: no hosts matched
+
+PLAY [Control Center Status Finding] *******************************************
+skipping: no hosts matched
+
+PLAY [Control Center Parallel Provisioning] ************************************
+skipping: no hosts matched
+
+PLAY [Control Center Serial Provisioning] **************************************
+skipping: no hosts matched
+
+PLAY [Kafka Connect Replicator Status Finding] *********************************
+skipping: no hosts matched
+
+PLAY [Kafka Connect Replicator Parallel Provisioning] **************************
+skipping: no hosts matched
+
+PLAY [Kafka Connect Replicator Serial Provisioning] ****************************
+skipping: no hosts matched
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=61   changed=0    unreachable=0    failed=0    skipped=74   rescued=0    ignored=0   
+
+[8mha:////4C8UjPFTnya9vnequHrA7yOXLXsqOUF2iEqCMfTUUkzYAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSIRCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nffWr7Bo5E7Oi+AAAA[0m[Pipeline] }
+[8mha:////4I44etmYSTe+kTtF24MB3lDtA+LkKwHU/wThQD1xC49xAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSUUSIitZKwwtMYowd686xHZyKF/E1/kAgEhVbrHa2mecL1jHAkYNGq6g3FFuD3o16Xpg59FfHGS1fsGWK7BQ2KjfcqdOCDScFS4oSVgI2ilrH0ZBOsBVW3mXlJOnqnML8HQSUphvgAYWYzUmG9IUpwO42dpHp5/krgMn7BGVdf2r/BpHGubq+AAAA[0m[Pipeline] // dir
+[8mha:////4AJGUTh/L0mks6AzLEkwVAs1qLKBGetmNIIY7ijpZ6wDAAAAph+LCAAAAAAAAP9tjbEOgjAURR8QB1dHP6Jg4mIMk2vD4hfUUmuheQ/bhzD5Rf6a/2AjiZN3uucs5/WGVQxQU7CiM9g7jNqJwY82PTFR6K+eJtHRRWjCSN6IxkwNtea0YENsYFmWQyFhbVB7ig4tw0Z26qFKr9CWZw7JHSXkrr3DEzKZyqwCf2EOsL2NbST8df4GYB4GhmJXVQz5Yf8Bisgbk78AAAA=[0m[Pipeline] }
+[8mha:////4DJjjcLWziT6J+fqjH2BMqaNrv08BNRFYHHyMKPKQWofAAAApR+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxFkrByHyjZD4wkiiTGQ2cVkESpP5NW8gxmZsfJX/73mvd6wigFqClZ0BnuHsXVi8KNNT0wU+qunSXR0ES1hJG9EY6aGtDkt2BAbWJblUEhYG2w9RYeWYSM79VClV2jLM4fkjhJyp+/whEymMqvAX5gDbG+jjoS/zt8AzMPAUFS7iiE/7D+MjiPGvwAAAA==[0m[Pipeline] // withCredentials
+[8mha:////4C2Wmmwbn/6im/5VkkYUhmHufsZhY+urQElQL905+5T8AAAApR+LCAAAAAAAAP9tjTESgjAQRZcwFraWHiIoneNQ2WZoPEEMMQYyu5gsQuWJvJp3kJEZK3/132ve6w2rFKGi6GRrsfOYjJd9GNz85EixuwYaZUsXaQgTBStrO9bU2NOCNbGFZZmAXMHaogmUPDqGjWr1QxdBoyvOHGd3VCB8c4cnZGous478hSnC9jY0ifDX+RuAqe8Z8v2uZBCH8gO0zLA3vwAAAA==[0m[Pipeline] }
+[8mha:////4JJVDOw3ZTyxErH4/GgD8Faq/hJseHR6mkU+PWM22YPZAAAApR+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxFkrByHyjZD4wkiiTGQ2cVkESpP5NW8gxmZsfJX/73mvd6wigFqClZ0BnuHsXVi8KNNT0wU+qunSXR0ES1hJG9EY6aGtDkt2BAbWJblUEhYG2w9RYeWYSM79VClV2jLM4fkjhJyp+/whEymMqvAX5gDbG+jjoS/zt8AzMPAUFS7PUN+qD6rTuVlvwAAAA==[0m[Pipeline] // script
+[8mha:////4DVT9MOdcDhKHB5uX/Mtu9Mlrg5jU3oPyKQ5P2lHnEAzAAAAph+LCAAAAAAAAP9tjbEOgjAURR8QB1dHP6Jg4mIMk2vD4hfUUmuheQ/bhzD5Rf6a/2AjiZN3uucs5/WGVQxQU7CiM9g7jNqJwY82PTFR6K+eJtHRRWjCSN6IxkwNtea0YENsYFmWQyFhbVB7ig4tw0Z26qFKr9CWZw7JHSXkrr3DEzKZyqwCf2EOsL2NbST8df4GYB4GhmJX7RnyQ/UBhU7nD78AAAA=[0m[Pipeline] }
+[8mha:////4MYJAA3UvwEJmQSYk4SsLLK2U4n89xwFd0WY6hiodte1AAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDBRIooqK10vACExvjxLoL9oWk4kV8jT9gEYmKrXammdcbFjHAkYIVrcHOYWyc6P1g0xMjhe7qaRQtXURDGMkbUZuxJm1OM9bEBuZlORQSlgYbT9GhZVjJVj1U6RXa8swhuUpC7vQdnpDJVGYV+AtTgPVt0JHw1/kbgKnvGYrtZseQ7w8fxRR8pL8AAAA=[0m[Pipeline] // stage
+[8mha:////4KdIU9jG/IbdLBU/aK6diWDNaBfyesdsSwIUIjtAlKXeAAAAqB+LCAAAAAAAAP9tjTEOwjAQBM+JUtBS8ggHJESDqGitNLzAJMY4se6CfcGpeBFf4w8EIlGx1c5Kq3m+oIgBDhSsbA12DmPtZO8HOzWZKHQXT0m2dJY1YSRvZGVSRY05zlgRG5gjMsgVLAzWnqJDy7BUrb7r0mu05YnDtO0VZK65wQOEmsysA39hDLC6Dk0k/Hn+CmDsGcSWId+sd59n8QYHplfpwgAAAA==[0m[Pipeline] stage
+[8mha:////4Io7s5ifFQfSCaFHD3lFw8Auk9CE68MwAPOCTH6sROTfAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BApLDCgTqxRF04QkhCSRv+XJKWdOBFX4w6UVmLCg2Vbst7rDWUMUFMwzGlsLUZpWed7MyU2UGivngbm6MIkYSSvWaOHhpQ+LbWhpGFRlkPBYaVReooWTYI1d+IhKi/QVOcUpu3IIbfqDk/I+EROIqS5jAE2t15Fwh/nLwDGLkGx2+5nP3y/5QfYKuSHxAAAAA==[0m[Pipeline] { (Postcheck)
+[8mha:////4D93Quooc/IVUJdp0UOHVtq15EOwlm1QAJQs7XR9wrofAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BApTCChTqxRF04QkhCSRv+XJKWdOBFX4w6UVmLCg2Vbst7rDWUMUFMwzGlsLUZpWed7MyU2UGivngbm6MIkYSSvWaOHhpQ+LbWhpGFRlkPBYaVReooWTYI1d+IhKi/QVOcUpu3IIbfqDk/I+EROIqS5jAE2t15Fwh/nLwDGLkGx2+5nP3y/5Qdi1BftxAAAAA==[0m[Pipeline] dir
+Running in /var/jenkins_home/workspace/ansible-install/191
+[8mha:////4IWy/4J+Sp/iXIYyNJ0fR2yxzP/b/kP3iTrPm9xR6YYPAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BApbCDUiTXqwglCEkLS6P+SpLQTJ+Jq3IHSSkx4sGxL1nu9oYwBagqGOY2txSgt63xvpsQGCu3V08AcXZgkjOQ1a/TQkNKnpTaUNCzKcig4rDRKT9GiSbDmTjxE5QWa6pzCtB055Fbd4QkZn8hJhDSXMcDm1qtI+OP8BcDYJSh22/3sh++3/AC2mN9UxAAAAA==[0m[Pipeline] {
+[8mha:////4H+stE+wCpFPq55SqpD/u1GGybX7hdAzrxOVCAE2rEOdAAAApR+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxGgdBwr2wyNJ4gkxkBmF5NFqDyRV/MORpmx8hd//vvNe75gFQMcKFjRGewdxtaJwY82LTFR6C+eJtHRWbSEkbwRjZka0ua4YENsYEmWQyFhbbD1FB1aho3s1F2VXqEtTxzSt5eQO32DB2QymVkF/sIcYHsddST8ef4KYB4Yirrafbquhjeoo2p6wAAAAA==[0m[Pipeline] sh
++ cd .
++ python3 postcheck.py
+Number of topics in the Kafka cluster: 131
+Hash of the topics: f2b8cf9fcaf0262961314b76f63c9e9fdd4b26dd4d0093a174da0c0f61cee6d0
+Hash saved to 'Posttopics_hash.txt'
+[8mha:////4Dppql+2YExheDZw8i0LOOjdj8NnGvVwTk5DWwvYXdUTAAAApR+LCAAAAAAAAP9tjTESwiAURH+SsbC19BBESsexSsuk8QQIiCTM/xGISeWJvJp3EM2MlVvs7NvmPV+wigGOFCzrDPYOo3Js8KPNi00U+ouniXV0ZoowkjesNVNL2jQLtpQMLClKqASsDSpP0aFNsBGdvMvaS7T1KYX8HQSUTt/gAYXI5iRD+sIcYHsddST8ef4KYB6GBBXn/NO7/RuA7uc4wAAAAA==[0m[Pipeline] }
+[8mha:////4GgccG/E8xAUWeqTNp/WUlejbCWez5He/rYXcPhWP9Z9AAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYRDqJAQFa2VhheYxBg71p2xLyQVL+Jr/IFAJCq2WO1sM88XLFKEA0UjnMbOYmqsCL430xIDxe7iaRCOzqIhTOS1qPVQU6uPM9bEGuZkORQSlhobT8miYVhJp+6q9ApNeeI4fXsJuW1v8IBMTmZWkb8wRlhf+zYR/jx/BTCGwFBU1fbTm90bi8QIfsAAAAA=[0m[Pipeline] // dir
+[8mha:////4LEofBKJvvxv5o4iC7CTte1CwlLl3L4nskQ09/1BNPyvAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYRDREGBqGitNLzAJMbYse6MfSGpeBFf4w8EIlGxxWpnm3m+YJEiHCga4TR2FlNjRfC9mZYYKHYXT4NwdBYNYSKvRa2Hmlp9nLEm1jAny6GQsNTYeEoWDcNKOnVXpVdoyhPH6dtLyG17gwdkcjKzivyFMcL62reJ8Of5K4AxBIaiqraf3uzertLASMAAAAA=[0m[Pipeline] }
+[8mha:////4K0nRpGaYEdl3oefvaOXoOGjJ35oBeWf9ghhNfkFU6LmAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYRDJESDqGitNLzAJMbYse6MfSGpeBFf4w8EIlGxxWpnm3m+YJEiHCga4TR2FlNjRfC9mZYYKHYXT4NwdBYNYSKvRa2Hmlp9nLEm1jAny6GQsNTYeEoWDcNKOnVXpVdoyhPH6dtLyG17gwdkcjKzivyFMcL62reJ8Of5K4AxBIaiqraf3uzettxg+sAAAAA=[0m[Pipeline] // stage
+[8mha:////4CiIxPYZ1RAAV8HIr7LYpDVP2eGhmC46f8mH72dupoGMAAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JUtBS8ghHkaBCVLRWGl5gHGOcWHfBvuBUvIiv8QcCkajYamel1TxfUMYABwpWdAZ7h1E7MfjRzk0kCv3FUxIdnYUmjOSNaExqqDXHBRtiA0uyHAoJK4PaU3RoGdayU3dVeYW2OnGYt72E3LU3eEAmZzOrwF+YAmyuYxsJf56/ApgGhmzLUNT17vMs3x3ftMnCAAAA[0m[Pipeline] stage
+[8mha:////4FOAW4x5b4ZoaIgOd6NUYiWeB/G/I9gcCfTrXFyR1UgGAAAAqB+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkQJgy7GibVh8QlqqbXQ/D+2xTL5RL6a72CFxMkbLneXXL7XG0rv4EROs17hYNBLw0Y76ZRYJDdcLUXW04VJQk9WsVbFljrVrLWloGBVlkPBYaNQWvIGdYAt78VDVFagrs7Bpe3IITfdHZ6Q8UQOwoWlzA52t6nzhD/OXwDMY4CirveLH77f8gO8+cdAxAAAAA==[0m[Pipeline] { (Compare-Hash)
+[8mha:////4Du7SI7Pd53i0JqbJcl+CpQKbkYdhYSBZa4/ULI6R2U7AAAAqB+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkQJiw7GibVh8QlqqbXQ/D+2xTL5RL6a72CFxMkbLneXXL7XG0rv4EROs17hYNBLw0Y76ZRYJDdcLUXW04VJQk9WsVbFljrVrLWloGBVlkPBYaNQWvIGdYAt78VDVFagrs7Bpe3IITfdHZ6Q8UQOwoWlzA52t6nzhD/OXwDMY4CirveLH77f8gPp+AX8xAAAAA==[0m[Pipeline] dir
+Running in /var/jenkins_home/workspace/ansible-install/191
+[8mha:////4ODbA7pJXmqP0/+XjhMrdV3og7+Yuvhk7r0ax5ay1YZYAAAAqB+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkQJkybGibVh8QlqqbXQ/D+2xTL5RL6a72CFxMkbLneXXL7XG0rv4EROs17hYNBLw0Y76ZRYJDdcLUXW04VJQk9WsVbFljrVrLWloGBVlkPBYaNQWvIGdYAt78VDVFagrs7Bpe3IITfdHZ6Q8UQOwoWlzA52t6nzhD/OXwDMY4CirveLH77f8gNTBvaWxAAAAA==[0m[Pipeline] {
+[8mha:////4A6OjbCi4vIndfALUFMwUr1X5NdtEMrzjxYkQqs4T9SHAAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjdCBEldZKwwtMbIwd687YDknFi/gaf8BKJCq2WO1sM+8PbGKAMwXNrMLBYOwN827UebGJwnBzNDFLV9YTRnKKdWrqSKp2xY6SgjVFCRWHrcLeUTSoE+y4FU9RO4G6vqSQvxOH0sgHvKDg2ZxESAvMAfb3UUbCn+evAGafoGqaw9JH/wU8DHlwwAAAAA==[0m[Pipeline] sh
++ cd .
++ python3 hashcheck.py
+Hash values match.
+[8mha:////4FoPbxCdsElMgXySOd5lSl6h0BtYXRapIvHv4IQK4x1/AAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYRDqJAQFa2VhheYxBg71p2xLyQVL+Jr/IFAJCq2WO1sM88XLFKEA0UjnMbOYmqsCL430xIDxe7iaRCOzqIhTOS1qPVQU6uPM9bEGuZkORQSlhobT8miYVhJp+6q9ApNeeI4fXsJuW1v8IBMTmZWkb8wRlhf+zYR/jx/BTCGwFBU282nq90bAOMDfsAAAAA=[0m[Pipeline] }
+[8mha:////4BW7QH3UqEu2vMooCm1mXu0HgkD1tI5h/30HV2SUUTqNAAAAph+LCAAAAAAAAP9tjTESwiAURH+SsbC19BBksLFwrNIyaTwBAiKE+T8CMak8kVfzDkYzY+UWO/u2ec8XrFKEI0XLvMHOYVKO9WGw82Ijxe4SaGSezkwRJgqGtWZsSZtmwZaygSVFCZWAtUEVKDm0GTbCy7usg0Rbn3Kcv4OA0ukbPKAQsznLmL8wRdheB50If56/Apj6PkPFd/zTfP8GJfXLSMAAAAA=[0m[Pipeline] // dir
+[8mha:////4I5gyoD/NVqIn2Jf6SqJ8+Xt3nXZma4ViHgse6MKgx4DAAAAph+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxEGChvHyjZD4wkiiTGQ2cVkESpP5NW8g1FmrPzFn/9+854vWMUABwpWdAZ7h7F1YvCjTUtMFPqLp0l0dBYtYSRvRGOmhrQ5LtgQG1iS5VBIWBtsPUWHlmEjO3VXpVdoyxOH9O0l5E7f4AGZTGZWgb8wB9heRx0Jf56/ApiHgaGo6vrT1e4NLt8kDsAAAAA=[0m[Pipeline] }
+[8mha:////4HGY9jl6lS4cJQ9QPepPG/xo/a1E2iDLb58IWyijtSgyAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjgKgQFa3lhhcY2xgn1l2wHZyKF/E1/kAgEhVbrHa2mecLFjHAgYJlrcHOYVSO9X6w02KZQnfxlFlLZ6YII3nDhMmCtDnOKCgZmFOUUHFYGlSeokObYMVbeZe1l2jrUwrTt+dQOn2DBxR8MicZ0hfGAOvroCPhz/NXAGPfJ6iazfbTze4NIIVaMcAAAAA=[0m[Pipeline] // stage
+[8mha:////4PzeoiYhDXErmy65ZWOe5vCF5V8zGCEIt6g0YwgXflZrAAAApB+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjUDpERWul4QUmNsaJdWfsC07Fi/gafyAiEhVb7UwzrzesUoQjRSt6g4PD1DkR/GjnJzLF4eopi54uoiNM5I1oTW5Jm9OCLbGBZUUJlYS1wc5TcmgZNrJXD1V7hbY+c5zdQULp9B2eUMi5zCryF6YI29uoE+Gv8zcAUwgM1W7fMBTNBypPifC+AAAA[0m[Pipeline] }
+[8mha:////4A+oMg2R7TZk/c4OL2ZObxOWDaavWqgvfkUBxT6IcxasAAAApB+LCAAAAAAAAP9tjTEOwjAQBM+JKGgpeYQjQFSIitZKwwuMY4wT6y7YF5yKF/E1/kBEJCq22plmXm9YpAhHik62FjuPyXjZh8FNT2aK3TVQli1dpCFMFKysba6psacZa2IL80QBpYKlRRMoeXQMK9Xqh66CRledOU7uoKDwzR2eINRUZh35C2OE9W1oEuGv8zcAY98zlJvtnkHsPjnzjVO+AAAA[0m[Pipeline] // node
+[8mha:////4DIWdDZDdWD1a2/Rsa0q45WCpdp8y8l39GmC1JrxURlIAAAApB+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjUtAgKlorDS8wsTFOrDtjX3AqXsTX+AMRkajYameaeb1hlSIcKVrRGxwcps6J4Ec7P5EpDldPWfR0ER1hIm9Ea3JL2pwWbIkNLCtKqCSsDXaekkPLsJG9eqjaK7T1mePsDhJKp+/whELOZVaRvzBF2N5GnQh/nb8BmEJgqHbNnqFoPn+5KmO+AAAA[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

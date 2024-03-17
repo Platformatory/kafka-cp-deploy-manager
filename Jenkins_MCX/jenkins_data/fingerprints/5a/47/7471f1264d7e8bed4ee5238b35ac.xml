@@ -6,7 +6,7 @@
   <usages>
     <entry>
       <string>ansible-install</string>
-      <ranges>111-172</ranges>
+      <ranges>111-174,176,178-185,187,189-205,207-230</ranges>
     </entry>
   </usages>
   <facets/>

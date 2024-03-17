@@ -14,9 +14,10 @@
   <properties/>
   <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@3769.v8b_e595e4d40d">
     <script>pipeline {
-    agent {
+    agent any
+    /*agent {
         label &apos;ansible-runner&apos;
-    }
+    }*/
 
     stages {
         stage(&apos;Check Java&apos;) {
@@ -31,7 +32,7 @@
         stage(&apos;Check Python&apos;) {
             steps {
                 script {
-                    def pythonVersion = sh(script: &apos;python --version 2&gt;&amp;1&apos;, returnStdout: true).trim()
+                    def pythonVersion = sh(script: &apos;python3 --version 2&gt;&amp;1&apos;, returnStdout: true).trim()
                     echo &quot;Python Version: ${pythonVersion}&quot;
                 }
             }
@@ -49,7 +50,7 @@
         stage(&apos;Check Collections Folder&apos;) {
             steps {
                 script {
-                    def collectionsFolder = sh(script: &apos;sudo ls /root/.ansible/collections&apos;, returnStatus: true)
+                    def collectionsFolder = sh(script: &apos;ls /root/.ansible/collections/ansible_collections/confluent/platform&apos;, returnStatus: true)
                     if (collectionsFolder == 0) {
                         echo &quot;Collections Folder is present.&quot;
                     } else {

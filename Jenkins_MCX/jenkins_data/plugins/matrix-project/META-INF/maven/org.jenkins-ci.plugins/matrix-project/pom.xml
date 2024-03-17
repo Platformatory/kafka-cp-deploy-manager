@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.jenkins-ci.plugins</groupId>
   <artifactId>matrix-project</artifactId>
-  <version>808.v5a_b_5f56d6966</version>
+  <version>822.824.v14451b_c0fd42</version>
   <packaging>hpi</packaging>
   <name>Matrix Project Plugin</name>
   <description>Multi-configuration (matrix) project type.</description>
@@ -19,7 +19,7 @@
   <scm>
     <connection>scm:git:https://github.com/jenkinsci/matrix-project-plugin.git</connection>
     <developerConnection>scm:git:git@github.com:jenkinsci/matrix-project-plugin.git</developerConnection>
-    <tag>5ab5f56d6966e8bf7c3e0ff9f7d6185e01321b46</tag>
+    <tag>14451bc0fd4240fed322178655bb3361cc6d4296</tag>
     <url>https://github.com/jenkinsci/matrix-project-plugin</url>
   </scm>
   <distributionManagement>
@@ -36,13 +36,13 @@
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>junit</artifactId>
-      <version>1202.v79a_986785076</version>
+      <version>1240.vf9529b_881428</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>script-security</artifactId>
-      <version>1251.vfe552ed55f8d</version>
+      <version>1294.v99333c047434</version>
       <scope>compile</scope>
     </dependency>
   </dependencies>
@@ -51,7 +51,7 @@
       <plugin>
         <groupId>org.jenkins-ci.tools</groupId>
         <artifactId>maven-hpi-plugin</artifactId>
-        <version>3.48</version>
+        <version>3.51</version>
         <extensions>true</extensions>
       </plugin>
     </plugins>

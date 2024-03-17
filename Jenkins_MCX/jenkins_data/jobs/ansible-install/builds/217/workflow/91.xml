@@ -1,0 +1,39 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@848.v5a_383b_d14921">
+  <node class="cps.n.StepEndNode" plugin="workflow-cps@3769.v8b_e595e4d40d">
+    <parentIds>
+      <string>90</string>
+    </parentIds>
+    <id>91</id>
+    <startId>90</startId>
+  </node>
+  <actions>
+    <wf.a.BodyInvocationAction plugin="workflow-api@1283.v99c10937efcb_"/>
+    <wf.a.TimingAction plugin="workflow-api@1283.v99c10937efcb_">
+      <startTime>1710499561853</startTime>
+    </wf.a.TimingAction>
+    <wf.a.ErrorAction plugin="workflow-api@1283.v99c10937efcb_">
+      <error class="hudson.AbortException">
+        <detailMessage>script returned exit code 127</detailMessage>
+        <stackTrace>
+          <trace>org.jenkinsci.plugins.workflow.steps.durable_task.DurableTaskStep$Execution.handleExit(DurableTaskStep.java:668)</trace>
+          <trace>org.jenkinsci.plugins.workflow.steps.durable_task.DurableTaskStep$Execution.check(DurableTaskStep.java:614)</trace>
+          <trace>org.jenkinsci.plugins.workflow.steps.durable_task.DurableTaskStep$Execution.run(DurableTaskStep.java:555)</trace>
+          <trace>java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)</trace>
+          <trace>java.base/java.util.concurrent.FutureTask.run(Unknown Source)</trace>
+          <trace>java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)</trace>
+          <trace>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)</trace>
+          <trace>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)</trace>
+          <trace>java.base/java.lang.Thread.run(Unknown Source)</trace>
+        </stackTrace>
+        <suppressedExceptions>
+          <wf.a.ErrorAction_-ErrorId>
+            <stackTrace/>
+            <suppressedExceptions class="empty-list"/>
+            <uuid>3e86cd2b-f4ad-45d5-b658-d8c3abaf31e5</uuid>
+          </wf.a.ErrorAction_-ErrorId>
+        </suppressedExceptions>
+      </error>
+    </wf.a.ErrorAction>
+  </actions>
+</Tag>

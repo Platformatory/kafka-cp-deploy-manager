@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.jenkins-ci.modules</groupId>
   <artifactId>instance-identity</artifactId>
-  <version>173.va_37c494ec4e5</version>
+  <version>185.v303dc7c645f9</version>
   <packaging>hpi</packaging>
   <name>Instance Identity</name>
   <description>The Jenkins Plugins Parent POM Project</description>
@@ -19,7 +19,7 @@
   <scm>
     <connection>scm:git:https://github.com/jenkinsci/instance-identity-plugin.git</connection>
     <developerConnection>scm:git:git@github.com:jenkinsci/instance-identity-plugin.git</developerConnection>
-    <tag>a37c494ec4e515b6946e98d309258ae480d5bdf9</tag>
+    <tag>303dc7c645f92a247cf92c6464bcf643e7f2bed1</tag>
     <url>https://github.com/jenkinsci/instance-identity-plugin</url>
   </scm>
   <distributionManagement>
@@ -40,18 +40,12 @@
       <scope>compile</scope>
     </dependency>
   </dependencies>
-  <repositories>
-    <repository>
-      <id>repo.jenkins-ci.org</id>
-      <url>https://repo.jenkins-ci.org/public/</url>
-    </repository>
-  </repositories>
   <build>
     <plugins>
       <plugin>
         <groupId>org.jenkins-ci.tools</groupId>
         <artifactId>maven-hpi-plugin</artifactId>
-        <version>3.46</version>
+        <version>3.49</version>
         <extensions>true</extensions>
       </plugin>
     </plugins>

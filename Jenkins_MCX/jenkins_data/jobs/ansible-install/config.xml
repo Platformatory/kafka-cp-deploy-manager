@@ -57,7 +57,6 @@
           <name>TOKEN</name>
           <description>Private access token for the Git repository</description>
           <defaultValue></defaultValue>
-          <credentialType>com.cloudbees.plugins.credentials.common.StandardCredentials</credentialType>
           <required>false</required>
         </com.cloudbees.plugins.credentials.CredentialsParameterDefinition>
         <hudson.model.StringParameterDefinition>
@@ -88,7 +87,6 @@
           <name>PRIVATE_KEY</name>
           <description>SSH private key for accessing the remote machines.</description>
           <defaultValue></defaultValue>
-          <credentialType>com.cloudbees.plugins.credentials.common.StandardCredentials</credentialType>
           <required>true</required>
         </com.cloudbees.plugins.credentials.CredentialsParameterDefinition>
         <hudson.model.StringParameterDefinition>
@@ -208,15 +206,10 @@
                 dir(&quot;${env.BUILD_NUMBER}&quot;) {
                     script {
                         if (params.AIR_GAPPED) {
-                            echo &quot;location of collections in air-gapped mode&quot;
-                            sh &quot;&quot;&quot;
-                                ansible-galaxy collection install confluent.platform:${params.CP_VERSION}
-                            &quot;&quot;&quot;
+                            sh &quot;ansible-galaxy collection install confluent-platform-${params.CP_VERSION}.tar.gz&quot;
                         } else {
                             echo &quot;Downloading collection with internet&quot;
-                            sh &quot;&quot;&quot;
-                                ansible-galaxy collection install confluent.platform:${params.CP_VERSION}
-                            &quot;&quot;&quot;
+                            sh &quot;ansible-galaxy collection install confluent.platform:${params.CP_VERSION}&quot;
                         }
                     }
                 }
@@ -255,7 +248,7 @@
             }
         }
 
-        stage(&apos;Run playbook&apos;) {
+                stage(&apos;Run playbook&apos;) {
             steps {
                 script {
                     def ansibleArgs = &apos;&apos;
@@ -287,7 +280,7 @@
                                     cd ${params.ARTEFACTS_DIR}
                                     cat &quot;\$PRIVATE_KEY&quot; &gt; private-key
                                     chmod 400 private-key
-                                    ansible-playbook -i inhosts.yml confluent.platform.all ${ansibleArgs}
+                                    ansible-playbook -i newhost.yml confluent.platform.all ${ansibleArgs}
                                 &quot;&quot;&quot;
                             }
                         }

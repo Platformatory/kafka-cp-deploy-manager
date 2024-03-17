@@ -4,13 +4,13 @@ Build-Jdk-Spec: 11
 Specification-Title: Instance Identity
 Specification-Version: 0.0
 Implementation-Title: Instance Identity
-Implementation-Version: 173.va_37c494ec4e5
+Implementation-Version: 185.v303dc7c645f9
 Group-Id: org.jenkins-ci.modules
 Artifact-Id: instance-identity
 Short-Name: instance-identity
 Long-Name: Instance Identity
 Url: https://github.com/jenkinsci/instance-identity-plugin
-Plugin-Version: 173.va_37c494ec4e5
+Plugin-Version: 185.v303dc7c645f9
 Hudson-Version: 2.361.4
 Jenkins-Version: 2.361.4
 Plugin-Dependencies: bouncycastle-api:2.27
@@ -19,8 +19,8 @@ Plugin-License-Name: MIT License
 Plugin-License-Url: https://opensource.org/licenses/MIT
 Plugin-ScmConnection: scm:git:https://github.com/jenkinsci/instance-iden
  tity-plugin.git
-Plugin-ScmTag: a37c494ec4e515b6946e98d309258ae480d5bdf9
+Plugin-ScmTag: 303dc7c645f92a247cf92c6464bcf643e7f2bed1
 Plugin-ScmUrl: https://github.com/jenkinsci/instance-identity-plugin
-Plugin-GitHash: a37c494ec4e515b6946e98d309258ae480d5bdf9
-Implementation-Build: a37c494ec4e515b6946e98d309258ae480d5bdf9
+Plugin-GitHash: 303dc7c645f92a247cf92c6464bcf643e7f2bed1
+Implementation-Build: 303dc7c645f92a247cf92c6464bcf643e7f2bed1
 
